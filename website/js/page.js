@@ -5,9 +5,9 @@ console.log("initial -> (totalPages) " + totalPages);
 let startFinancialYear = 2007;
 console.log("initial -> (startFinancialYear) " + startFinancialYear);
 
-// closing of the current or running financial year (2021 - 2022) , i.e. from 1 April 2021 to 31 March 2022
+// closing of the current or running financial year (2023 - 2024) , i.e. from 1 April 2023 to 31 March 2024
 
-let endFinancialYear = 2023;
+let endFinancialYear = 2024;
 console.log("initial -> (endFinancialYear) " + endFinancialYear);
 
 // yearly analysis data should be finalized uptill previous (2019 - 2020) to last financial year (2020 - 2021)
