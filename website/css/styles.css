@@ -769,6 +769,10 @@ input:focus {
     cursor: pointer;
 }
 
+#last-updated {
+    color: royalblue;
+}
+
 footer {
     background-color: #222;
     padding: 1px;
