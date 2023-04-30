@@ -238,7 +238,7 @@ https://baali.github.io/nps-d/icici.html
 
 When the above link is opened, press `.` on the keyboard, to open up your online workspace
 
-[Dev WorkSpace](https://github.dev/TurquoiseSpace/National-Pension-Scheme)
+[Dev WorkSpace](https://github.dev/NationalPensionScheme/NationalPensionScheme.GitHub.io)
 
 [Download ZIP](https://github.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/archive/refs/heads/main.zip)
 
@@ -808,7 +808,7 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://www.quora.com/Are-GitHub-pages-domains-listed-on-Google
 
-	https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://www.google.com/search?q=site%3Ahttps%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
 	https://www.google.com/webmasters/tools/home#utm_source=en-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0
 
@@ -820,47 +820,47 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://search.google.com/search-console?resource_id=https://NationalPensionScheme.GitHub.io/
 
-	https://search.google.com/search-console?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
 	https://search.google.com/search-console?utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en&resource_id=https://NationalPensionScheme.GitHub.io/
 
-	https://search.google.com/search-console/insights?utm_source=search_console&utm_medium=search_console&utm_campaign=search_console_dashboard&resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/insights?utm_source=search_console&utm_medium=search_console&utm_campaign=search_console_dashboard&resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F&tab=mobile&hl=en
+	https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F&tab=mobile&hl=en
 
-	https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F&tab=desktop&hl=en
+	https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F&tab=desktop&hl=en
 
-	https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://search.google.com/search-console/index?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/index?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
 	https://search.google.com/search-console/sitemaps?resource_id=https://NationalPensionScheme.GitHub.io/&utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en
 
-	https://search.google.com/search-console/removals?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/removals?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://search.google.com/search-console/page-experience?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/page-experience?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://search.google.com/search-console/core-web-vitals?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/core-web-vitals?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://search.google.com/search-console/manual-actions?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/manual-actions?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://search.google.com/search-console/security-issues?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/security-issues?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://www.google.com/webmasters/tools/i18n?siteUrl=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
+	https://www.google.com/webmasters/tools/i18n?siteUrl=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
 
-	https://www.google.com/webmasters/tools/site-message-list?siteUrl=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
+	https://www.google.com/webmasters/tools/site-message-list?siteUrl=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
 
 	https://www.google.com/webmasters/tools/site-message-view?hl=en&siteUrl=https://NationalPensionScheme.GitHub.io/&message-filter=all&grid.r=0&msgid=AB9YKzJkjQWQY_oNcqziHUqlWa5rC7iE6smOgAhqxGD-YJD2_5Cq3Ja37Yu8ETA0FuScESQBkATLEpZLL66XQdgpkWL_E1JyXw
 
-	https://www.google.com/webmasters/tools/crawl-url-parameters?siteUrl=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
+	https://www.google.com/webmasters/tools/crawl-url-parameters?siteUrl=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
 
-	https://www.google.com/webmasters/tools/ad-experience-unverified?siteUrl=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
+	https://www.google.com/webmasters/tools/ad-experience-unverified?siteUrl=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
 
-	https://search.google.com/search-console/links?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/links?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
-	https://search.google.com/search-console/settings?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
+	https://search.google.com/search-console/settings?resource_id=https%3A%2F%2FNationalPensionScheme.GitHub.io%2F
 
 	https://search.google.com/search-console/users?resource_id=https://NationalPensionScheme.GitHub.io/&utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en
 
