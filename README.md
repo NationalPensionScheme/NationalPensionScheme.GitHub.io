@@ -19,7 +19,7 @@ Jai Hind
 
 [Consolidated CSV Data](https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/nps-funds-performance-nav-data.csv)
 
-[Scheme Wise CSV Data](https://github.com/TurquoiseSpace/National-Pension-Scheme/tree/master/nav-data/scheme)
+[Scheme Wise CSV Data](https://github.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/tree/main/nav-data/scheme)
 
 
 ## Pension Fund Managers ##
@@ -234,13 +234,13 @@ https://baali.github.io/nps-d/icici.html
 
 ## Repository ##
 
-[Browse](https://github.com/TurquoiseSpace/National-Pension-Scheme)
+[Browse](https://github.com/NationalPensionScheme/NationalPensionScheme.GitHub.io)
 
 When the above link is opened, press `.` on the keyboard, to open up your online workspace
 
 [Dev WorkSpace](https://github.dev/TurquoiseSpace/National-Pension-Scheme)
 
-[Download ZIP](https://github.com/TurquoiseSpace/National-Pension-Scheme/archive/refs/heads/master.zip)
+[Download ZIP](https://github.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/archive/refs/heads/main.zip)
 
 [Net Asset Value - CSV Data](https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/nps-funds-performance-nav-data.csv)
 
@@ -250,19 +250,19 @@ When the above link is opened, press `.` on the keyboard, to open up your online
 - HTTPs
 
 ```
-git clone https://github.com/TurquoiseSpace/National-Pension-Scheme.git
+git clone https://github.com/NationalPensionScheme/NationalPensionScheme.GitHub.io.git
 ```
 
 - SSH
 
 ```
-git clone git@github.com:TurquoiseSpace/National-Pension-Scheme.git
+git clone git@github.com:NationalPensionScheme/NationalPensionScheme.GitHub.io.git
 ```
 
 - GitHub CLI
 
 ```
-gh repo clone TurquoiseSpace/National-Pension-Scheme
+gh repo clone NationalPensionScheme/NationalPensionScheme.GitHub.io
 ```
 
 
