@@ -1,7 +1,7 @@
 
 let previousSchemeId = "";
 
-let schemeDataSourcePrefix = "https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/nav-data/scheme/min/";
+let schemeDataSourcePrefix = "https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/scheme/min/";
 let schemeDataSourceSuffix = "-min.csv";
 
 function transformMinCsvForGoogleChartData(csvMinContent) {

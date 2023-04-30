@@ -1,7 +1,7 @@
 
 let previousCategoryId = "";
 
-let categoryDataSourcePrefix = "https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/nav-data/scheme-categorized/";
+let categoryDataSourcePrefix = "https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/scheme-categorized/";
 let categoryDataSourceSuffix = ".csv";
 
 function hasContent(str) {

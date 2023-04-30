@@ -17,23 +17,23 @@ Jai Hind
 
 [NAV Timeline - Graphs Visualization](https://NationalPensionScheme.GitHub.io/)
 
-[Consolidated CSV Data](https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/nav-data/nps-funds-performance-nav-data.csv)
+[Consolidated CSV Data](https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/nps-funds-performance-nav-data.csv)
 
 [Scheme Wise CSV Data](https://github.com/TurquoiseSpace/National-Pension-Scheme/tree/master/nav-data/scheme)
 
 
 ## Pension Fund Managers ##
 
-[Fund Managers](https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/meta-data/unique-fund-managers.csv)
+[Fund Managers](https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/meta-data/unique-fund-managers.csv)
 
-[Fund Manager IDs](https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/meta-data/unique-fund-managers-ids.csv)
+[Fund Manager IDs](https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/meta-data/unique-fund-managers-ids.csv)
 
 
 ## Pension Fund Schemes ##
 
-[Schemes](https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/meta-data/unique-schemes.csv)
+[Schemes](https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/meta-data/unique-schemes.csv)
 
-[Scheme IDs](https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/meta-data/unique-schemes-ids.csv)
+[Scheme IDs](https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/meta-data/unique-schemes-ids.csv)
 
 
 ## Glossary ##
@@ -242,7 +242,7 @@ When the above link is opened, press `.` on the keyboard, to open up your online
 
 [Download ZIP](https://github.com/TurquoiseSpace/National-Pension-Scheme/archive/refs/heads/master.zip)
 
-[Net Asset Value - CSV Data](https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/nav-data/nps-funds-performance-nav-data.csv)
+[Net Asset Value - CSV Data](https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/nps-funds-performance-nav-data.csv)
 
 
 ## Clone ##

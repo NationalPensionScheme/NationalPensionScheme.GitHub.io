@@ -28,7 +28,7 @@ console.log("initial -> (finalizedTillFinancialYear) " + finalizedTillFinancialY
 let randomPageNumber = Math.floor(Math.random() * totalPages);
 console.log("generated -> (randomPageNumber) " + randomPageNumber);
 
-let yearlyAverageGrowthDataUrl = "https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/nav-data/growth/yearly-average.json";
+let yearlyAverageGrowthDataUrl = "https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/growth/yearly-average.json";
 
 function showPage(pageNumber) {
     console.log("show page -> (pageNumber) " + pageNumber);
