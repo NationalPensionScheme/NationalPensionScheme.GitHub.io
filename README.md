@@ -469,9 +469,9 @@ sh split.sh &> logs/split.log
 
 Every individual Scheme CSV data files will be generated in directory `nav-data/scheme/`, which will follow the naming convention `SCHEME_ID.csv`
 
-Verify the count of all lines combined from the scheme files, minus 97 ; `must be equal to` ; count of lines in consolidated file, minus 1
+Verify the count of all lines combined from the scheme files, minus 131 ; `must be equal to` ; count of lines in consolidated file, minus 1
 
-Calculations done based on the csv heading line, which is common in all the CSV files; and since there are 97 schemes, which can be referred from `meta-data/unique-schemes-ids.csv`
+Calculations done based on the csv heading line, which is common in all the CSV files; and since there are 131 schemes, which can be referred from `meta-data/unique-schemes-ids.csv`
 
 ```
 cd nav-data
