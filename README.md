@@ -4,7 +4,7 @@
 
 # NPS #
 
-https://TurquoiseSpace.GitHub.io/National-Pension-Scheme
+https://NationalPensionScheme.GitHub.io/
 
 National Pension Scheme
 
@@ -15,7 +15,7 @@ Jai Hind
 
 ## Funds & Schemes Perfomance ##
 
-[NAV Timeline - Graphs Visualization](https://TurquoiseSpace.github.io/National-Pension-Scheme)
+[NAV Timeline - Graphs Visualization](https://NationalPensionScheme.GitHub.io/)
 
 [Consolidated CSV Data](https://raw.githubusercontent.com/TurquoiseSpace/National-Pension-Scheme/master/nav-data/nps-funds-performance-nav-data.csv)
 
@@ -524,7 +524,7 @@ SEO done via Google using Email Id `matcdac@gmail.com`
 Google Search
 
 ```
-site:https://TurquoiseSpace.GitHub.io/National-Pension-Scheme/
+site:https://NationalPensionScheme.GitHub.io/
 ```
 
 Located in the root as `google64a202ed0c67cfe9.html`
@@ -818,11 +818,11 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	http://www.google.com/webmasters/tools/
 
-	https://search.google.com/search-console?resource_id=https://turquoisespace.github.io/National-Pension-Scheme/
+	https://search.google.com/search-console?resource_id=https://NationalPensionScheme.GitHub.io/
 
 	https://search.google.com/search-console?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
 
-	https://search.google.com/search-console?utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en&resource_id=https://turquoisespace.github.io/National-Pension-Scheme/
+	https://search.google.com/search-console?utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en&resource_id=https://NationalPensionScheme.GitHub.io/
 
 	https://search.google.com/search-console/insights?utm_source=search_console&utm_medium=search_console&utm_campaign=search_console_dashboard&resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
 
@@ -836,7 +836,7 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
 
-	https://search.google.com/search-console/sitemaps?resource_id=https://turquoisespace.github.io/National-Pension-Scheme/&utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en
+	https://search.google.com/search-console/sitemaps?resource_id=https://NationalPensionScheme.GitHub.io/&utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en
 
 	https://search.google.com/search-console/removals?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
 
@@ -852,7 +852,7 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://www.google.com/webmasters/tools/site-message-list?siteUrl=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
 
-	https://www.google.com/webmasters/tools/site-message-view?hl=en&siteUrl=https://turquoisespace.github.io/National-Pension-Scheme/&message-filter=all&grid.r=0&msgid=AB9YKzJkjQWQY_oNcqziHUqlWa5rC7iE6smOgAhqxGD-YJD2_5Cq3Ja37Yu8ETA0FuScESQBkATLEpZLL66XQdgpkWL_E1JyXw
+	https://www.google.com/webmasters/tools/site-message-view?hl=en&siteUrl=https://NationalPensionScheme.GitHub.io/&message-filter=all&grid.r=0&msgid=AB9YKzJkjQWQY_oNcqziHUqlWa5rC7iE6smOgAhqxGD-YJD2_5Cq3Ja37Yu8ETA0FuScESQBkATLEpZLL66XQdgpkWL_E1JyXw
 
 	https://www.google.com/webmasters/tools/crawl-url-parameters?siteUrl=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F&utm_source=search_console&utm_campaign=left-nav-legacy-tool&hl=en
 
@@ -862,7 +862,7 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://search.google.com/search-console/settings?resource_id=https%3A%2F%2Fturquoisespace.github.io%2FNational-Pension-Scheme%2F
 
-	https://search.google.com/search-console/users?resource_id=https://turquoisespace.github.io/National-Pension-Scheme/&utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en
+	https://search.google.com/search-console/users?resource_id=https://NationalPensionScheme.GitHub.io/&utm_source=wnc_376106&utm_medium=gamma&utm_campaign=wnc_376106&utm_content=msg_743502&hl=en
 
 	https://developers.google.com/search/docs/advanced/crawling/ask-google-to-recrawl
 
@@ -888,7 +888,7 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 - SEO Sitemap
 
-	https://www.google.com/ping?sitemap=https://turquoisespace.github.io/National-Pension-Scheme/sitemap.xml
+	https://www.google.com/ping?sitemap=https://NationalPensionScheme.GitHub.io/sitemap.xml
 
 	https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap
 

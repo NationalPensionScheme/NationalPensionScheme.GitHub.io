@@ -4,13 +4,13 @@ let pushNotificationApiUrl = "https://fcm.googleapis.com/fcm/send";
 let notifyMeAboutUserVisitData = {
     title: "Turquoise Space - National Pension Scheme",
     message: "User Visit on Website",
-    link: "https://TurquoiseSpace.GitHub.io/National-Pension-Scheme/",
+    link: "https://NationalPensionScheme.GitHub.io/",
 };
 
 let notifyMeAboutUserInputMessageData = {
     title: "Turquoise Space - National Pension Scheme",
     message: "User Contact from Website",
-    link: "https://TurquoiseSpace.GitHub.io/National-Pension-Scheme/",
+    link: "https://NationalPensionScheme.GitHub.io/",
 };
 
 let authorization = "key=AAAAucpu21Y:APA91bEYxJ6XGquZzAxqJnyUYeSwi7ocOWO4iJwi676vXnRXrDn-TazsJmESzQHHv5Dx2OO3HFOk5moxzpvEPCMCv3UA5ZopDnVFBK6lOeE1qWQugDVabmN229DAXd3G7tdul7mmlYpF";
