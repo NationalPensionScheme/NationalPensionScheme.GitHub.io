@@ -28,3 +28,4 @@ sh internal_mergeSchemeIds_category.sh SM001008 SM002008 SM003010 SM004006 SM005
 
 sh internal_mergeSchemeIds_category.sh SM001014 SM002014 SM003014 SM005010 SM007010 SM008010 SM010009 SM011008 SM012008 SM013008 tier-ii-tax-saver-scheme
 
+sh internal_mergeSchemeIds_category.sh SM001015 SM002015 SM003015 apy-fund-scheme
