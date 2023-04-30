@@ -1,0 +1,1562 @@
+[
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Government - Central",
+      "name": "GOVERNMENT_CENTRAL"
+    },
+    "id": "SM001001"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Government - State",
+      "name": "GOVERNMENT_STATE"
+    },
+    "id": "SM001002"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM001003"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM001004"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM001005"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM001006"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM001007"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM001008"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM001009"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Corporate CG",
+      "name": "CORPORATE_CG"
+    },
+    "id": "SM001010"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Atal Pension Yojana - NPS Trust A/C",
+      "name": "ATAL_PENSION_YOJANA_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM001011"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme A",
+      "name": "TIER_I_SCHEME_A"
+    },
+    "id": "SM001012"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme A",
+      "name": "TIER_II_SCHEME_A"
+    },
+    "id": "SM001013"
+  },
+  {
+    "managerId": {
+      "id": "PFM001",
+      "manager": {
+        "value": "SBI",
+        "companyName": "SBI Pension Funds Private Limited",
+        "name": "SBI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Tax Saver Scheme - NPS Trust A/C",
+      "name": "TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM001014"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Government - Central",
+      "name": "GOVERNMENT_CENTRAL"
+    },
+    "id": "SM002001"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Government - State",
+      "name": "GOVERNMENT_STATE"
+    },
+    "id": "SM002002"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM002003"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM002004"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM002005"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM002006"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM002007"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM002008"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM002009"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Corporate CG",
+      "name": "CORPORATE_CG"
+    },
+    "id": "SM002010"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Atal Pension Yojana - NPS Trust A/C",
+      "name": "ATAL_PENSION_YOJANA_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM002011"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme A",
+      "name": "TIER_I_SCHEME_A"
+    },
+    "id": "SM002012"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme A",
+      "name": "TIER_II_SCHEME_A"
+    },
+    "id": "SM002013"
+  },
+  {
+    "managerId": {
+      "id": "PFM002",
+      "manager": {
+        "value": "UTI",
+        "companyName": "UTI Retirement Solutions Limited",
+        "name": "UTI"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Tax Saver Scheme - NPS Trust A/C",
+      "name": "TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM002014"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Government - Central",
+      "name": "GOVERNMENT_CENTRAL"
+    },
+    "id": "SM003001"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Government - State",
+      "name": "GOVERNMENT_STATE"
+    },
+    "id": "SM003002"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM003003"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Corporate CG",
+      "name": "CORPORATE_CG"
+    },
+    "id": "SM003004"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM003005"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM003006"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM003007"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM003008"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM003009"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM003010"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Atal Pension Yojana - NPS Trust A/C",
+      "name": "ATAL_PENSION_YOJANA_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM003011"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme A",
+      "name": "TIER_I_SCHEME_A"
+    },
+    "id": "SM003012"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme A",
+      "name": "TIER_II_SCHEME_A"
+    },
+    "id": "SM003013"
+  },
+  {
+    "managerId": {
+      "id": "PFM003",
+      "manager": {
+        "value": "LIC",
+        "companyName": "LIC Pension Fund Limited",
+        "name": "LIC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Tax Saver Scheme - NPS Trust A/C",
+      "name": "TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM003014"
+  },
+  {
+    "managerId": {
+      "id": "PFM004",
+      "manager": {
+        "value": "IDFC",
+        "companyName": "IDFC Pension Fund Management Company Limited",
+        "name": "IDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM004001"
+  },
+  {
+    "managerId": {
+      "id": "PFM004",
+      "manager": {
+        "value": "IDFC",
+        "companyName": "IDFC Pension Fund Management Company Limited",
+        "name": "IDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM004002"
+  },
+  {
+    "managerId": {
+      "id": "PFM004",
+      "manager": {
+        "value": "IDFC",
+        "companyName": "IDFC Pension Fund Management Company Limited",
+        "name": "IDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM004003"
+  },
+  {
+    "managerId": {
+      "id": "PFM004",
+      "manager": {
+        "value": "IDFC",
+        "companyName": "IDFC Pension Fund Management Company Limited",
+        "name": "IDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM004004"
+  },
+  {
+    "managerId": {
+      "id": "PFM004",
+      "manager": {
+        "value": "IDFC",
+        "companyName": "IDFC Pension Fund Management Company Limited",
+        "name": "IDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM004005"
+  },
+  {
+    "managerId": {
+      "id": "PFM004",
+      "manager": {
+        "value": "IDFC",
+        "companyName": "IDFC Pension Fund Management Company Limited",
+        "name": "IDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM004006"
+  },
+  {
+    "managerId": {
+      "id": "PFM004",
+      "manager": {
+        "value": "IDFC",
+        "companyName": "IDFC Pension Fund Management Company Limited",
+        "name": "IDFC"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM004007"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM005001"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM005002"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM005003"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM005004"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM005005"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM005006"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM005007"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme A",
+      "name": "TIER_I_SCHEME_A"
+    },
+    "id": "SM005008"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme A",
+      "name": "TIER_II_SCHEME_A"
+    },
+    "id": "SM005009"
+  },
+  {
+    "managerId": {
+      "id": "PFM005",
+      "manager": {
+        "value": "Kotak Mahindra",
+        "companyName": "Kotak Mahindra Pension Fund Limited",
+        "name": "KOTAK_MAHINDRA"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Tax Saver Scheme - NPS Trust A/C",
+      "name": "TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM005010"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM006001"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM006002"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM006003"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM006004"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM006005"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM006006"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM006007"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme A",
+      "name": "TIER_I_SCHEME_A"
+    },
+    "id": "SM006008"
+  },
+  {
+    "managerId": {
+      "id": "PFM006",
+      "manager": {
+        "value": "Reliance Capital",
+        "companyName": "Reliance Capital Pension Fund Limited",
+        "name": "RELIANCE_CAPITAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme A",
+      "name": "TIER_II_SCHEME_A"
+    },
+    "id": "SM006009"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM007001"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM007002"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM007003"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM007004"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM007005"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM007006"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM007007"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme A",
+      "name": "TIER_I_SCHEME_A"
+    },
+    "id": "SM007008"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme A",
+      "name": "TIER_II_SCHEME_A"
+    },
+    "id": "SM007009"
+  },
+  {
+    "managerId": {
+      "id": "PFM007",
+      "manager": {
+        "value": "ICICI Prudential",
+        "companyName": "ICICI Prudential Pension Funds Management Company Limited",
+        "name": "ICICI_PRUDENTIAL"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Tax Saver Scheme",
+      "name": "TIER_II_TAX_SAVER_SCHEME"
+    },
+    "id": "SM007010"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM008001"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM008002"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM008003"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM008004"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM008005"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM008006"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM008007"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme A",
+      "name": "TIER_I_SCHEME_A"
+    },
+    "id": "SM008008"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme A",
+      "name": "TIER_II_SCHEME_A"
+    },
+    "id": "SM008009"
+  },
+  {
+    "managerId": {
+      "id": "PFM008",
+      "manager": {
+        "value": "HDFC",
+        "companyName": "HDFC Pension Management Company Limited",
+        "name": "HDFC"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Tax Saver Scheme - NPS Trust A/C",
+      "name": "TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM008010"
+  },
+  {
+    "managerId": {
+      "id": "PFM009",
+      "manager": {
+        "value": "DSP BlackRock",
+        "companyName": "DSP BlackRock Pension Fund Managers Private Limited",
+        "name": "DSP_BLACKROCK"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM009001"
+  },
+  {
+    "managerId": {
+      "id": "PFM009",
+      "manager": {
+        "value": "DSP BlackRock",
+        "companyName": "DSP BlackRock Pension Fund Managers Private Limited",
+        "name": "DSP_BLACKROCK"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM009002"
+  },
+  {
+    "managerId": {
+      "id": "PFM009",
+      "manager": {
+        "value": "DSP BlackRock",
+        "companyName": "DSP BlackRock Pension Fund Managers Private Limited",
+        "name": "DSP_BLACKROCK"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM009003"
+  },
+  {
+    "managerId": {
+      "id": "PFM009",
+      "manager": {
+        "value": "DSP BlackRock",
+        "companyName": "DSP BlackRock Pension Fund Managers Private Limited",
+        "name": "DSP_BLACKROCK"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM009004"
+  },
+  {
+    "managerId": {
+      "id": "PFM009",
+      "manager": {
+        "value": "DSP BlackRock",
+        "companyName": "DSP BlackRock Pension Fund Managers Private Limited",
+        "name": "DSP_BLACKROCK"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM009005"
+  },
+  {
+    "managerId": {
+      "id": "PFM009",
+      "manager": {
+        "value": "DSP BlackRock",
+        "companyName": "DSP BlackRock Pension Fund Managers Private Limited",
+        "name": "DSP_BLACKROCK"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM009006"
+  },
+  {
+    "managerId": {
+      "id": "PFM009",
+      "manager": {
+        "value": "DSP BlackRock",
+        "companyName": "DSP BlackRock Pension Fund Managers Private Limited",
+        "name": "DSP_BLACKROCK"
+      }
+    },
+    "scheme": {
+      "value": "Lite Scheme - Government Pattern - NPS Trust A/C",
+      "name": "LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT"
+    },
+    "id": "SM009007"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme E",
+      "name": "TIER_I_SCHEME_E"
+    },
+    "id": "SM010001"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme C",
+      "name": "TIER_I_SCHEME_C"
+    },
+    "id": "SM010002"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme G",
+      "name": "TIER_I_SCHEME_G"
+    },
+    "id": "SM010003"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier I - Scheme A",
+      "name": "TIER_I_SCHEME_A"
+    },
+    "id": "SM010004"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme E",
+      "name": "TIER_II_SCHEME_E"
+    },
+    "id": "SM010005"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme C",
+      "name": "TIER_II_SCHEME_C"
+    },
+    "id": "SM010006"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme G",
+      "name": "TIER_II_SCHEME_G"
+    },
+    "id": "SM010007"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Scheme A",
+      "name": "TIER_II_SCHEME_A"
+    },
+    "id": "SM010008"
+  },
+  {
+    "managerId": {
+      "id": "PFM010",
+      "manager": {
+        "value": "Aditya Birla Sun Life",
+        "companyName": "Aditya Birla Sun Life Pension Management Limited",
+        "name": "ADITYA_BIRLA_SUN_LIFE"
+      }
+    },
+    "scheme": {
+      "value": "Tier II - Tax Saver Scheme",
+      "name": "TIER_II_TAX_SAVER_SCHEME"
+    },
+    "id": "SM010009"
+  }
+]

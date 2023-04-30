@@ -1,0 +1,212 @@
+
+
+
+Web Page
+
+https://www.utimf.com/retirement-solutions/historical-nav/
+
+
+
+LIC Pension Fund Scheme Central Govt.
+
+SchemeId: Scheme1
+
+SM003001
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=U2NoZW1lMQ==
+
+
+
+LIC Pension Fund SG Scheme State Govt.
+
+SchemeId: Scheme2
+
+SM003002
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=U2NoZW1lMg==
+
+
+
+NPS LITE-Govt.Pattern
+
+SchemeId: Scheme3
+
+SM003003
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=U2NoZW1lMw==
+
+
+
+LIC Pension Fund Scheme Corporate CG.
+
+SchemeId: Scheme4
+
+SM003004
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=U2NoZW1lNA==
+
+
+
+LIC Pension Fund Scheme E - Tier I
+
+SchemeId: lpfset1
+
+SM003005
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc2V0MQ==
+
+
+
+LIC Pension Fund Scheme C - Tier I
+
+SchemeId: lpfsct1
+
+SM003006
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc2N0MQ==
+
+
+
+LIC Pension Fund Scheme G - Tier I
+
+SchemeId: lpfsgt1
+
+SM003007
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc2d0MQ==
+
+
+
+LIC Pension Fund Scheme A - Tier I
+
+SchemeId: lpfsat1
+
+SM003012
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc2F0MQ==
+
+
+
+LIC Pension Fund Scheme E - Tier II
+
+SchemeId: lpfset2
+
+SM003008
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc2V0Mg==
+
+
+
+LIC Pension Fund Scheme C - Tier II
+
+SchemeId: lpfsct2
+
+SM003009
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc2N0Mg==
+
+
+
+LIC Pension Fund Scheme G - Tier II
+
+SchemeId: lpfsgt2
+
+SM003010
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc2d0Mg==
+
+
+
+LIC Pension Fund Scheme A - Tier II
+
+SchemeId: lpfsat2
+
+SM003013
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc2F0Mg==
+
+
+
+LIC Pension Fund Scheme Tax Saver -Tier II
+
+SchemeId: lpfstst2
+
+SM003014
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmc3RzdDI=
+
+
+
+LIC Pension Fund Atal Pension Yojana Scheme
+
+SchemeId: lpfapys
+
+SchemeIdBase64Encoded: bHBmYXB5cw==
+
+SM003011
+
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmYXB5cw==
+
+
+__________________________________________________________________________________________________________
+
+
+
+HTML - Since Inception
+
+
+http://www.licpensionfund.in/Navnew3.php?Exchg={SchemeIdBase64Encoded}
+
+Example:
+http://www.licpensionfund.in/Navnew3.php?Exchg=bHBmYXB5cw==
+
+
+
+HTML - Between Dates
+
+
+http://www.licpensionfund.in/Navnew2.php?Exchg={SchemeId}/{fromDate-yyyy-mm-dd}/{tillDate-yyyy-mm-dd}
+
+Example:
+http://www.licpensionfund.in/Navnew2.php?Exchg=Scheme1/2001-01-01/2022-12-31
+
+
+
+JSON
+
+
+1 Day
+
+http://www.licpensionfund.in/Navnew.php?Exchg={SchemeId}/1d
+
+Example:
+http://www.licpensionfund.in/Navnew.php?Exchg=Scheme1/1d
+
+
+1 Week
+
+http://www.licpensionfund.in/Navnew.php?Exchg={SchemeId}/1w
+
+
+3 Months
+
+http://www.licpensionfund.in/Navnew.php?Exchg={SchemeId}/3m
+
+
+6 Months
+
+http://www.licpensionfund.in/Navnew.php?Exchg={SchemeId}/6m
+
+
+1 Year
+
+http://www.licpensionfund.in/Navnew.php?Exchg={SchemeId}/1y
+
+
+5 Years
+
+http://www.licpensionfund.in/Navnew.php?Exchg={SchemeId}/5y
+
+
+
+

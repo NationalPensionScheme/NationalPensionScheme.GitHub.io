@@ -1,0 +1,134 @@
+
+
+
+Web Page
+
+https://kotakpensionfund.com/NAV/History
+
+
+
+POOL SCHEME
+
+SchemeId: GLOBAL
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/GLOBAL,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c. Kotak Pension Fund Scheme E - Tier II
+
+SchemeId: P2E
+
+SM005004
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/P2E,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c. Kotak Pension Fund Scheme C - Tier II
+
+SchemeId: P2C
+
+SM005005
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/P2C,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c. Kotak Pension Fund Scheme G - Tier II
+
+SchemeId: P2G
+
+SM005006
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/P2G,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c Kotak Pension Fund Scheme A Tier II
+
+SchemeId: P2A
+
+SM005009
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/P2A,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c-Kotak Mahindra Pension Fund Ltd NPS Lite Scheme-Govt pattern
+
+SchemeId: PFL
+
+SM005007
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/PFL,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c Kotak Pension Fund Scheme A Tier I
+
+SchemeId: PFA
+
+SM005008
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/PFA,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c. Kotak Pension Fund Scheme G Tier - I
+
+SchemeId: PFG
+
+SM005003
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/PFG,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c. Kotak Pension Fund Scheme C Tier - I
+
+SchemeId: PFC
+
+SM005002
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/PFC,01Jan2001,31Dec2022,All
+
+
+
+NPS Trust A/c. Kotak Pension Fund Scheme E Tier  I
+
+SchemeId: PFE
+
+SM005001
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/PFE,01Jan2001,31Dec2022,All
+
+
+
+NPS TRUST - A/C Kotak Pension Fund Scheme Tax Saver - Tier 2
+
+SchemeId: PTS
+
+SM005010
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/PTS,01Jan2001,31Dec2022,All
+
+
+__________________________________________________________________________________________________________________________________
+
+
+
+JSON
+
+
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/{SchemeId},{fromDate-ddMmmyyyy},{tillDate-ddMmmyyyy},All
+
+Example:
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/P2E,01Jan2001,10Aug2021,All
+
+Example:
+https://kmamcapi.kotakmf.in/PENSIONFUND/api/Values/Get_NavHistory_Data/P2C,01Jan2001,10Aug2021,All
+
+
+
+

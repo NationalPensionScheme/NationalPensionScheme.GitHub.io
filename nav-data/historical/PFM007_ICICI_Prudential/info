@@ -1,0 +1,116 @@
+
+
+
+Web Page
+
+https://www.iciciprupensionfund.com/NPS/#/public-disclosure/nav-history
+
+https://www.iciciprupensionfund.com/NPS/#/public-disclosure/latest-nav
+
+
+
+A TIER I
+
+SchemeId: A1
+
+SM007008
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=A1&startDate=01-JAN-01&endDate=31-DEC-22
+
+
+
+C TIER I
+
+SchemeId: C1
+
+SM007002
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=C1&startDate=01-JAN-01&endDate=31-DEC-22
+
+
+
+C TIER II
+
+SchemeId: C2
+
+SM007005
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=C2&startDate=01-JAN-01&endDate=31-DEC-22
+
+
+
+E TIER I
+
+SchemeId: E1
+
+SM007001
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=E1&startDate=01-JAN-01&endDate=31-DEC-22
+
+
+
+E TIER II
+
+SchemeId: E2
+
+SM007004
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=E2&startDate=01-JAN-01&endDate=31-DEC-22
+
+
+
+G TIER I
+
+SchemeId: G1
+
+SM007003
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=G1&startDate=01-JAN-01&endDate=31-DEC-22
+
+
+
+G TIER II
+
+SchemeId: G2
+
+SM007006
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=G2&startDate=01-JAN-01&endDate=31-DEC-22
+
+
+
+Tax Saver (Central Govt)
+
+SchemeId: TS
+
+SM007010
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=TS&startDate=01-JAN-01&endDate=31-DEC-22
+
+
+__________________________________________________________________________________________________________________________________
+
+
+
+EXCEL Consolidated
+
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navExcel.rest
+
+PFM007
+
+
+
+JSON
+
+
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode={schemeId}&startDate={fromDate-dd-MMM-yy}&endDate={tillDate-dd-MMM-yy}
+
+Example:
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=A1&startDate=21-NOV-16&endDate=11-AUG-21
+
+Example:
+https://www.iciciprupensionfund.com/pensionFunds/iprupnsnfunds/navhistory.rest?fundCode=A1&startDate=01-Aug-2021&endDate=31-Aug-2021
+
+
+

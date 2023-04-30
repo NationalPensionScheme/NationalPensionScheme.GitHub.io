@@ -1,0 +1,31 @@
+
+
+
+Web Page
+
+https://pensionfund.adityabirlacapital.com/Pages/Individual/Know-Our-Funds/ViewNavHistory.aspx
+
+https://pensionfund.adityabirlacapital.com/nps-nav/latest-history
+
+
+_________________________________________________________________________________________________
+
+
+
+JSON
+
+
+URL
+https://pensionfund.adityabirlacapital.com/webapi.aspx/GetLatestNavHistoryData
+
+Request Method
+POST
+
+Request Body
+{"frm":"01/01/2001","tod":"08/13/2021"}
+
+Response Body Syntax
+{"d":"UnicodeEncodedWrapper-UrlEncodedWrapper-HTMLCode"}
+
+
+

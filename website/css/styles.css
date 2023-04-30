@@ -1,0 +1,780 @@
+
+/* Comment */
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0px !important;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    width: 7.5px;
+}
+
+body::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%); */
+    -webkit-box-shadow: inset 0 0 5px #555;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px #aaa;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: royalblue;
+}
+
+::selection {
+    color: black;
+    background: royalblue;
+}
+
+/*
+
+// `A`
+// started with royal blue: #4169e1
+// interchanged the last 2 hex, placed in the beginning
+// got 3 combinations of 6 digit hex from above
+// found out 2 hex contrast by complimenting with ff
+// got remaining 3 combinations of 6 digit hex, using ff - ??
+
+// `B`
+// searched google for each 6 colour codes
+// https://www.google.com/search?q=%23BE961E
+// sorted place based on colours placed on colour line
+// order received: #BE961E , #69e141 , #1EBE96 , #4169e1 , #961EBE , #e14169
+
+// `C`
+// finding mid for each two consequtive colour codes
+// by adding 2 digit hex and dividing by 2
+// to calculate the average
+// it should be mid point on the colour line
+// got dirty green, on calculating: #93BB2F
+
+// `D`
+// repeating the part `A` and `B` for the last value from `C`
+// #93BB2F, #2F93BB, #BB2F93, #6C44D0, #D06C44, #44D06C
+
+// TODO
+// generate multiple mids, many iterations, get the equidistant nodes
+// write algo to select n out of those, which are of same contrast set
+// probably be at similar distance, from each other on the colour line
+
+// found above 12 in the colour line, increasing order of VIBGYOR
+#D06C44
+#BE961E
+#93BB2F
+#69e141
+#44D06C
+#1EBE96
+#2F93BB
+#4169e1
+#6C44D0
+#961EBE
+#BB2F93
+#e14169
+
+
+.royalcolours {
+    // blue
+    // #4169e1
+
+    // pink
+    // #e14169
+
+    // green
+    // #69e141
+
+    // mud
+    // #BE961E
+
+    // teal
+    // #1EBE96
+
+    // purple
+    // #961EBE
+}
+
+*/
+
+/*
+.black-palette-colours {
+    background-color: rebeccapurple;
+    background-color: rgb(102, 51, 153);
+
+    background-color: rgb(51, 102, 153);
+    background-color: rgb(51, 153, 102);
+    background-color: rgb(102, 153, 51);
+    background-color: rgb(153, 102, 51);
+    background-color: rgb(153, 51, 102);
+}
+
+.previous-palette-colours-pink {
+    background-color: rgb(200, 25, 56);
+    background-color: rgb(200, 56, 25);
+    background-color: rgb(56, 25, 200);
+    background-color: rgb(56, 200, 25);
+    background-color: rgb(25, 56, 200);
+    background-color: rgb(25, 200, 56);
+}
+
+.previous-palette-colours-red {
+    background-color: rgb(190, 17, 17);
+    background-color: rgb(17, 190, 17);
+    background-color: rgb(17, 17, 190);
+}
+
+.google-chart-colours {
+    blue: rgb(51, 102, 204); #3366cc;
+    red: rgb(220, 57, 18); #dc3912;
+    yellow: rgb(255, 153, 0); #ff9900;
+    green: rgb(16, 150, 24); #109618;
+    purple: rgb(153, 0, 153); #990099;
+    light-blue: rgb(0, 153, 198); #0099c6;
+    pink: rgb(221, 68, 119); #dd4477;
+    light-green: rgb(102, 170, 0); #66aa00;
+    dark-pink: rgb(184, 46, 46); #b82e2e;
+    dark-blue: rgb(49, 99, 149); #316395;
+}
+*/
+
+.yellow {
+    /*
+    background-color: lightgoldenrodyellow;
+    border: 3px solid #ff9900;
+    */
+    background-color: #ff9900;
+    border: 3px solid  #ff5200;
+    color: #000;
+}
+
+.green0 {
+    background-color: #001A00;
+    color: #fff;
+}
+
+.green1 {
+    background-color: #020;
+    color: #fff;
+}
+
+.green2 {
+    background-color: #003C00;
+    color: #fff;
+}
+
+.green3 {
+    background-color: #050;
+    color: #fff;
+}
+
+.green4 {
+    background-color: #006F00;
+    color: #fff;
+}
+
+.green5 {
+    background-color: #080;
+    color: #000;
+}
+
+.green6 {
+    background-color: #00A200;
+    color: #000;
+}
+
+.green7 {
+    background-color: #0b0;
+    color: #000;
+}
+
+.green8 {
+    background-color: #00D500;
+    color: #000;
+}
+
+.green9 {
+    background-color: #0e0;
+    color: #000;
+}
+
+.red0 {
+    background-color: #1A0000;
+    color: #fff;
+}
+
+.red1 {
+    background-color: #200;
+    color: #fff;
+}
+
+.red2 {
+    background-color: #3C0000;
+    color: #fff;
+}
+
+.red3 {
+    background-color: #500;
+    color: #fff;
+}
+
+.red4 {
+    background-color: #6F0000;
+    color: #fff;
+}
+
+.red5 {
+    background-color: #800;
+    color: #fff;
+}
+
+.red6 {
+    background-color: #A20000;
+    color: #000;
+}
+
+.red7 {
+    background-color: #b00;
+    color: #000;
+}
+
+.red8 {
+    background-color: #D50000;
+    color: #000;
+}
+
+.red9 {
+    background-color: #e00;
+    color: #000;
+}
+
+#container {
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    background-color: #222;
+    padding: 1px;
+}
+
+#Indian-Flag {
+    position: absolute;
+    top: 15;
+    left: 30;
+}
+
+#India-National-Flag {
+    width: 75px;
+    height: 50px;
+}
+
+#github {
+    position: absolute;
+    top: 15;
+    right: 30;
+}
+
+#github-icon {
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    flex: 1;
+}
+
+#page-options {
+    margin: 2% 0%;
+}
+
+i {
+    margin: 0% 2%;
+    padding: 1.25%;
+}
+
+#page-0-icon {
+    font-size: 30px;
+}
+
+#page-1-icon {
+    font-size: 30px;
+}
+
+#page-2-icon {
+    font-size: 30px;
+}
+
+#page-3-icon {
+    font-size: 30px;
+}
+
+#page-4-icon {
+    font-size: 30px;
+}
+
+.page-icons {
+    border-radius: 12px;
+}
+
+.page-icons:hover {
+    color: black;
+    /* background-color: rgb(181, 79, 7); */
+    /* background-color: rgb(222, 101, 16); */
+    /* background-color: rgb(245, 130, 49); */
+    /* background-color: rgb(153, 102, 51); */
+    /* background-color: rgb(148, 49, 49); */
+    background-color: #7f3199;
+    cursor: pointer;
+}
+
+.active-page-icon {
+    /* color: black; */
+    /* background-color: rgb(102, 51, 153); */
+    /* background-color: #7f3199; */
+    background-color: rgb(51, 153, 102);
+    color: #000;
+    border-radius: 12px;
+}
+
+.active-page-icon:hover {
+    /* background-color: #7f3199; */
+    background-color: rgb(51, 153, 102);
+}
+
+section {
+
+}
+
+.page-heading {
+    margin: 0% 7% 4% 7%;
+}
+
+#page-0 {
+    margin-top: 3%;
+}
+
+.about-data-table {
+    margin: 0% 7% 4% 7%;
+}
+
+.about-table {
+    font-family: verdana;
+    font-size: small;
+    margin: 3% auto;
+}
+
+.cin {
+    text-decoration: none;
+    color: #fff;
+}
+
+#page-1 {
+    margin-top: 3%;
+}
+
+#page-1-nav {
+    text-align: left;
+    font-family: verdana;
+    font-size: 14px;
+    width: 28%;
+    /* margin-top: 0.5%; */
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 1px;
+}
+
+.fund-scheme {
+    background: none;
+    color: inherit;
+	font: inherit;
+    cursor: pointer;
+    border: 2px solid #000;
+    padding: 0px 7px;
+    border-radius: 25px;
+}
+
+.fund-scheme:hover {
+    border: 2px solid rgb(148, 49, 49);
+    color: black;
+    background-color: rgb(148, 49, 49);
+}
+
+.active-fund-scheme {
+    border: 2px solid #4169e1;
+    color: black;
+    background-color: #4169e1;
+}
+
+.active-fund-scheme:hover {
+    border: 2px solid #4169e1;
+    background-color: #4169e1;
+}
+
+#fund-selection {
+    list-style-type: none;
+    margin: 0;
+    padding: 7% 0%;
+    border-right: 1px solid #999;
+    border-top: 1px dashed #555;
+    border-bottom: 1px dashed #555;
+}
+
+.toggle-arrow {
+    cursor: pointer;
+    user-select: none;
+}
+
+.toggle-arrow::before {
+    content: "\25B6";
+    color: #777;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.toggle-down::before {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.nested-list {
+    display: none;
+}
+
+.active-list {
+    display: block;
+}
+
+article {
+    text-align: center;
+    width: 69%;
+}
+
+.empty {
+    height: 30px;
+}
+
+#graph-chart {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#google-graph-chart {
+
+}
+
+text {
+    fill: #fff;
+}
+
+.google-visualization-tooltip {
+    /* background-color: #000 !important; */
+    background-color: #111 !important;
+}
+
+.google-visualization-tooltip>path {
+    /* fill: #000; */
+    fill: #111;
+}
+
+.google-visualization-tooltip-item-list>li>span {
+    color: #fff !important;
+}
+
+#instructions {
+    padding: 7% 0%;
+}
+
+#pointer {
+    font-size: xx-large;
+    width: 25%;
+    margin-top: 3%;
+}
+
+#welcome {
+    width: 64%;
+}
+
+#page-2 {
+    margin-top: 3%;
+}
+
+#page-2-nav {
+    text-align: left;
+    font-family: verdana;
+    font-size: 14px;
+    width: 28%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+#fund-selection-consolidated {
+    list-style-type: none;
+    margin: 0;
+    padding: 7% 0%;
+    border-right: 1px solid #999;
+    border-top: 1px dashed #555;
+    border-bottom: 1px dashed #555;
+}
+
+.category-scheme {
+    background: none;
+    color: inherit;
+	font: inherit;
+    cursor: pointer;
+    border: 2px solid #000;
+    padding: 0px 7px;
+    border-radius: 25px;
+}
+
+.category-scheme:hover {
+    border: 2px solid rgb(148, 49, 49);
+    color: black;
+    background-color: rgb(148, 49, 49);
+}
+
+.active-category-scheme {
+    border: 2px solid #4169e1;
+    color: black;
+    background-color: #4169e1;
+}
+
+.active-category-scheme:hover {
+    border: 2px solid #4169e1;
+    background-color: #4169e1;
+}
+
+#graph-chart-consolidated {
+    /*
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    */
+}
+
+#google-graph-chart-consolidated {
+
+}
+
+#instructions-consolidated {
+
+}
+
+#pointer-consolidated {
+    font-size: xx-large;
+    width: 25%;
+    padding: 8% 0%;
+}
+
+#welcome-consolidated {
+    width: 64%;
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+
+/*
+.scheme-category-consolidated {
+    margin: 0% 7% 4% 7%;
+}
+*/
+
+#page-3 {
+    margin-top: 3%;
+}
+
+#note-explanation {
+    margin: 3% 0% 4% 0%;
+}
+
+.scheme-data-table {
+    /*
+    padding: 0% 0% 5% 0%;
+    margin: 0% 7%;
+    */
+    margin: 0% 7% 4% 7%;
+}
+
+table {
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th {
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0;
+    color: #ddd;
+}
+
+.blank {
+    border: none;
+    background-color: #000;
+}
+
+.even-row {
+    background-color: #111;
+}
+
+td {
+    border: 1px solid #222;
+    padding: 5px;
+    color: #bbb;
+}
+
+#page-4 {
+    margin-top: 3%;
+}
+
+#nps-official {
+
+}
+
+.contact-book-data {
+    margin-bottom: 4%;
+    font-family: verdana;
+}
+
+.contact-book-data>h2 {
+    text-decoration: overline underline;
+    text-underline-offset: 4px;
+}
+
+.nps-entity-title {
+    /* text-decoration: overline; */
+    text-decoration: underline;
+    /* font-family: arial; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.email {
+    text-align: right;
+    width: 45%;
+    padding-right: 5%;
+}
+
+.phone-number {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.left-line {
+    border-left: 2px dashed #777;
+}
+
+.right-line {
+    border-right: 2px dashed #777;
+}
+
+#turquoise-space {
+
+}
+
+#contact-form {
+
+}
+
+/*
+textarea:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+*/
+
+.contact-form-field-div {
+    margin-bottom: 2%;
+}
+
+.contact-form-field {
+    background: none;
+    color: inherit;
+    font: inherit;
+    border: 2px solid #000;
+    padding: 7px 7px;
+    border-radius: 10px;
+    color: #fff;
+    width: 35%;
+    height: 40px;
+    font-size: larger;
+    background-color: #555;
+}
+
+.contact-form-field-message {
+    background: none;
+    color: inherit;
+    font: inherit;
+    border: 2px solid #000;
+    padding: 7px 7px;
+    border-radius: 10px;
+    color: #fff;
+    width: 35%;
+    font-size: large;
+    background-color: #555;
+}
+
+#contact-turquoise-space-button {
+    background: none;
+    color: inherit;
+    font: inherit;
+    border: 2px solid royalblue;
+    padding: 0px 7px;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: larger;
+}
+
+#contact-turquoise-space-button:hover {
+    background-color: royalblue;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    padding: 1px;
+    /* position: relative; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: verdana;
+}

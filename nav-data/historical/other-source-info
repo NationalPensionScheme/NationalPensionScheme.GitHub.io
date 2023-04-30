@@ -1,0 +1,442 @@
+
+
+
+Money Control (NIFTY Chart Data)
+________________________________
+
+
+JSON
+
+https://www.moneycontrol.com/mc/widget/pfonetimeinvestment/get_chart_value
+
+
+
+MoneyControl (Source URL)
+_________________________
+
+
+https://www.moneycontrol.com/nps/nav/reliance-pension-fund-scheme-e-tier-i/SM006001
+
+
+JSON
+
+https://www.moneycontrol.com/mc/widget/pfonetimeinvestment/get_chart_value?isin=&dur=ALL&ind_id=9&npsid=SM006001&classic=true&type=benchmark&investmentType=
+
+https://www.moneycontrol.com/mc/widget/pfonetimeinvestment/get_chart_value?dur=ALL&npsid=SM006002
+
+https://www.moneycontrol.com/mc/widget/pfonetimeinvestment/get_chart_value?npsid=SM006002
+
+
+
+LiveMint (Source URL)
+_____________________
+
+
+https://www.livemint.com/market/market-stats/national-pension-scheme
+
+
+
+
+LiveMint (Scheme Data Pages)
+____________________________
+
+
+URL Pattern :
+https://www.livemint.com/market/market-stats/national-pension-scheme/{randomText}-{schemeNumber}
+
+
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-e--tier-i-43
+ICICI Prudential Pension Fund Scheme E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-pension-fund-scheme-e--tier-i-22
+UTI Retirement Solutions Pension Fund Scheme E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-e--tier-i-29
+Kotak Pension Fund Scheme E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-central-govt-11
+SBI Pension Fund Scheme Central Govt.
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-e--tier-i-13
+SBI Pension Fund Scheme E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-scheme-e--tier-ii-25
+UTI Retirement Solutions Scheme E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-central-govt-8
+LIC Pension Fund Scheme Central Govt.
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-pension-fund-scheme-central-govt-20
+UTI Retirement Solutions Pension Fund Scheme Central Govt.
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-e--tier-ii-32
+Kotak Pension Fund Scheme E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-e--tier-ii-46
+ICICI Prudential Pension Fund Scheme E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-c--tier-i-14
+SBI Pension Fund Scheme C - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-c--tier-i-44
+ICICI Prudential Pension Fund Scheme C - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-e--tier-ii-16
+SBI Pension Fund Scheme E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-e--tier-i-59
+HDFC Pension Management Company Limited Scheme E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-c--tier-i-30
+Kotak Pension Fund Scheme C - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-sg-scheme-state-govt-9
+LIC Pension Fund SG Scheme State Govt.
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-pension-fund-scheme-state-govt-21
+UTI Retirement Solutions Pension Fund Scheme State Govt.
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-c--tier-ii-47
+ICICI Prudential Pension Fund Scheme C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-state-govt-12
+SBI Pension Fund Scheme State Govt.
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-g--tier-i-15
+SBI Pension Fund Scheme G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-c--tier-ii-17
+SBI Pension Fund Scheme C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-pension-fund-scheme-c--tier-i-23
+UTI Retirement Solutions Pension Fund Scheme C - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-g--tier-ii-18
+SBI Pension Fund Scheme G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-nps-lite-govtpattern-19
+SBI Pension Fund Scheme NPS LITE- Govt.Pattern
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-nps-lite-govtpattern-10
+LIC Pension Fund Scheme NPS LITE- Govt.Pattern
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-scheme-nps-lite-govtpattern-28
+UTI Retirement Solutions Scheme NPS LITE- Govt.Pattern
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-g--tier-i-45
+ICICI Prudential Pension Fund Scheme G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-scheme-c--tier-ii-26
+UTI Retirement Solutions Scheme C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-g--tier-i-31
+Kotak Pension Fund Scheme G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-e--tier-ii-62
+HDFC Pension Management Company Limited Scheme E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-scheme-g--tier-ii-27
+UTI Retirement Solutions Scheme G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-c--tier-ii-33
+Kotak Pension Fund Scheme C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-g--tier-ii-48
+ICICI Prudential Pension Fund Scheme G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-e--tier-i-53
+LIC Pension Fund Scheme E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-pension-fund-scheme-g--tier-i-24
+UTI Retirement Solutions Pension Fund Scheme G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-g--tier-ii-34
+Kotak Pension Fund Scheme G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-nps-lite-govtpattern-35
+Kotak Pension Fund Scheme NPS LITE- Govt.Pattern
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-g--tier-ii-58
+LIC Pension Fund Scheme G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-limited-scheme--corporate-cg-52
+LIC Pension Fund Limited Scheme - Corporate CG
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-pvtltd-scheme--corporate-cg-50
+SBI Pension Fund Pvt.Ltd. Scheme - Corporate-CG
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-g--tier-i-55
+LIC Pension Fund Scheme G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-e--tier-ii-56
+LIC Pension Fund Scheme E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-c--tier-i-60
+HDFC Pension Management Company Limited Scheme C - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-g--tier-ii-64
+HDFC Pension Management Company Limited Scheme G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-c--tier-i-54
+LIC Pension Fund Scheme C - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-g--tier-i-61
+HDFC Pension Management Company Limited Scheme G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-c--tier-ii-63
+HDFC Pension Management Company Limited Scheme C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-c--tier-ii-57
+LIC Pension Fund Scheme C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-scheme--atal-pension-yojna-apy-74
+UTi Retirement Solutions Scheme - Atal Pension Yojna (APY)
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme--atal-pension-yojna-apy-72
+LIC Pension Fund Scheme - Atal Pension Yojna (APY)
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme--atal-pension-yojna-apy-73
+SBI Pension Fund Scheme - Atal Pension Yojna (APY)
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-scheme-e--tier-i-90
+Aditya Birla Sun Life Pension Scheme E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-scheme-e--tier-ii-94
+Aditya Birla Sun Life Pension Scheme E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-a--tier-i-83
+SBI Pension Fund Scheme A - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--e--tier-ii-2
+IDFC Pension Fund Scheme - E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-scheme-c--tier-i-91
+Aditya Birla Sun Life Pension Scheme C - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-a--tier-i-75
+HDFC Pension Management Company Limited Scheme A - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-a--tier-i-79
+LIC Pension Fund Scheme A - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-scheme-c--tier-ii-95
+Aditya Birla Sun Life Pension Scheme C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-scheme-g--tier-i-92
+Aditya Birla Sun Life Pension Scheme G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-a--tier-i-77
+Kotak Pension Fund Scheme A - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-a--tier-i-87
+ICICI Prudential Pension Fund Scheme A - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-scheme-g--tier-ii-96
+Aditya Birla Sun Life Pension Scheme G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-pension-fund-scheme-a--tier-i-85
+UTI Retirement Solutions Pension Fund Scheme A - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--e--tier-i-1
+IDFC Pension Fund Scheme - E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-scheme-a--tier-i-93
+Aditya Birla Sun Life Pension Scheme A - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--c--tier-ii-4
+IDFC Pension Fund Scheme - C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--g--tier-i-5
+IDFC Pension Fund Scheme - G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/dsp-blackrock-pension-fund-scheme-e--tier-i-65
+DSP BlackRock Pension Fund Scheme E - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--g--tier-ii-6
+IDFC Pension Fund Scheme - G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/dsp-blackrock-pension-fund-scheme-e--tier-ii-68
+DSP BlackRock Pension Fund Scheme E - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme-nps-lite-govtpattern-7
+IDFC Pension Fund Scheme NPS LITE- Govt.Pattern
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/dsp-blackrock-pension-fund-scheme-g--tier-i-67
+DSP BlackRock Pension Fund Scheme G - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/dsp-blackrock-pension-fund-scheme-g--tier-ii-70
+DSP BlackRock Pension Fund Scheme G - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/dsp-blackrock-pension-fund-scheme-c--tier-i-66
+DSP BlackRock Pension Fund Scheme C - Tier I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/nps-trust-ac-kotak-mahindra-pension-fund-scheme-tax-saver-tier-ii-101
+NPS Trust A/C-Kotak Mahindra Pension Fund Scheme Tax Saver Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-fund-scheme-tax-saver-tier-ii-102
+Aditya Birla Sun Life Pension Fund Scheme Tax Saver Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/dsp-blackrock-pension-fund-scheme-c--tier-ii-69
+DSP BlackRock Pension Fund Scheme C - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-funds-scheme-tax-saver-tier-ii-100
+ICICI Prudential Pension Funds Scheme Tax Saver Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/nps-trust--ac-lic-pension-fund-scheme-tax-saver-tier-ii-103
+NPS Trust - A/C LIC Pension Fund Scheme Tax Saver Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/sbi-pension-fund-scheme-a--tier-ii-84
+SBI Pension Fund Scheme A - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/nps-trust-ac-hdfc-pension-management-company-ltd-scheme-tax-saver-tier-ii-106
+NPS Trust A/C-HDFC Pension Management Company Ltd Scheme Tax Saver Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/kotak-pension-fund-scheme-a--tier-ii-78
+Kotak Pension Fund Scheme A - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/nps-trust-ac-sbi-pension-fund-scheme-tax-saver-tier-ii-104
+NPS Trust A/C-SBI Pension Fund Scheme Tax Saver Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/nps-trust--ac-uti-retirement-solutions-pension-fund-scheme--tax-saver-tier-ii-105
+NPS Trust - A/c UTI Retirement Solutions Pension Fund Scheme - Tax Saver- Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/aditya-birla-sun-life-pension-scheme-a--tier-ii-97
+Aditya Birla Sun Life Pension Scheme A - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-pension-fund-scheme-a--tier-ii-86
+UTI Retirement Solutions Pension Fund Scheme A - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-a--tier-ii-88
+ICICI Prudential Pension Fund Scheme A - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-nps-lite-govt-pattern-89
+HDFC Pension Management Company Limited Scheme  NPS LITE- GOVT. Pattern
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/hdfc-pension-management-company-limited-scheme-a--tier-ii-76
+HDFC Pension Management Company Limited Scheme A - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/lic-pension-fund-scheme-a--tier-ii-80
+LIC Pension Fund Scheme A - Tier II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/nps-trust-ac-dsp-blackrock-pension-fund-managers-private-limited-scheme--nps-lite-scheme--govt-pattern-71
+NPS Trust A/C-DSP BlackRock Pension Fund Managers Private Limited Scheme - NPS Lite Scheme - Govt. Pattern
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/uti-retirement-solutions-pension-fund-scheme--corporate--cg-51
+UTI Retirement Solutions Pension Fund Scheme - Corporate - CG
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/icici-prudential-pension-fund-scheme-nps-lite-govtpattern-49
+ICICI Prudential Pension Fund Scheme NPS LITE- Govt.Pattern
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--c--tier-i-3
+IDFC Pension Fund Scheme - C - Tier I
+
+
+
+
+LiveMint (Scheme Numbers)
+_________________________
+
+
+Extracted from above list, using the command :
+
+cat live-mint-schemes | awk '{print substr($1,length($1)-2) }' | sed 's/[^0-9]*//g' | grep -v "^$" | sort -n | uniq > live-mint-scheme-numbers
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+100
+101
+102
+103
+104
+105
+106
+
+

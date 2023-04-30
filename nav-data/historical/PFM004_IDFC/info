@@ -1,0 +1,107 @@
+
+
+
+Web Page
+
+https://www.livemint.com/market/market-stats/national-pension-scheme
+
+
+
+IDFC PENSION FUND SCHEME - E - TIER I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--e--tier-i-1
+
+SchemeId: 1
+
+SM004001
+
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode=1&Period=20y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+
+
+IDFC PENSION FUND SCHEME - E - TIER II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--e--tier-ii-2
+
+SchemeId: 2
+
+SM004004
+
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode=2&Period=20y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+
+
+IDFC PENSION FUND SCHEME - C - TIER I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--c--tier-i-3
+
+SchemeId: 3
+
+SM004002
+
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode=3&Period=20y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+
+
+IDFC PENSION FUND SCHEME - C - TIER II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--c--tier-ii-4
+
+SchemeId: 4
+
+SM004005
+
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode=4&Period=20y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+
+
+IDFC PENSION FUND SCHEME - G - TIER I
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--g--tier-i-5
+
+SchemeId: 5
+
+SM004003
+
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode=5&Period=20y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+
+
+IDFC PENSION FUND SCHEME - G - TIER II
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme--g--tier-ii-6
+
+SchemeId: 6
+
+SM004006
+
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode=6&Period=20y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+
+
+IDFC PENSION FUND SCHEME NPS LITE- GOVTPATTERN
+
+https://www.livemint.com/market/market-stats/national-pension-scheme/idfc-pension-fund-scheme-nps-lite-govtpattern-7
+
+SchemeId: 7
+
+SM004007
+
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode=7&Period=20y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+
+
+__________________________________________________________________________________________________________________________________________
+
+
+
+JSON
+
+
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode={SchemeId}&Period={YearCount}y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+Example:
+https://apifeed.acedatafeed.com/php/Nps.php?method=GetMFNAVGraphnps&SchemeCode=1&Period=20y&ChType=RAW&DateOption==&token=Lz3BzPIYEgX_mint
+
+
+

@@ -1,0 +1,2627 @@
+<html>
+    <head>
+        <title>NPS India : National Pension Scheme - Performance Growth Visualization Analysis of Trust Managers, Funds & Schemes : SBI / UTI / LIC / IDFC / Kotak Mahindra / Reliance Capital / ICICI Prudential / HDFC / DSP BlackRock / Aditya Birla Sun Life</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="website/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="website/js/schemeInfo.js"></script>
+        <script type="text/javascript" src="website/js/pushNotification.js"></script>
+        <script type="text/javascript" src="website/js/categorize.js"></script>
+        <script type="text/javascript" src="website/js/page.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="website/js/projection.js"></script>
+    </head>
+    <body>
+        <div id="container">
+
+            <header>
+                <div id="Indian-Flag">
+                    <img id="India-National-Flag" src="website/images/Flag_of_India.svg">
+                </div>
+                <h1>
+                    NPS : National Pension Scheme (India)
+                </h1>
+                <div id="github">
+                    <a href="https://github.com/TurquoiseSpace/National-Pension-Scheme/">
+                        <img id="github-icon" src="website/images/github-icon.png">
+                    </a>
+                </div>
+            </header>
+
+            <main>
+
+                <div id="page-options">
+                    <i id="page-0-icon" class="fa page-icons" onclick="viewPage(0)" title="Pension Managers & Schemes">&#xf19c;</i>
+                    <i id="page-1-icon" class="fa page-icons" onclick="viewPage(1)" title="Individual Charts - Fund Manager Wise - Daily NAV Trends">&#xf201;</i>
+                    <i id="page-2-icon" class="fa page-icons" onclick="viewPage(2)" title="Consolidated Charts - Category Wise - Daily NAV Trends">&#xf247;</i>
+                    <i id="page-3-icon" class="fa page-icons" onclick="viewPage(3)" title="Consolidated Performance Analysis - Category Wise - Financial Year Average Growth Percentage">&#xf0ce;</i>
+                    <i id="page-4-icon" class="fa page-icons" onclick="viewPage(4)" title="Contact Book">&#xf2ba;</i>
+                </div>
+
+                <section id="page-0">
+
+                    <div id="pension-fund-managers" class="about-data-table">
+                        <h2>Pension Fund Managers</h2>
+                        <p>
+                            Total : 13
+                        </p>
+                        <table class="about-table">
+                            <tr>
+                                <th class="blank"></th>
+                                <th>Manager Id</th>
+                                <th>Company</th>
+                                <th>Company Identification Number</th>
+                                <th>Ownership</th>
+                                <th>Incorporated</th>
+                                <th>Manager Since</th>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM001</td>
+                                <td>SBI Pension Funds Private Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66020MH2007GOI176787" target="_blank">U66020MH2007GOI176787</a></td>
+                                <td>Government</td>
+                                <td>14 December 2007</td>
+                                <td>31 March 2008</td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM002</td>
+                                <td>UTI Retirement Solutions Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66020MH2007GOI176785" target="_blank">U66020MH2007GOI176785</a></td>
+                                <td>Government</td>
+                                <td>14 December 2007</td>
+                                <td>1 April 2008</td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM003</td>
+                                <td>LIC Pension Fund Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66020MH2007PLC176066" target="_blank">U66020MH2007PLC176066</a></td>
+                                <td>Public</td>
+                                <td>21 November 2007</td>
+                                <td>1 December 2009</td>
+                            </tr>
+                            <tr>
+                                <td class="blank">*</td>
+                                <td>PFM004</td>
+                                <td>IDFC Pension Fund Management Company Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66000MH2009PLC191350" target="_blank">U66000MH2009PLC191350</a></td>
+                                <td>Public</td>
+                                <td>31 March 2009</td>
+                                <td>1 May 2009</td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM005</td>
+                                <td>Kotak Mahindra Pension Fund Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U67200MH2009PLC191144" target="_blank">U67200MH2009PLC191144</a></td>
+                                <td>Public</td>
+                                <td>23 March 2009</td>
+                                <td>13 May 2009</td>
+                            </tr>
+                            <tr>
+                                <td class="blank">*</td>
+                                <td>PFM006</td>
+                                <td>Reliance Capital Pension Fund Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66020MH2009PLC191340" target="_blank">U66020MH2009PLC191340</a></td>
+                                <td>Public</td>
+                                <td>31 March 2009</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM007</td>
+                                <td>ICICI Prudential Pension Funds Management Company Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66000MH2009PLC191935" target="_blank">U66000MH2009PLC191935</a></td>
+                                <td>Public</td>
+                                <td>22 April 2009</td>
+                                <td>18 May 2009</td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM008</td>
+                                <td>HDFC Pension Management Company Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66020MH2011PLC218824" target="_blank">U66020MH2011PLC218824</a></td>
+                                <td>Public</td>
+                                <td>20 June 2011</td>
+                                <td>1 August 2013</td>
+                            </tr>
+                            <tr>
+                                <td class="blank">*</td>
+                                <td>PFM009</td>
+                                <td>DSP BlackRock Pension Fund Managers Private Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U67190MH2012PTC238252" target="_blank">U67190MH2012PTC238252</a></td>
+                                <td>Private</td>
+                                <td>26 November 2012</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM010</td>
+                                <td>Aditya Birla Sun Life Pension Management Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66000MH2015PLC260801" target="_blank">U66000MH2015PLC260801</a></td>
+                                <td>Public</td>
+                                <td>09 January 2015</td>
+                                <td>12 July 2016</td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM011</td>
+                                <td>Tata Pension Management Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U74140MH2006PLC164217" target="_blank">U74140MH2006PLC164217</a></td>
+                                <td>Public</td>
+                                <td>31 August 2006</td>
+                                <td>19 August 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM012</td>
+                                <td>Max Life Pension Fund Management Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66020HR2022PLC101655" target="_blank">U66020HR2022PLC101655</a></td>
+                                <td>Public</td>
+                                <td>28 February 2022</td>
+                                <td>12 September 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="blank"></td>
+                                <td>PFM013</td>
+                                <td>Axis Pension Fund Management Limited</td>
+                                <td><a class="cin" href="https://www.google.com/search?q=U66020MH2022PLC382789" target="_blank">U66020MH2022PLC382789</a></td>
+                                <td>Public</td>
+                                <td>17 May 2022</td>
+                                <td>21 October 2022</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>
+                                All are registered with MCA (Ministry of Corporate Affairs) under ROC (Registrar of Companies) Maharashtra
+                            </i>
+                        </p>
+                        <p>
+                            <i>
+                                All are Active with NPS, except the ones marked with *
+                            </i>
+                        </p>
+                    </div>
+
+                    <div id="pension-schemes" class="about-data-table">
+                        <h2>Pension Schemes</h2>
+                        <p>
+                            Total : 128
+                        </p>
+                        <table class="about-table">
+                            <tr>
+                                <th>Scheme Id</th>
+                                <th>Scheme Name</th>
+                            </tr>
+                            <tr>
+                                <td>SM001001</td>
+                                <td>SBI PENSION FUND SCHEME - CENTRAL GOVT</td>
+                            </tr>
+                            <tr>
+                                <td>SM001002</td>
+                                <td>SBI PENSION FUND SCHEME - STATE GOVT</td>
+                            </tr>
+                            <tr>
+                                <td>SM001003</td>
+                                <td>SBI PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM001004</td>
+                                <td>SBI PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM001005</td>
+                                <td>SBI PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM001006</td>
+                                <td>SBI PENSION FUND SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM001007</td>
+                                <td>SBI PENSION FUND SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM001008</td>
+                                <td>SBI PENSION FUND SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM001009</td>
+                                <td>NPS TRUST A/C-SBI PENSION FUNDS PRIVATE LIMITED- NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM001010</td>
+                                <td>SBI PENSION FUNDS PVT LTD SCHEME - CORPORATE-CG</td>
+                            </tr>
+                            <tr>
+                                <td>SM001010</td>
+                                <td>SBI PENSION FUNDS PVT. LTD. SCHEME - CORPORATE-CG</td>
+                            </tr>
+                            <tr>
+                                <td>SM001011</td>
+                                <td>NPS TRUST - A/C SBI PENSION FUND SCHEME - ATAL PENSION YOJANA (APY)</td>
+                            </tr>
+                            <tr>
+                                <td>SM001011</td>
+                                <td>NPS TRUST A/C-SBI PENSION FUND SCHEME - ATAL PENSION YOJNA (APY)</td>
+                            </tr>
+                            <tr>
+                                <td>SM001012</td>
+                                <td>SBI PENSION FUND SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM001013</td>
+                                <td>SBI PENSION FUND SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM001014</td>
+                                <td>NPS TRUST A/C-SBI PENSION FUND SCHEME TAX SAVER TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM002001</td>
+                                <td>UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME- CENTRAL GOVT</td>
+                            </tr>
+                            <tr>
+                                <td>SM002002</td>
+                                <td>UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME- STATE GOVT</td>
+                            </tr>
+                            <tr>
+                                <td>SM002003</td>
+                                <td>UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM002004</td>
+                                <td>UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM002005</td>
+                                <td>UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM002006</td>
+                                <td>UTI RETIREMENT SOLUTIONS SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM002007</td>
+                                <td>UTI RETIREMENT SOLUTIONS SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM002008</td>
+                                <td>UTI RETIREMENT SOLUTIONS SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM002009</td>
+                                <td>NPS TRUST A/C-UTI RETIREMENT SOLUTIONS LIMITED- NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM002010</td>
+                                <td>UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME - CORPORATE-CG</td>
+                            </tr>
+                            <tr>
+                                <td>SM002011</td>
+                                <td>NPS TRUST - A/C UTI RETIREMENT SOLUTIONS LTD. SCHEME - ATAL PENSION YOJANA (APY)</td>
+                            </tr>
+                            <tr>
+                                <td>SM002011</td>
+                                <td>NPS TRUST A/C-UTI RETIREMENT SOLUTIONS SCHEME - ATAL PENSION YOJNA (APY)</td>
+                            </tr>
+                            <tr>
+                                <td>SM002012</td>
+                                <td>UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM002013</td>
+                                <td>UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM002014</td>
+                                <td>NPS TRUST A/C-UTI RETIREMENT SOLUTIONS PENSION FUND SCHEME TAX SAVER TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM003001</td>
+                                <td>LIC PENSION FUND SCHEME - CENTRAL GOVT</td>
+                            </tr>
+                            <tr>
+                                <td>SM003002</td>
+                                <td>LIC PENSION FUND SCHEME - STATE GOVT</td>
+                            </tr>
+                            <tr>
+                                <td>SM003003</td>
+                                <td>NPS TRUST A/C-LIC PENSION FUND LIMITED- NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM003004</td>
+                                <td>LIC PENSION FUND LIMITED SCHEME - CORPORATE-CG</td>
+                            </tr>
+                            <tr>
+                                <td>SM003005</td>
+                                <td>LIC PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM003006</td>
+                                <td>LIC PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM003007</td>
+                                <td>LIC PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM003008</td>
+                                <td>LIC PENSION FUND SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM003009</td>
+                                <td>LIC PENSION FUND SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM003010</td>
+                                <td>LIC PENSION FUND SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM003011</td>
+                                <td>NPS TRUST - A/C LIC PENSION FUND SCHEME - ATAL PENSION YOJANA (APY)</td>
+                            </tr>
+                            <tr>
+                                <td>SM003011</td>
+                                <td>NPS TRUST A/C-LIC PENSION FUND SCHEME - ATAL PENSION YOJNA (APY)</td>
+                            </tr>
+                            <tr>
+                                <td>SM003012</td>
+                                <td>LIC PENSION FUND SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM003013</td>
+                                <td>LIC PENSION FUND SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM003014</td>
+                                <td>NPS TRUST - A/C LIC PENSION FUND SCHEME TAX SAVER TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM004001</td>
+                                <td>IDFC PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM004002</td>
+                                <td>IDFC PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM004003</td>
+                                <td>IDFC PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM004004</td>
+                                <td>IDFC PENSION FUND SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM004005</td>
+                                <td>IDFC PENSION FUND SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM004006</td>
+                                <td>IDFC PENSION FUND SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM004007</td>
+                                <td>NPS TRUST A/C-IDFC PENSION FUND MANAGEMENT COMPANY LIMITED- NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM005001</td>
+                                <td>KOTAK PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM005002</td>
+                                <td>KOTAK PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM005003</td>
+                                <td>KOTAK PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM005004</td>
+                                <td>KOTAK PENSION FUND SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM005005</td>
+                                <td>KOTAK PENSION FUND SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM005006</td>
+                                <td>KOTAK PENSION FUND SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM005007</td>
+                                <td>NPS TRUST A/C-KOTAK MAHINDRA PENSION FUND LIMITED- NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM005008</td>
+                                <td>KOTAK PENSION FUND SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM005009</td>
+                                <td>KOTAK PENSION FUND SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM005010</td>
+                                <td>NPS TRUST A/C-KOTAK MAHINDRA PENSION FUND SCHEME TAX SAVER TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM006001</td>
+                                <td>RELIANCE PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM006002</td>
+                                <td>RELIANCE PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM006003</td>
+                                <td>RELIANCE PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM006004</td>
+                                <td>RELIANCE PENSION FUND SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM006005</td>
+                                <td>RELIANCE PENSION FUND SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM006006</td>
+                                <td>RELIANCE PENSION FUND SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM006007</td>
+                                <td>NPS TRUST A/C-RELIANCE CAPITAL PENSION FUND LIMITED- NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM006008</td>
+                                <td>RELIANCE PENSION FUND SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM006009</td>
+                                <td>RELIANCE PENSION FUND SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM007001</td>
+                                <td>ICICI PRUDENTIAL PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM007002</td>
+                                <td>ICICI PRUDENTIAL PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM007003</td>
+                                <td>ICICI PRUDENTIAL PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM007004</td>
+                                <td>ICICI PRUDENTIAL PENSION FUND SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM007005</td>
+                                <td>ICICI PRUDENTIAL PENSION FUND SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM007006</td>
+                                <td>ICICI PRUDENTIAL PENSION FUND SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM007007</td>
+                                <td>NPS TRUST A/C-ICICI PRUDENTIAL PENSION FUNDS MANAGEMENT COMPANY LIMITED- NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM007008</td>
+                                <td>ICICI PRUDENTIAL PENSION FUND SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM007009</td>
+                                <td>ICICI PRUDENTIAL PENSION FUND SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM007010</td>
+                                <td>ICICI PRUDENTIAL PENSION FUNDS SCHEME TAX SAVER TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM008001</td>
+                                <td>HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM008002</td>
+                                <td>HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM008003</td>
+                                <td>HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM008004</td>
+                                <td>HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM008005</td>
+                                <td>HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM008006</td>
+                                <td>HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM008007</td>
+                                <td>NPS TRUST A/C-HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME - NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM008008</td>
+                                <td>HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM008009</td>
+                                <td>HDFC PENSION MANAGEMENT COMPANY LIMITED SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM008010</td>
+                                <td>NPS TRUST A/C-HDFC PENSION MANAGEMENT COMPANY LTD SCHEME TAX SAVER TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM009001</td>
+                                <td>DSP BLACKROCK PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM009002</td>
+                                <td>DSP BLACKROCK PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM009003</td>
+                                <td>DSP BLACKROCK PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM009004</td>
+                                <td>DSP BLACKROCK PENSION FUND SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM009005</td>
+                                <td>DSP BLACKROCK PENSION FUND SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM009006</td>
+                                <td>DSP BLACKROCK PENSION FUND SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM009007</td>
+                                <td>NPS TRUST A/C-DSP BLACKROCK PENSION FUND MANAGERS PRIVATE LIMITED SCHEME - NPS LITE SCHEME - GOVT. PATTERN</td>
+                            </tr>
+                            <tr>
+                                <td>SM010001</td>
+                                <td>ADITYA BIRLA SUNLIFE PENSION FUND SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM010001</td>
+                                <td>BIRLA SUN LIFE PENSION SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM010002</td>
+                                <td>ADITYA BIRLA SUNLIFE PENSION FUND SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM010002</td>
+                                <td>BIRLA SUN LIFE PENSION SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM010003</td>
+                                <td>ADITYA BIRLA SUNLIFE PENSION FUND SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM010003</td>
+                                <td>BIRLA SUN LIFE PENSION SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM010004</td>
+                                <td>ADITYA BIRLA SUNLIFE PENSION FUND SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM010004</td>
+                                <td>BIRLA SUN LIFE PENSION SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM010005</td>
+                                <td>ADITYA BIRLA SUNLIFE PENSION FUND SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM010005</td>
+                                <td>BIRLA SUN LIFE PENSION SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM010006</td>
+                                <td>ADITYA BIRLA SUNLIFE PENSION FUND SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM010006</td>
+                                <td>BIRLA SUN LIFE PENSION SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM010007</td>
+                                <td>ADITYA BIRLA SUNLIFE PENSION FUND SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM010007</td>
+                                <td>BIRLA SUN LIFE PENSION SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM010008</td>
+                                <td>ADITYA BIRLA SUNLIFE PENSION FUND SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM010008</td>
+                                <td>BIRLA SUN LIFE PENSION SCHEME A - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM010009</td>
+                                <td>ADITYA BIRLA SUN LIFE PENSION FUND SCHEME TAX SAVER TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM011001</td>
+                                <td>TATA PENSION MANAGEMENT LIMITED SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM011002</td>
+                                <td>TATA PENSION MANAGEMENT LIMITED SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM011003</td>
+                                <td>TATA PENSION MANAGEMENT LIMITED SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM011004</td>
+                                <td>TATA PENSION MANAGEMENT LIMITED SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM011005</td>
+                                <td>TATA PENSION MANAGEMENT LIMITED SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM011006</td>
+                                <td>TATA PENSION MANAGEMENT LIMITED SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM011007</td>
+                                <td>TATA PENSION MANAGEMENT LIMITED SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM011008</td>
+                                <td>TATA PENSION MANAGEMENT LIMITED TAX SAVER - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM012001</td>
+                                <td>MAX LIFE PENSION FUND MANAGEMENT LIMITED SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM012002</td>
+                                <td>MAX LIFE PENSION FUND MANAGEMENT LIMITED SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM012003</td>
+                                <td>MAX LIFE PENSION FUND MANAGEMENT LIMITED SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM012004</td>
+                                <td>MAX LIFE PENSION FUND MANAGEMENT LIMITED SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM012005</td>
+                                <td>MAX LIFE PENSION FUND MANAGEMENT LIMITED SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM012006</td>
+                                <td>MAX LIFE PENSION FUND MANAGEMENT LIMITED SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM012007</td>
+                                <td>MAX LIFE PENSION FUND MANAGEMENT LIMITED SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM012008</td>
+                                <td>MAX LIFE PENSION FUND MANAGEMENT LIMITED TAX SAVER TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM013001</td>
+                                <td>AXIS PENSION FUND MANAGEMENT LIMITED SCHEME E - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM013002</td>
+                                <td>AXIS PENSION FUND MANAGEMENT LIMITED SCHEME C - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM013003</td>
+                                <td>AXIS PENSION FUND MANAGEMENT LIMITED SCHEME G - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM013004</td>
+                                <td>AXIS PENSION FUND MANAGEMENT LIMITED SCHEME A - TIER I</td>
+                            </tr>
+                            <tr>
+                                <td>SM013005</td>
+                                <td>AXIS PENSION FUND MANAGEMENT LIMITED SCHEME E - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM013006</td>
+                                <td>AXIS PENSION FUND MANAGEMENT LIMITED SCHEME C - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM013007</td>
+                                <td>AXIS PENSION FUND MANAGEMENT LIMITED SCHEME G - TIER II</td>
+                            </tr>
+                            <tr>
+                                <td>SM013008</td>
+                                <td>AXIS PENSION FUND MANAGEMENT LIMITED SCHEME TAX SAVER - TIER II</td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+                </section>
+
+                <section id="page-1">
+
+                    <nav id="page-1-nav" class="left">
+
+                        <h3>
+                            Fund Managers
+                        </h3>
+                        <h3>
+                            &nbsp; &nbsp; &rdsh; Pension Schemes
+                        </h3>
+
+                        <ul id="fund-selection">
+
+                            <li>
+                                <span class="toggle-arrow">SBI</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM001011" value="SM001011" class="fund-scheme" onclick="visualize(this)">
+                                                    Atal Pension Yojana - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001010" value="SM001010" class="fund-scheme" onclick="visualize(this)">
+                                                    Corporate CG
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001001" value="SM001001" class="fund-scheme" onclick="visualize(this)">
+                                                    Government - Central
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001002" value="SM001002" class="fund-scheme" onclick="visualize(this)">
+                                                    Government - State
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001009" value="SM001009" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM001012" value="SM001012" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001004" value="SM001004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001003" value="SM001003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001005" value="SM001005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM001013" value="SM001013" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001007" value="SM001007" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001006" value="SM001006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001008" value="SM001008" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM001014" value="SM001014" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">UTI</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM002011" value="SM002011" class="fund-scheme" onclick="visualize(this)">
+                                                    Atal Pension Yojana - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002010" value="SM002010" class="fund-scheme" onclick="visualize(this)">
+                                                    Corporate CG
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002001" value="SM002001" class="fund-scheme" onclick="visualize(this)">
+                                                    Government - Central
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002002" value="SM002002" class="fund-scheme" onclick="visualize(this)">
+                                                    Government - State
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002009" value="SM002009" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM002012" value="SM002012" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002004" value="SM002004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002003" value="SM002003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002005" value="SM002005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM002013" value="SM002013" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002007" value="SM002007" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002006" value="SM002006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002008" value="SM002008" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM002014" value="SM002014" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">LIC</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM003011" value="SM003011" class="fund-scheme" onclick="visualize(this)">
+                                                    Atal Pension Yojana - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003004" value="SM003004" class="fund-scheme" onclick="visualize(this)">
+                                                    Corporate CG
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003001" value="SM003001" class="fund-scheme" onclick="visualize(this)">
+                                                    Government - Central
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003002" value="SM003002" class="fund-scheme" onclick="visualize(this)">
+                                                    Government - State
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003003" value="SM003003" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM003012" value="SM003012" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003006" value="SM003006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003005" value="SM003005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003007" value="SM003007" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM003013" value="SM003013" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003009" value="SM003009" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003008" value="SM003008" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003010" value="SM003010" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM003014" value="SM003014" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">IDFC</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM004007" value="SM004007" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM004002" value="SM004002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM004001" value="SM004001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM004003" value="SM004003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM004005" value="SM004005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM004004" value="SM004004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM004006" value="SM004006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">Kotak Mahindra</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM005007" value="SM005007" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM005008" value="SM005008" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM005002" value="SM005002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM005001" value="SM005001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM005003" value="SM005003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM005009" value="SM005009" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM005005" value="SM005005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM005004" value="SM005004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM005006" value="SM005006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM005010" value="SM005010" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">Reliance Capital</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM006007" value="SM006007" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM006008" value="SM006008" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM006002" value="SM006002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM006001" value="SM006001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM006003" value="SM006003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM006009" value="SM006009" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM006005" value="SM006005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM006004" value="SM006004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM006006" value="SM006006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">ICICI Prudential</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM007007" value="SM007007" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM007008" value="SM007008" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM007002" value="SM007002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM007001" value="SM007001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM007003" value="SM007003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM007009" value="SM007009" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM007005" value="SM007005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM007004" value="SM007004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM007006" value="SM007006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM007010" value="SM007010" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">HDFC</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM008007" value="SM008007" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM008008" value="SM008008" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM008002" value="SM008002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM008001" value="SM008001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM008003" value="SM008003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM008009" value="SM008009" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM008005" value="SM008005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM008004" value="SM008004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM008006" value="SM008006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM008010" value="SM008010" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">DSP BlackRock</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Other</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM009007" value="SM009007" class="fund-scheme" onclick="visualize(this)">
+                                                    Lite Scheme - NPS Trust A/C
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM009002" value="SM009002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM009001" value="SM009001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM009003" value="SM009003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM009005" value="SM009005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM009004" value="SM009004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM009006" value="SM009006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">Aditya Birla Sun Life</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM010004" value="SM010004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM010002" value="SM010002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM010001" value="SM010001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM010003" value="SM010003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM010008" value="SM010008" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM010006" value="SM010006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM010005" value="SM010005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM010007" value="SM010007" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM010009" value="SM010009" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">Tata</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM011004" value="SM011004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM011002" value="SM011002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM011001" value="SM011001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM011003" value="SM011003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM011006" value="SM011006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM011005" value="SM011005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM011007" value="SM011007" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM011008" value="SM011008" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">Max Life</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM012004" value="SM012004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM012002" value="SM012002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM012001" value="SM012001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM012003" value="SM012003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM012006" value="SM012006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM012005" value="SM012005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM012007" value="SM012007" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM012008" value="SM012008" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="toggle-arrow">Axis</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <span class="toggle-arrow">Tier I</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM013004" value="SM013004" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme A
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM013002" value="SM013002" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM013001" value="SM013001" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM013003" value="SM013003" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="toggle-arrow">Tier II</span>
+                                        <ul class="nested-list">
+                                            <li>
+                                                <button id="SM013006" value="SM013006" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme C
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM013005" value="SM013005" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme E
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM013007" value="SM013007" class="fund-scheme" onclick="visualize(this)">
+                                                    Scheme G
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button id="SM013008" value="SM013008" class="fund-scheme" onclick="visualize(this)">
+                                                    Tax Saver Scheme
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                    <article class="left">
+                        <!-- All the Code and Content goes here -->
+                        <div id="graph-chart">
+                            <div id="google-graph-chart">
+                                <div id="instructions">
+                                    <div id="pointer" class="left">
+                                        <h3>&#8592;</h3>
+                                    </div>
+                                    <div id="welcome" class="left">
+                                        <h3>
+                                            Choose a Scheme, from the Navigation options
+                                        </h3>
+                                        <h3>
+                                            Check on the left side; expand and select a "Red" coloured
+                                        </h3>
+                                        <h3>
+                                            To visualize "Individual" timeline graph of the Net Asset Value
+                                        </h3>
+                                        <h3>
+                                            Note : Scroll to Zoom In & Out, Right Click to Reset, Left Click to Mark Points
+                                        </h3>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <div class="clear"></div>
+                </section>
+
+                <section id="page-2">
+
+                    <nav id="page-2-nav" class="left">
+
+                        <h3>
+                            NPS Categories
+                        </h3>
+                        <h3>
+                            &nbsp; &nbsp; &rdsh; Pension Schemes
+                        </h3>
+
+                        <ul id="fund-selection-consolidated">
+                            <li>
+                                <span class="toggle-arrow">Other</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <button id="atal-pension-yojana" value="atal-pension-yojana" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Atal Pension Yojana - NPS Trust A/C
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="corporate-cg" value="corporate-cg" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Corporate CG
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="government-central" value="government-central" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Government - Central
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="government-state" value="government-state" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Government - State
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="lite-scheme" value="lite-scheme" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Lite Scheme - NPS Trust A/C
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="toggle-arrow">Tier I</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <button id="tier-i-scheme-a" value="tier-i-scheme-a" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Scheme A
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="tier-i-scheme-c" value="tier-i-scheme-c" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Scheme C
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="tier-i-scheme-e" value="tier-i-scheme-e" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Scheme E
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="tier-i-scheme-g" value="tier-i-scheme-g" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Scheme G
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="toggle-arrow">Tier II</span>
+                                <ul class="nested-list">
+                                    <li>
+                                        <button id="tier-ii-scheme-a" value="tier-ii-scheme-a" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Scheme A
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="tier-ii-scheme-c" value="tier-ii-scheme-c" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Scheme C
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="tier-ii-scheme-e" value="tier-ii-scheme-e" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Scheme E
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="tier-ii-scheme-g" value="tier-ii-scheme-g" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Scheme G
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button id="tier-ii-tax-saver-scheme" value="tier-ii-tax-saver-scheme" class="category-scheme" onclick="visualizeCategory(this)">
+                                            Tax Saver Scheme - NPS Trust A/C
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                    <article class="left">
+
+                        <div id="graph-chart-consolidated">
+                            <div id="google-graph-chart-consolidated">
+                                <div id="instructions-consolidated">
+                                    <div id="pointer-consolidated" class="left">
+                                        <h3>&#8592;</h3>
+                                    </div>
+                                    <div id="welcome-consolidated" class="left">
+                                        <h3>
+                                            Choose a Category, from the Navigation options
+                                        </h3>
+                                        <h3>
+                                            Check on the left side; expand and select a "Red" coloured
+                                        </h3>
+                                        <h3>
+                                            To visualize "Consolidated" timeline graph of the Net Asset Value
+                                        </h3>
+                                        <h3>
+                                            Note : Scroll to Zoom In & Out, Right Click to Reset, Left Click to Mark Points
+                                        </h3>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <div class="clear"></div>
+                </section>
+
+                <section id="page-3">
+
+                    <div id="note-explanation">
+                        <p>
+                            <i>
+                                Below is annual growth % data
+                            </i>
+                        </p>
+                        <p>
+                            <i>
+                                "FY 19-20" signifies the Indian "Financial Year 2019 - 2020", starting from 1 April 2019 and ending on 31 March 2020
+                            </i>
+                        </p>
+                        <p>
+                            <i>
+                                Each column contains average growth percentage : for each date within that FY, with respect to the immediate future FY
+                            </i>
+                        </p>
+                        <p>
+                            <i>
+                                Since the current Financial Year 2022-2023 has just started and is still running
+                            </i>
+                        </p>
+                        <p>
+                            <i>
+                                The data of the last two columns, marked in "Orange" is subject to change, as the days proceed
+                            </i>
+                        </p>
+                    </div>
+
+                    <div id="yearly-atal-pension-yojana" class="scheme-data-table">
+                        <h2>Atal Pension Yojana - NPS Trust A/C</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                                <!--
+                                <th class="blank"></th>
+                                <th>FY 03-04</th>
+                                <th>FY 04-05</th>
+                                <th>FY 05-06</th>
+                                <th>FY 06-07</th>
+                                <th>FY 07-08</th>
+                                <th>FY 08-09</th>
+                                <th>FY 09-10</th>
+                                <th>FY 10-11</th>
+                                <th>FY 11-12</th>
+                                <th>FY 12-13</th>
+                                <th>FY 13-14</th>
+                                <th>FY 14-15</th>
+                                <th>FY 15-16</th>
+                                <th>FY 16-17</th>
+                                <th>FY 17-18</th>
+                                <th>FY 18-19</th>
+                                <th>FY 19-20</th>
+                                <th>FY 20-21</th>
+                                <th>FY 21-22</th>
+                                -->
+                            </tr>
+                            <tr id="yearly-analysis-SM001011">
+                                <th>SBI</th>
+                                <!--
+                                multiple td elements = 19
+                                <td></td>
+                                -->
+                            </tr>
+                            <tr id="yearly-analysis-SM002011">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003011">
+                                <th>LIC</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-corporate-cg" class="scheme-data-table">
+                        <h2>Corporate CG</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001010">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002010">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003004">
+                                <th>LIC</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-government-central" class="scheme-data-table">
+                        <h2>Government - Central</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001001">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002001">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003001">
+                                <th>LIC</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-government-state" class="scheme-data-table">
+                        <h2>Government - State</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001002">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002002">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003002">
+                                <th>LIC</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-lite-scheme" class="scheme-data-table">
+                        <h2>Lite Scheme - NPS Trust A/C</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001009">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002009">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003003">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM004007">
+                                <th>IDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005007">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006007">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007007">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008007">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM009007">
+                                <th>DSP BlackRock</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-i-scheme-a" class="scheme-data-table">
+                        <h2>Tier I - Scheme A</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001012">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002012">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003012">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005008">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006008">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007008">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008008">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010004">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM011004">
+                                <th>Tata</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM012004">
+                                <th>Max Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM013004">
+                                <th>Axis</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-i-scheme-c" class="scheme-data-table">
+                        <h2>Tier I - Scheme C</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001004">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002004">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003006">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM004002">
+                                <th>IDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005002">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006002">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007002">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008002">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM009002">
+                                <th>DSP BlackRock</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010002">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM011002">
+                                <th>Tata</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM012002">
+                                <th>Max Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM013002">
+                                <th>Axis</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-i-scheme-e" class="scheme-data-table">
+                        <h2>Tier I - Scheme E</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001003">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002003">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003005">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM004001">
+                                <th>IDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005001">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006001">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007001">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008001">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM009001">
+                                <th>DSP BlackRock</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010001">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM011001">
+                                <th>Tata</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM012001">
+                                <th>Max Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM013001">
+                                <th>Axis</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-i-scheme-g" class="scheme-data-table">
+                        <h2>Tier I - Scheme G</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001005">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002005">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003007">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM004003">
+                                <th>IDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005003">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006003">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007003">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008003">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM009003">
+                                <th>DSP BlackRock</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010003">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM011003">
+                                <th>Tata</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM012003">
+                                <th>Max Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM013003">
+                                <th>Axis</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-ii-scheme-a" class="scheme-data-table">
+                        <h2>Tier II - Scheme A</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001013">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002013">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003013">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005009">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006009">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007009">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008009">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010008">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-ii-scheme-c" class="scheme-data-table">
+                        <h2>Tier II - Scheme C</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001007">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002007">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003009">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM004005">
+                                <th>IDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005005">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006005">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007005">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008005">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM009005">
+                                <th>DSP BlackRock</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010006">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM011006">
+                                <th>Tata</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM012006">
+                                <th>Max Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM013006">
+                                <th>Axis</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-ii-scheme-e" class="scheme-data-table">
+                        <h2>Tier II - Scheme E</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001006">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002006">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003008">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM004004">
+                                <th>IDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005004">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006004">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007004">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008004">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM009004">
+                                <th>DSP BlackRock</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010005">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM011005">
+                                <th>Tata</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM012005">
+                                <th>Max Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM013005">
+                                <th>Axis</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-ii-scheme-g" class="scheme-data-table">
+                        <h2>Tier II - Scheme G</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001008">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002008">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003010">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM004006">
+                                <th>IDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005006">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM006006">
+                                <th>Reliance Capital</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007006">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008006">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM009006">
+                                <th>DSP BlackRock</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010007">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM011007">
+                                <th>Tata</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM012007">
+                                <th>Max Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM013007">
+                                <th>Axis</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="yearly-tier-ii-tax-saver-scheme" class="scheme-data-table">
+                        <h2>Tier II - Tax Saver Scheme</h2>
+                        <table>
+                            <tr class="yearly-heading-financial-year-row">
+                            </tr>
+                            <tr id="yearly-analysis-SM001014">
+                                <th>SBI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM002014">
+                                <th>UTI</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM003014">
+                                <th>LIC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM005010">
+                                <th>Kotak Mahindra</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM007010">
+                                <th>ICICI Prudential</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM008010">
+                                <th>HDFC</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM010009">
+                                <th>Aditya Birla Sun Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM011008">
+                                <th>Tata</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM012008">
+                                <th>Max Life</th>
+                            </tr>
+                            <tr id="yearly-analysis-SM013008">
+                                <th>Axis</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                </section>
+
+                <section id="page-4">
+
+                    <div id="nps-official">
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">NSDL</h2>
+                            <div class="left email right-line">
+                                <h5>gro@nsdl.co.in</h5>
+                                <h5>cgro@nsdl.co.in</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>1800 222 080</h5>
+                                <h5>022 2499 3499</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">SBI</h2>
+                            <div class="left email right-line">
+                                <h5>buss.devpmnt@sbipensionfunds.com</h5>
+                                <h5>cs@sbipensionfunds.com</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>+91 22 4214 7100</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">UTI</h2>
+                            <div class="left email">
+                                <h5>service@uti.co.in</h5>
+                            </div>
+                            <div class="left phone-number left-line">
+                                <h5>1800 266 1230</h5>
+                                <h5>022 6678 6640</h5>
+                                <h5>022 6678 6367</h5>
+                                <h5>022 6678 6407</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">LIC</h2>
+                            <div class="left email">
+                                <h5>licpensionfund@licindia.com</h5>
+                            </div>
+                            <div class="left phone-number left-line">
+                                <h5>022 2288 2871</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">IDFC</h2>
+                            <div class="left email">
+                                <h5>sampark@idfcfirstbank.com</h5>
+                            </div>
+                            <div class="left phone-number left-line">
+                                <h5>1800 419 4332</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">Kotak Mahindra</h2>
+                            <div class="left email right-line">
+                                <h5>pensionfund.ops@kotak.com</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>022 6605 6825</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">Reliance Capital</h2>
+                            <div class="left email">
+                                <h5>npscare.rcl@relianceada.com</h5>
+                                <h5>rcl.investor@relianceada.com</h5>
+                                <h5>rcap.info@relianceada.com</h5>
+                                <h5>rcl.dp@relianceada.com</h5>
+                            </div>
+                            <div class="left phone-number left-line">
+                                <h5>022 4303 6472</h5>
+                                <h5>022 4303 6000</h5>
+                                <h5>+91 22 3303 1000</h5>
+                                <h5>+91 22 4303 1000</h5>
+                                <h5>+91 22 2490 5125</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">ICICI Prudential</h2>
+                            <div class="left email right-line">
+                                <h5>npsassist@iciciprulife.com</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>022 4039 1600</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">HDFC</h2>
+                            <div class="left email right-line">
+                                <h5>contactus@hdfcpension.com</h5>
+                                <h5>compliance@hdfcpension.com</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>89166 87777</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">DSP BlackRock</h2>
+                            <div class="left email right-line">
+                                <h5>service@dspim.com</h5>
+                                <h5>dsp.secretarial@dspim.com</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>1800 208 4499</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">Aditya Birla Sun Life</h2>
+                            <div class="left email right-line">
+                                <h5>care.pensionfunds@adityabirlacapital.com</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>1800 270 7000</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">Tata</h2>
+                            <div class="left email right-line">
+                                <h5>service@tatapfm.com</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>022 6969 8006</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">Max Life</h2>
+                            <div class="left email right-line">
+                                <h5>support@maxlifepensionfund.com</h5>
+                                <h5>service.helpdesk@maxlifeinsurance.com</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>1860 120 5577</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">Axis</h2>
+                            <div class="left email">
+                                <h5>npstrust@axisbank.com</h5>
+                            </div>
+                            <div class="left phone-number left-line">
+                                <h5>022 24253678</h5>
+                                <h5>022 24253639</h5>
+                                <h5>022 24253628</h5>
+                                <h5>011 43506532</h5>
+                                <h5>022 24253680</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="contact-book-data">
+                            <h2 class="nps-entity-title">PFRDA Ombudsman</h2>
+                            <div class="left email right-line">
+                                <h5>ombudsman@pfrda.org.in</h5>
+                            </div>
+                            <div class="left phone-number">
+                                <h5>011 26517507 Ext 188</h5>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                    </div>
+
+                    <div id="turquoise-space">
+
+                        <div class="contact-book-data">
+                            <h2>Turquoise Space</h2>
+                            <div id="contact-form">
+                                <div class="contact-form-field-div">
+                                    <input type="text" class="contact-form-field" id="fullName" name="fullName" placeholder="Full Name" autocomplete="on">
+                                </div>
+                                <div class="contact-form-field-div">
+                                    <input type="text" class="contact-form-field" id="emailId" name="emailId" placeholder="Email Id" autocomplete="on">
+                                </div>
+                                <div class="contact-form-field-div">
+                                    <input type="text" class="contact-form-field" id="phoneNumber" name="phoneNumber" placeholder="Phone Number with Country Code" autocomplete="on">
+                                </div>
+                                <div class="contact-form-field-div">
+                                    <textarea class="contact-form-field-message" id="message" name="message" placeholder="Message for Turquoise Space" rows="7" autocomplete="on"></textarea>
+                                </div>
+                                <div class="contact-form-field-div">
+                                    <button id="contact-turquoise-space-button" onclick="notifyMeAboutUserMessage()">Notify</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </main>
+
+            <footer>
+                <div>
+                    <h4>
+                        national-pension-scheme@googlegroups.com
+                    </h4>
+                    <h4>
+                        Turquoise Space &#169; 2023
+                    </h4>
+                </div>
+            </footer>
+        </div>
+
+        <script type="text/javascript" src="website/js/toggle-arrow.js"></script>
+    </body>
+</html>
