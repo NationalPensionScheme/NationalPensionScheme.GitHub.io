@@ -814,6 +814,10 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://search.google.com/search-console/welcome?utm_source=about-page
 
+- Google Ad Sense
+
+	https://www.google.com/adsense/new/u/0/pub-7600374410956303/onboarding/overview
+
 - Google Search Console
 
 	http://www.google.com/webmasters/tools/
