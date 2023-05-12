@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /code/
+Disallow: /microservice/
+Disallow: /nav-data/daily/
+Disallow: /nav-data/historical/
+Disallow: /nav-data/nps-funds-performance-nav-data.csv
+
+User-agent: *
+Allow: /
+
+Sitemap: https://NationalPensionScheme.GitHub.io/sitemap.xml
