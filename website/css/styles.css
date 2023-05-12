@@ -287,8 +287,8 @@ header {
 
 #Indian-Flag {
     position: absolute;
-    top: 15;
-    left: 30;
+    top: 15px;
+    left: 30px;
 }
 
 #India-National-Flag {
@@ -298,8 +298,8 @@ header {
 
 #github {
     position: absolute;
-    top: 15;
-    right: 30;
+    top: 15px;
+    right: 30px;
 }
 
 #github-icon {
@@ -620,6 +620,7 @@ text {
 
 #note-explanation {
     margin: 3% 0% 4% 0%;
+    font-family: 'Courier New';
 }
 
 .scheme-data-table {
