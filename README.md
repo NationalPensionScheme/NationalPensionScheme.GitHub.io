@@ -818,6 +818,10 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://www.google.com/adsense/new/u/0/pub-7600374410956303/onboarding/overview
 
+- SiteMap Submission Request
+
+	https://www.google.com/ping?sitemap=https://nationalpensionscheme.github.io/sitemap.xml
+
 - Google Search Console
 
 	http://www.google.com/webmasters/tools/
