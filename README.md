@@ -818,6 +818,22 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://www.google.com/adsense/new/u/0/pub-7600374410956303/onboarding/overview
 
+- Google Ad (Desktop Experience Report)
+
+	https://www.google.com/webmasters/tools/ad-experience-desktop?hl=en&siteUrl=https%3A%2F%2Fnationalpensionscheme.github.io%2F
+
+- Google Ad (Mobile Experience Report)
+
+	https://www.google.com/webmasters/tools/ad-experience-mobile?hl=en&siteUrl=https://nationalpensionscheme.github.io/
+
+- Google Ad (Abusive Experience Report)
+
+	https://www.google.com/webmasters/tools/abusive-experience?hl=en&siteUrl=https://nationalpensionscheme.github.io/
+
+- Google Ad (Abusive Notifications)
+
+	https://www.google.com/webmasters/tools/abusive-notifications?hl=en&siteUrl=https://nationalpensionscheme.github.io/
+
 - SiteMap Submission Request
 
 	https://www.google.com/ping?sitemap=https://nationalpensionscheme.github.io/sitemap.xml
