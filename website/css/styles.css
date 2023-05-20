@@ -381,6 +381,11 @@ section {
     margin-top: 3%;
 }
 
+#note-managers {
+    margin: 2% 0% 2% 0%;
+    font-family: 'Courier New';
+}
+
 .about-data-table {
     margin: 0% 7% 4% 7%;
 }
@@ -389,6 +394,10 @@ section {
     font-family: verdana;
     font-size: small;
     margin: 3% auto;
+}
+
+.deprecated-row {
+    background-color: brown;
 }
 
 .cin {
