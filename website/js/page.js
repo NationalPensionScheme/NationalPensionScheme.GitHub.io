@@ -198,7 +198,9 @@ function colourTablesEvenRows() {
         console.log("identified -> (rowElementsCount) " + rowElements.length);
 
         for (let rowIndex = 2; rowIndex < rowElements.length; rowIndex=rowIndex+2) {
-            rowElements[rowIndex].classList.add("even-row");
+            if (!rowElements[rowIndex].classList.contains("deprecated-row")) {
+                rowElements[rowIndex].classList.add("even-row");
+            }
         }
     }
 }
