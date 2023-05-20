@@ -795,13 +795,13 @@ input:focus {
 }
 
 #reach-out {
-
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #googlegroups {
     position: relative;
-    bottom: 15px;
-    left: 50px;
+    left: 85px;
 }
 
 #googlegroups-icon {
@@ -811,8 +811,7 @@ input:focus {
 
 #github {
     position: relative;
-    bottom: 15px;
-    right: 50px;
+    right: 85px;
 }
 
 #github-icon {
