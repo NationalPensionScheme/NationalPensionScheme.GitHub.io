@@ -285,6 +285,7 @@ header {
     padding: 1px;
 }
 
+/*
 #Indian-Flag {
     position: absolute;
     top: 15px;
@@ -295,17 +296,7 @@ header {
     width: 75px;
     height: 50px;
 }
-
-#github {
-    position: absolute;
-    top: 15px;
-    right: 30px;
-}
-
-#github-icon {
-    width: 50px;
-    height: 50px;
-}
+*/
 
 main {
     flex: 1;
@@ -801,6 +792,32 @@ input:focus {
 
 #last-updated {
     color: royalblue;
+}
+
+#reach-out {
+
+}
+
+#googlegroups {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+}
+
+#googlegroups-icon {
+    width: 50px;
+    height: 50px;
+}
+
+#github {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+
+#github-icon {
+    width: 50px;
+    height: 50px;
 }
 
 footer {
