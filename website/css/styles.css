@@ -809,6 +809,11 @@ input:focus {
     height: 50px;
 }
 
+.gmail {
+    text-decoration: none;
+    color: #fff;
+}
+
 #github {
     position: relative;
     right: 85px;
