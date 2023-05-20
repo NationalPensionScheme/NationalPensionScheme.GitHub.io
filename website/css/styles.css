@@ -799,9 +799,9 @@ input:focus {
 }
 
 #googlegroups {
-    position: absolute;
+    position: relative;
     bottom: 15px;
-    left: 30px;
+    left: 50px;
 }
 
 #googlegroups-icon {
@@ -810,9 +810,9 @@ input:focus {
 }
 
 #github {
-    position: absolute;
+    position: relative;
     bottom: 15px;
-    right: 30px;
+    right: 50px;
 }
 
 #github-icon {
