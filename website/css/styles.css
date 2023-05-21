@@ -281,6 +281,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 header {
+    text-align: center;
     background-color: #222;
     padding: 1px;
 }
@@ -867,6 +868,7 @@ input:focus {
 }
 
 footer {
+    text-align: center;
     background-color: #222;
     padding: 1px;
     /* position: relative; */
