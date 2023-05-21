@@ -364,6 +364,25 @@ section {
 
 }
 
+#landing {
+
+}
+
+#landing-instructions {
+    margin: 2% 0% 2% 0%;
+    font-family: 'Courier New';
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: royalblue;
+}
+
 .page-heading {
     margin: 0% 7% 4% 7%;
 }
