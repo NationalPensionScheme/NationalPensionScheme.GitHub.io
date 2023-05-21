@@ -285,6 +285,18 @@ header {
     padding: 1px;
 }
 
+#website-heading {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #fff;
+}
+
+#website-heading:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: royalblue;
+}
+
 /*
 #Indian-Flag {
     position: absolute;
@@ -374,7 +386,7 @@ section {
 }
 
 #landing-links {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .landing-link {
