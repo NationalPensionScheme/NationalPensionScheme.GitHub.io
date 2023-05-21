@@ -4,6 +4,33 @@ let previousCategoryId = "";
 let categoryDataSourcePrefix = "https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/scheme-categorized/";
 let categoryDataSourceSuffix = ".csv";
 
+function hasContent(str) {
+
+    if (null == str) {
+        return false;
+    }
+    if (undefined === str) {
+        return false;
+    }
+    if (typeof str == "string") {
+        if (str === "") {
+            return false;
+        }
+        if (str.length === 0) {
+            return false;
+        }
+        if (str.trim() === 0) {
+            return false;
+        }
+    }
+    if (!str) {
+        return false;
+    }
+    if (str) {
+        return true;
+    }
+}
+
 function identifyColumns(headerLine) {
 
     let typeOfContent = typeof headerLine;

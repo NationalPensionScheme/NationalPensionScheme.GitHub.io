@@ -4,6 +4,33 @@ let previousSchemeId = "";
 let schemeDataSourcePrefix = "https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/nav-data/scheme/min/";
 let schemeDataSourceSuffix = "-min.csv";
 
+function hasContent(str) {
+
+    if (null == str) {
+        return false;
+    }
+    if (undefined === str) {
+        return false;
+    }
+    if (typeof str == "string") {
+        if (str === "") {
+            return false;
+        }
+        if (str.length === 0) {
+            return false;
+        }
+        if (str.trim() === 0) {
+            return false;
+        }
+    }
+    if (!str) {
+        return false;
+    }
+    if (str) {
+        return true;
+    }
+}
+
 function transformMinCsvForGoogleChartData(csvMinContent) {
 
     // array of lines, each element is a string
