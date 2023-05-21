@@ -373,6 +373,11 @@ section {
     font-family: 'Courier New';
 }
 
+.landing-links {
+    margin: 2% 0% 2% 0%;
+    font-size: 18px;
+}
+
 .nav-link {
     text-decoration: none;
     color: #fff;
