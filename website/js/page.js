@@ -2,8 +2,10 @@
 let totalPages = 5
 console.log("initial -> (totalPages) " + totalPages);
 
+/*
 let randomPageNumber = Math.floor(Math.random() * totalPages);
 console.log("generated -> (randomPageNumber) " + randomPageNumber);
+*/
 
 let websiteBaseUrl = "https://nationalpensionscheme.github.io/";
 
@@ -75,5 +77,5 @@ document.addEventListener('DOMContentLoaded', function(event) {
     notifyMeAboutUserVisit();
     //populateConsolidatedCharts();
     loadSchemeInfo();
-    openPage(randomPageNumber);
+    //openPage(randomPageNumber);
 });
