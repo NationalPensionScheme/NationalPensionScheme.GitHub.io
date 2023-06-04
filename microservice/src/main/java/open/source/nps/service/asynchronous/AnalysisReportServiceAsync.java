@@ -81,10 +81,10 @@ public class AnalysisReportServiceAsync {
 
 					DateSegmented futureDateSegmented = DateSegmented.builder()
 							.mm(dateSegmented.getMm())
-							.dd(dateSegmented.getDd())
-							.yyyy(isLeapDay
-									? dateSegmented.getYyyy() + 4
-									: dateSegmented.getYyyy() + 1)
+							.dd(isLeapDay
+									? dateSegmented.getDd() - 1
+									: dateSegmented.getDd())
+							.yyyy(dateSegmented.getYyyy() + 1)
 							.build();
 
 					try {
@@ -94,10 +94,6 @@ public class AnalysisReportServiceAsync {
 						float futureNav = futureMinCsvLineData.getNetAssetValue();
 						float diff = futureNav - nav;
 						float growthPercent = 100 * diff / nav;
-
-						if (isLeapDay) {
-							growthPercent = growthPercent / 4;
-						}
 
 						if (!financialYearVsDayWiseYearlyGrowthPercentSet.containsKey(financialYear)) {
 							financialYearVsDayWiseYearlyGrowthPercentSet.put(financialYear, new HashSet<Float>());
