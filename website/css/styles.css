@@ -842,9 +842,12 @@ input:focus {
     margin-bottom: 15px;
 }
 
+.footer-icons {
+    margin: 0 20px;
+}
+
 #googlegroups {
     position: relative;
-    left: 85px;
 }
 
 #googlegroups-icon {
@@ -857,9 +860,21 @@ input:focus {
     color: #fff;
 }
 
+#profile-visitors {
+    position: relative;
+}
+
+.profile-visitor-count {
+    text-decoration: none;
+    color: #fff;
+}
+
+#profile-visitor-count-badge {
+    
+}
+
 #github {
     position: relative;
-    right: 85px;
 }
 
 #github-icon {
