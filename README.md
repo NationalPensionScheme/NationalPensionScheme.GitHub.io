@@ -528,6 +528,8 @@ cd ..
 cd code
 
 sh categorize.sh &> logs/categorize.log
+
+cd ..
 ```
 
 - GitHub Pages Website
