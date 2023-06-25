@@ -425,6 +425,8 @@ awk -F, '!dup[$1,$4]++' nps-funds-performance-nav-data.csv > nps-funds-performan
 rm nps-funds-performance-nav-data.csv
 
 mv nps-funds-performance-nav-data-unique.csv nps-funds-performance-nav-data.csv
+
+cd ..
 ```
 
 - Sorting the consolidated data
