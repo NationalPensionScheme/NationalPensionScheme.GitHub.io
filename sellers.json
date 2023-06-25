@@ -5,8 +5,9 @@
     "sellers" : [
         {
             "seller_id" : "pub-7600374410956303",
-            "is_confidential" : 1,
-            "domain" : "nationalpensionscheme.github.io/",
+            "is_confidential" : 0,
+            "name" : "Prakhar Makhija",
+            "domain" : "nationalpensionscheme.github.io",
             "seller_type" : "PUBLISHER",
             "is_passthrough" : 1,
             "comment" : "Google AdSense for https://NationalPensionScheme.GitHub.io/"
