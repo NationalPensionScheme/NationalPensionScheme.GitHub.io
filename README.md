@@ -411,6 +411,8 @@ Check duplicate entries for date + schemeId combo
 cd nav-data
 
 awk -F, 'dup[$1,$4]++' nps-funds-performance-nav-data.csv
+
+cd ..
 ```
 
 Extract non-duplicate entries
