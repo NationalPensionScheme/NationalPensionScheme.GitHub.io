@@ -842,6 +842,11 @@ input:focus {
     margin-bottom: 15px;
 }
 
+.adsbygoogle {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 .footer-icons {
     margin: 0 20px;
 }
