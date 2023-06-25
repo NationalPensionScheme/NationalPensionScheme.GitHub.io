@@ -495,6 +495,9 @@ cat nps-funds-performance-nav-data.csv | wc -l
 
 cd scheme
 cat * | wc -l
+
+cd ..
+cd ..
 ```
 
 View the number of lines in each file, sorted in ascending order, based on file name
