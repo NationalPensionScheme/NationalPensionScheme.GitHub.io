@@ -391,6 +391,8 @@ Check the csv data for quotes
 cd nav-data
 
 cat nps-funds-performance-nav-data.csv | grep "\""
+
+cd ..
 ```
 
 Verify the csv in any software like `LibreOffice Calc` or `Microsoft Excel`, the columns count must be `6`
