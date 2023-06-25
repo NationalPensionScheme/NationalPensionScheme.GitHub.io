@@ -8,6 +8,7 @@
             "is_confidential" : 1,
             "domain" : "nationalpensionscheme.github.io/",
             "seller_type" : "PUBLISHER",
+            "is_passthrough" : 1,
             "comment" : "Google AdSense for https://NationalPensionScheme.GitHub.io/"
         }
     ]
