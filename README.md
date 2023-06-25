@@ -479,6 +479,8 @@ cat meta-data/unique-schemes.csv | cut -d, -f1 | grep "SM" | uniq > meta-data/un
 cd code
 
 sh split.sh &> logs/split.log
+
+cd ..
 ```
 
 Every individual Scheme CSV data files will be generated in directory `nav-data/scheme/`, which will follow the naming convention `SCHEME_ID.csv`
