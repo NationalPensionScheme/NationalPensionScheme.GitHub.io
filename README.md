@@ -608,6 +608,8 @@ cd meta-data
 
 curl -X GET "http://127.0.0.1:7777/national-pension-fund/schemes" -H "accept: */*" -o pension-fund-schemes-v-beta.json
 
+cd ..
+
 ```
 
 Hit the APIs
@@ -619,6 +621,9 @@ cd nav-data
 cd growth
 
 curl -X GET "http://127.0.0.1:7777/generate-analysis-report/yearly-average" -H "accept: */*" -o yearly-average.json
+
+cd ..
+cd ..
 ```
 
 Make the application down
