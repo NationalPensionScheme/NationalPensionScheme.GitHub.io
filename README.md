@@ -439,6 +439,8 @@ sort -n -t"," -k1.7,1.10 -k1.1,1.2 -k1.4,1.5 nps-funds-performance-nav-data.csv 
 rm nps-funds-performance-nav-data.csv
 
 mv nps-funds-performance-nav-data-sorted.csv nps-funds-performance-nav-data.csv
+
+cd ..
 ```
 
 - Extracting Meta Data
