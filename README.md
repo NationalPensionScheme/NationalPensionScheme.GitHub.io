@@ -578,6 +578,8 @@ Deploy the application, make it up
 cd microservice
 
 java -jar target/National-Pension-Scheme-0.0.1.jar --logging.file=./logs/National-Pension-Scheme.log &
+
+cd ..
 ```
 
 Meaningful APIs
