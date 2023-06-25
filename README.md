@@ -362,7 +362,9 @@ If executing again / re-executing for the same year
 ```
 cd code
 
-sh execute.sh &>> logs/output-yyyy.log
+sh execute.sh &>> logs/output-2023.log
+
+cd ..
 ```
 
 All the logs can be found in directory `code/logs/`
