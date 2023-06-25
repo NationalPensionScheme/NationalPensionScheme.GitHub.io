@@ -517,6 +517,9 @@ View the number of lines in each file, sorted in ascending order, based on line 
 cd nav-data/scheme
 
 wc -l `ls` | sort -n
+
+cd ..
+cd ..
 ```
 
 - Merge the min files for Categorization
