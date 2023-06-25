@@ -506,6 +506,9 @@ View the number of lines in each file, sorted in ascending order, based on file 
 cd nav-data/scheme
 
 wc -l `ls`
+
+cd ..
+cd ..
 ```
 
 View the number of lines in each file, sorted in ascending order, based on line count
