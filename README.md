@@ -930,6 +930,79 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 ```
 
 
+## Google AdSense - Ads HTML JavaScript Code Reference (Single Liners) ##
+
+- Header (Mandatory)
+
+```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7600374410956303" crossorigin="anonymous"></script>
+```
+
+- Display Ad
+
+```
+<!-- Display Ad -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7600374410956303" data-ad-format="auto" data-full-width-responsive="true" data-ad-slot="1694074948"></ins>
+```
+
+- Multiplex Ad
+
+```
+<!-- Multiplex Ad -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7600374410956303" data-ad-format="autorelaxed" data-ad-slot="2540252752"></ins>
+```
+
+- In-Article Ad
+
+```
+<!-- In-Article Ad -->
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-client="ca-pub-7600374410956303" data-ad-format="fluid" data-ad-layout="in-article" data-ad-slot="8233247344"></ins>
+```
+
+- In-Feed Ad (Image on the Left Side)
+
+```
+<!-- In-Feed Ad (Image on the Left Side) -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7600374410956303" data-ad-format="fluid" data-ad-layout-key="-fg+5x+3m-c0+8k" data-ad-slot="5179838472"></ins>
+```
+
+- In-Feed Ad (Image on the Right Side)
+
+```
+<!-- In-Feed Ad (Image on the Right Side) -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7600374410956303" data-ad-format="fluid" data-ad-layout-key="-fg+5x+3m-c0+8k" data-ad-slot="4247515279"></ins>
+```
+
+- In-Feed Ad (Image Above)
+
+```
+<!-- In-Feed Ad (Image Above) -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7600374410956303" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2h-1m-4u" data-ad-slot="9719333800"></ins>
+```
+
+- In-Feed Ad (Title Above)
+
+```
+<!-- In-Feed Ad (Title Above) -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7600374410956303" data-ad-format="fluid" data-ad-layout-key="-ek+6j-34-9c+so" data-ad-slot="2032415472"></ins>
+```
+
+- In-Feed Ad (Text only)
+
+```
+<!-- In-Feed Ad (Text only) -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7600374410956303" data-ad-format="fluid" data-ad-layout-key="-hh-7+2h-1m-4u" data-ad-slot="4658578817"></ins>
+```
+
+- Footer / Above Footer (Mandatory)
+
+```
+<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+```
+
+
 ## Coding References ##
 
 - Color Strategy
