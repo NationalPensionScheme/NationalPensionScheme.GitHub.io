@@ -568,6 +568,8 @@ Build the project
 cd microservice
 
 mvn -Dmaven.artifact.threads=25 clean eclipse:eclipse -DdownloadSources=true dependency:go-offline dependency:resolve-plugins install
+
+cd ..
 ```
 
 Deploy the application, make it up
