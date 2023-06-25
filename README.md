@@ -379,6 +379,8 @@ cd nav-data
 cat nps-funds-performance-nav-data.csv | sed 's/\r$//' > nps-funds-performance-nav-data-x.csv
 rm nps-funds-performance-nav-data.csv
 mv nps-funds-performance-nav-data-x.csv nps-funds-performance-nav-data.csv
+
+cd ..
 ```
 
 - Validate Data Manually
