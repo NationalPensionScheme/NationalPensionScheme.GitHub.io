@@ -3,9 +3,7 @@ package open.source.nps.service.asynchronous;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
@@ -54,15 +52,14 @@ public class CategorizeSchemeServiceAsync {
 		}
 	}
 
-	private List<DateSegmented> identifyAllDatesInCategory(Set<String> schemeIds) {
+	private Set<DateSegmented> identifyAllDatesInCategory(Set<String> schemeIds) {
 
-		List<DateSegmented> categoryAllDates = schemeIds.stream()
+		Set<DateSegmented> categoryAllDates = schemeIds.stream()
 				.map(schemeId -> schemeCsvServiceAsync.getSchemeData(schemeId))
 				.map(dateVsData -> dateVsData.keySet())
 				.flatMap(dateSet -> dateSet.stream())
-				.collect(Collectors.toList());
-
-		Collections.sort(categoryAllDates, Comparators.DATE_SEGMENTED_ASCENDING);
+				.sorted(Comparators.DATE_SEGMENTED_ASCENDING)
+				.collect(Collectors.toSet());
 
 		return categoryAllDates;
 	}
@@ -197,7 +194,7 @@ public class CategorizeSchemeServiceAsync {
 			Set<String> schemeIds = CATEGORY_VS_SCHEME_IDS.get(categoryFileName);
 			log.info("fetched -> (schemeIds) {}", schemeIds);
 
-			List<DateSegmented> categoryAllDates = identifyAllDatesInCategory(schemeIds);
+			Set<DateSegmented> categoryAllDates = identifyAllDatesInCategory(schemeIds);
 
 			removeCategoryFile(categoryFileName);
 			createCategoryFile(categoryFileName);
