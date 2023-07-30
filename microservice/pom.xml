@@ -23,6 +23,7 @@
 		<org.mapstruct.version>1.3.0.Final</org.mapstruct.version>
 		<codehaus.jackson.version>1.9.13</codehaus.jackson.version>
 		<fasterxml.jackson.version>2.11.2</fasterxml.jackson.version>
+		<com.github.TurquoiseSpace.throwable-utility.version>0.0.8</com.github.TurquoiseSpace.throwable-utility.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
@@ -107,6 +108,11 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.TurquoiseSpace</groupId>
+			<artifactId>throwable-utility</artifactId>
+			<version>${com.github.TurquoiseSpace.throwable-utility.version}</version>
 		</dependency>
 	</dependencies>
 
