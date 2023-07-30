@@ -522,7 +522,7 @@ cd ..
 cd ..
 ```
 
-- Merge the min files for Categorization
+- Merge the min files for Categorization (Deprecated, use the API instead)
 
 ```
 cd code
@@ -585,7 +585,6 @@ cd ..
 Meaningful APIs
 
 ```
-
 GET
 /national-pension-fund/schemes
 
@@ -593,15 +592,18 @@ GET
 /data/load
 
 GET
+/generate/scheme/categories
+
+GET
 /data/scheme/{schemeId}
 
 GET
 /generate-analysis-report/yearly-average
 
-
 ```
 
-Hit the APIs, only when new schemes have been added in the source data, and thereafter in Java enums
+
+Hit the API, only when new schemes have been added in the source data, and thereafter in Java enums
 
 ```
 cd meta-data
@@ -612,11 +614,24 @@ cd ..
 
 ```
 
-Hit the APIs
+
+Hit the API, to load and populate the schemes data
 
 ```
 curl -X GET "http://127.0.0.1:7777/data/load" -H "accept: */*"
+```
 
+
+Hit the API, to generate the category scheme csv data files
+
+```
+curl -X GET "http://127.0.0.1:7777/data/generate/scheme/categories" -H "accept: */*"
+```
+
+
+Hit the API, to generate the yearly growth performance percentage data
+
+```
 cd nav-data
 cd growth
 
@@ -625,6 +640,7 @@ curl -X GET "http://127.0.0.1:7777/generate-analysis-report/yearly-average" -H "
 cd ..
 cd ..
 ```
+
 
 Make the application down
 
@@ -635,6 +651,7 @@ kill -9 `lsof -t -i:7777`
 ```
 sudo kill -9 `sudo lsof -t -i:7777`
 ```
+
 
 Swagger
 
