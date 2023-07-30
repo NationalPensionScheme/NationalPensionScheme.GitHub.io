@@ -152,8 +152,10 @@ public class CategorizeSchemeServiceAsync {
 		for (String schemeId : schemeIds) {
 			Map<DateSegmented, MinCsvLineData> schemeDateVsData = schemeCsvServiceAsync.getSchemeData(schemeId);
 			MinCsvLineData minCsvLineData = schemeDateVsData.get(dateSegmented);
+			log.info("fetched -> (schemeId) {} (dateSegmented) {} (minCsvLineData) {}", schemeId, dateSegmented, minCsvLineData);
+
 			stringBuilder.append(",");
-			if (minCsvLineData.isOriginallyPresent()) {
+			if (null != minCsvLineData && minCsvLineData.isOriginallyPresent()) {
 				stringBuilder.append(minCsvLineData.getNetAssetValue());
 			}
 		}
