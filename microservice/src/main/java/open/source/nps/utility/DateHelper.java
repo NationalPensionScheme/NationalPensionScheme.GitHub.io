@@ -3,6 +3,8 @@ package open.source.nps.utility;
 import java.util.HashMap;
 import java.util.Map;
 
+import open.source.nps.model.DateSegmented;
+
 public class DateHelper {
 
 	private static final Map<Integer, Integer> MONTH_VS_DAYS = new HashMap<Integer, Integer>();
@@ -73,6 +75,11 @@ public class DateHelper {
 		stringBuilder.append(yyyy);
 
 		return stringBuilder.toString();
+	}
+
+	public static String getStringMMDDYYYY(DateSegmented dateSegmented) {
+
+		return getStringMMDDYYYY(dateSegmented.getMm(), dateSegmented.getDd(), dateSegmented.getYyyy());
 	}
 
 }

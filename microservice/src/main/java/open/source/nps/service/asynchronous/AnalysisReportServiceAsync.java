@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import com.TurquoiseSpace.utility.ExceptionLogUtil;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import open.source.nps.model.DateSegmented;
@@ -104,9 +106,9 @@ public class AnalysisReportServiceAsync {
 						dayWiseYearlyGrowthPercentSet.add(growthPercent);
 
 						financialYearVsDayWiseYearlyGrowthPercentSet.put(financialYear, dayWiseYearlyGrowthPercentSet);
-					} catch (Exception e) {
-						log.error("encountered exception -> (schemeId) {} (dateSegmented) {} (futureDateSegmented) {}",
-								schemeId, dateSegmented, futureDateSegmented, e);
+					} catch (Exception exception) {
+						String exceptionMessage = "encountered exception -> (schemeId) " + schemeId + " (dateSegmented) " + dateSegmented + " (futureDateSegmented) " + futureDateSegmented;
+						ExceptionLogUtil.logException(exception, exceptionMessage);
 					}
 
 				}

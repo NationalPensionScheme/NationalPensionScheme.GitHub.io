@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
+import open.source.nps.service.asynchronous.CategorizeSchemeServiceAsync;
 import open.source.nps.service.asynchronous.SchemeCsvServiceAsync;
 import reactor.core.publisher.Mono;
 
@@ -22,15 +23,29 @@ public class DataControllerAsync {
 	@Autowired
 	private SchemeCsvServiceAsync schemeCsvServiceAsync;
 
+	@Autowired
+	private CategorizeSchemeServiceAsync categorizeSchemeServiceAsync;
+
 
 	@GetMapping("/load")
-	public Mono<?> loadAllMinCsvSchemes() {
+	public Mono<?> loadAllMinCsvSchemesAndCategories() {
 
 		log.info("load all min csv schemes");
 
 		schemeCsvServiceAsync.loadMinDataFiles();
+		categorizeSchemeServiceAsync.loadCategories();
 
-		return Mono.empty();
+		return Mono.just(true);
+	}
+
+	@GetMapping("/generate/scheme/categories")
+	public Mono<?> generateAllSchemeCategories() {
+
+		log.info("generate all scheme category csv files");
+
+		categorizeSchemeServiceAsync.generateAllSchemeCategoryCsv();
+
+		return Mono.just(true);
 	}
 
 	@GetMapping("/scheme/{schemeId}")

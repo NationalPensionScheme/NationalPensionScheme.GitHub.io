@@ -13,6 +13,8 @@ import java.util.TreeSet;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import com.TurquoiseSpace.utility.ExceptionLogUtil;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import open.source.nps.enumeration.PensionFundSchemeIdentifier;
@@ -100,8 +102,8 @@ public class SchemeCsvServiceAsync {
 			bufferedReader.close();
 			fileReader.close();
 
-		} catch (IOException e) {
-			log.error(e);
+		} catch (IOException exception) {
+			ExceptionLogUtil.logException(exception);
 		}
 
 		LOADED_SCHEME_DATA.put(schemeId, dateVsCsvRecord);
