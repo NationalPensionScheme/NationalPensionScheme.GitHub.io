@@ -52,15 +52,25 @@ public class CategorizeSchemeServiceAsync {
 		}
 	}
 
-	private Set<DateSegmented> identifyAllDatesInCategory(Set<String> schemeIds) {
+	private Set<DateSegmented> identifyAllOriginalDatesInCategory(Set<String> schemeIds) {
 
-		Set<DateSegmented> categoryAllDates = schemeIds.stream()
+		Set<DateSegmented> categoryAllDates = new TreeSet<>(Comparators.DATE_SEGMENTED_ASCENDING);
+
+		schemeIds.stream()
 				.map(schemeId -> schemeCsvServiceAsync.getSchemeData(schemeId))
-				.map(dateVsData -> dateVsData.keySet())
-				.flatMap(dateSet -> dateSet.stream())
-				.sorted(Comparators.DATE_SEGMENTED_ASCENDING)
-				.collect(Collectors.toSet());
+				.map(dateVsData -> dateVsData.entrySet())
+				.forEach(entrySet -> {
+					entrySet.stream()
+						.forEach(entry -> {
+							DateSegmented dateSegmented = entry.getKey();
+							MinCsvLineData minCsvLineData = entry.getValue();
+							if (null != minCsvLineData && minCsvLineData.isOriginallyPresent()) {
+								categoryAllDates.add(dateSegmented);
+							}
+						});
+				});
 
+		log.info("got -> (categoryAllDates) {}", categoryAllDates);
 		return categoryAllDates;
 	}
 
@@ -194,7 +204,7 @@ public class CategorizeSchemeServiceAsync {
 			Set<String> schemeIds = CATEGORY_VS_SCHEME_IDS.get(categoryFileName);
 			log.info("fetched -> (schemeIds) {}", schemeIds);
 
-			Set<DateSegmented> categoryAllDates = identifyAllDatesInCategory(schemeIds);
+			Set<DateSegmented> categoryAllDates = identifyAllOriginalDatesInCategory(schemeIds);
 
 			removeCategoryFile(categoryFileName);
 			createCategoryFile(categoryFileName);
