@@ -132,6 +132,8 @@ public class CategorizeSchemeServiceAsync {
 			stringBuilder.append(schemeId);
 		}
 
+		stringBuilder.append("\n");
+
 		String headerLine = stringBuilder.toString();
 		log.info("made -> (headerLine) {}", headerLine);
 
@@ -152,7 +154,7 @@ public class CategorizeSchemeServiceAsync {
 		for (String schemeId : schemeIds) {
 			Map<DateSegmented, MinCsvLineData> schemeDateVsData = schemeCsvServiceAsync.getSchemeData(schemeId);
 			MinCsvLineData minCsvLineData = schemeDateVsData.get(dateSegmented);
-			log.info("fetched -> (schemeId) {} (dateSegmented) {} (minCsvLineData) {}", schemeId, dateSegmented, minCsvLineData);
+			//log.info("fetched -> (schemeId) {} (dateSegmented) {} (minCsvLineData) {}", schemeId, dateSegmented, minCsvLineData);
 
 			stringBuilder.append(",");
 			if (null != minCsvLineData && minCsvLineData.isOriginallyPresent()) {
@@ -160,8 +162,10 @@ public class CategorizeSchemeServiceAsync {
 			}
 		}
 
+		stringBuilder.append("\n");
+
 		String dataLine = stringBuilder.toString();
-		log.info("made -> (dataLine) {}", dataLine);
+		//log.info("made -> (dataLine) {}", dataLine);
 
 		try {
 			bufferedWriter.write(dataLine);
