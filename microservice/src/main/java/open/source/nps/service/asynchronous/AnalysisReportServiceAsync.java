@@ -70,19 +70,10 @@ public class AnalysisReportServiceAsync {
 				MinCsvLineData minCsvLineData = schemeData.get(dateSegmented);
 
 				if (minCsvLineData.isOriginallyPresent()) {
+
 					FinancialYear financialYear = FinancialYearUtil.identify(dateSegmented);
 
-					boolean isLeapDay = DateHelper.isLeapYear(dateSegmented.getYyyy())
-							&& 2 == dateSegmented.getMm()
-							&& 29 == dateSegmented.getDd();
-
-					DateSegmented futureDateSegmented = DateSegmented.builder()
-							.mm(dateSegmented.getMm())
-							.dd(isLeapDay
-									? dateSegmented.getDd() - 1
-									: dateSegmented.getDd())
-							.yyyy(dateSegmented.getYyyy() + 1)
-							.build();
+					DateSegmented futureDateSegmented = DateHelper.getNextYearDate(dateSegmented);
 
 					try {
 						MinCsvLineData futureMinCsvLineData = schemeData.get(futureDateSegmented);

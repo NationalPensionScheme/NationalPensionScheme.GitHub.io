@@ -82,4 +82,21 @@ public class DateHelper {
 		return getStringMMDDYYYY(dateSegmented.getMm(), dateSegmented.getDd(), dateSegmented.getYyyy());
 	}
 
+	public static DateSegmented getNextYearDate(DateSegmented dateSegmented) {
+
+		boolean isLeapDay = isLeapYear(dateSegmented.getYyyy())
+				&& 2 == dateSegmented.getMm()
+				&& 29 == dateSegmented.getDd();
+
+		DateSegmented futureDateSegmented = DateSegmented.builder()
+				.mm(dateSegmented.getMm())
+				.dd(isLeapDay
+						? dateSegmented.getDd() - 1
+						: dateSegmented.getDd())
+				.yyyy(dateSegmented.getYyyy() + 1)
+				.build();
+
+		return futureDateSegmented;
+	}
+
 }
