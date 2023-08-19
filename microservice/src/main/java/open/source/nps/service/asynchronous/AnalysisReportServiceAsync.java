@@ -162,4 +162,11 @@ public class AnalysisReportServiceAsync {
 		return Mono.just(schemeIdVsAnalysis);
 	}
 
+	public Mono<?> generateDailyBasisAnnualGrowthReport() {
+
+		log.info("generate daily basis annual growth report request");
+
+		return Mono.empty();
+	}
+
 }
