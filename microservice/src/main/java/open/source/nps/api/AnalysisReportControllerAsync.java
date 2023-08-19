@@ -22,28 +22,12 @@ public class AnalysisReportControllerAsync {
 	private AnalysisReportServiceAsync analysisReportServiceAsync;
 
 
-	@GetMapping("/yearly")
-	public Mono<?> generateYearlyReport() {
-
-		log.info("generate yearly report request");
-
-		return analysisReportServiceAsync.generateYearlyReport();
-	}
-
 	@GetMapping("/yearly-average")
 	public Mono<?> generateYearlyAverageReport() {
 
 		log.info("generate yearly report request");
 
 		return analysisReportServiceAsync.generateYearlyAverageReport();
-	}
-
-	@GetMapping("/quarterly")
-	public Mono<?> generateQuarterlyReport() {
-
-		log.info("generate quarterly report request");
-
-		return analysisReportServiceAsync.generateQuarterlyReport();
 	}
 
 }

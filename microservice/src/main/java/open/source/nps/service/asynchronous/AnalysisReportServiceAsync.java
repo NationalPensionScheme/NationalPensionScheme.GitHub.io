@@ -36,11 +36,6 @@ public class AnalysisReportServiceAsync {
 	private SchemeCsvServiceAsync schemeCsvServiceAsync;
 
 
-	public Mono<?> generateYearlyReport() {
-
-		return Mono.empty();
-	}
-
 	private Set<FinancialYear> getSupportedFinancialYearsRangeSet() {
 
 		Set<FinancialYear> financialYearSet = new HashSet<FinancialYear>();
@@ -165,11 +160,6 @@ public class AnalysisReportServiceAsync {
 		}
 
 		return Mono.just(schemeIdVsAnalysis);
-	}
-
-	public Mono<?> generateQuarterlyReport() {
-
-		return Mono.empty();
 	}
 
 }
