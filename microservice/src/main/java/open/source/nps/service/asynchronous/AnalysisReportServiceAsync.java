@@ -171,7 +171,7 @@ public class AnalysisReportServiceAsync {
 
 		Map<DateSegmented, MinCsvLineData> schemeData = schemeCsvServiceAsync.getSchemeData(schemeId);
 
-		Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPecentage = new TreeMap<Integer, Map<PartialDate, Float>>();
+		Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPercentage = new TreeMap<Integer, Map<PartialDate, Float>>();
 
 		for (DateSegmented dateSegmented : schemeData.keySet()) {
 
@@ -193,17 +193,17 @@ public class AnalysisReportServiceAsync {
 				float diff = futureNav - nav;
 				float growthPercent = 100 * diff / nav;
 
-				if (!calendarYearVsPartialDateVsAnnualGrowthPecentage.containsKey(calendarYear)) {
-					calendarYearVsPartialDateVsAnnualGrowthPecentage.put(calendarYear, new TreeMap<PartialDate, Float>(Comparators.PARTIAL_DATE_ASCENDING));
+				if (!calendarYearVsPartialDateVsAnnualGrowthPercentage.containsKey(calendarYear)) {
+					calendarYearVsPartialDateVsAnnualGrowthPercentage.put(calendarYear, new TreeMap<PartialDate, Float>(Comparators.PARTIAL_DATE_ASCENDING));
 				}
 
-				Map<PartialDate, Float> partialDateVsAnnualGrowth = calendarYearVsPartialDateVsAnnualGrowthPecentage.get(calendarYear);
+				Map<PartialDate, Float> partialDateVsAnnualGrowth = calendarYearVsPartialDateVsAnnualGrowthPercentage.get(calendarYear);
 
 				PartialDate partialDate = DateHelper.getPartialDate(dateSegmented);
 
 				partialDateVsAnnualGrowth.put(partialDate, growthPercent);
 
-				calendarYearVsPartialDateVsAnnualGrowthPecentage.put(calendarYear, partialDateVsAnnualGrowth);
+				calendarYearVsPartialDateVsAnnualGrowthPercentage.put(calendarYear, partialDateVsAnnualGrowth);
 			} catch (Exception exception) {
 				String exceptionMessage = "encountered exception -> (schemeId) " + schemeId + " (dateSegmented) " + dateSegmented + " (futureDateSegmented) " + futureDateSegmented;
 				ExceptionLogUtil.logException(exception, exceptionMessage);
@@ -211,14 +211,14 @@ public class AnalysisReportServiceAsync {
 
 		}
 
-		log.info("identified -> (schemeId) {} (calendarYearVsPartialDateVsAnnualGrowthPecentage) {}",
-				schemeId, calendarYearVsPartialDateVsAnnualGrowthPecentage);
+		log.info("identified -> (schemeId) {} (calendarYearVsPartialDateVsAnnualGrowthPercentage) {}",
+				schemeId, calendarYearVsPartialDateVsAnnualGrowthPercentage);
 
 		// -------------------------------------------------------------------------------------------------------------------------------------
 
 		Set<PartialDate> allPartialDates = new TreeSet<PartialDate>(Comparators.PARTIAL_DATE_ASCENDING);
 
-		calendarYearVsPartialDateVsAnnualGrowthPecentage.values()
+		calendarYearVsPartialDateVsAnnualGrowthPercentage.values()
 				.stream()
 				.map(partialDateVsAnnualGrowth -> partialDateVsAnnualGrowth.keySet())
 				.forEach(partialDateSetForCalendarYear -> allPartialDates.addAll(partialDateSetForCalendarYear));
@@ -237,8 +237,8 @@ public class AnalysisReportServiceAsync {
 			int count = 0;
 			float sumOfPercentage = 0.0f;
 
-			for (Integer calendarYear : calendarYearVsPartialDateVsAnnualGrowthPecentage.keySet()) {
-				Map<PartialDate, Float> calendarYearData = calendarYearVsPartialDateVsAnnualGrowthPecentage.get(calendarYear);
+			for (Integer calendarYear : calendarYearVsPartialDateVsAnnualGrowthPercentage.keySet()) {
+				Map<PartialDate, Float> calendarYearData = calendarYearVsPartialDateVsAnnualGrowthPercentage.get(calendarYear);
 				Float calendarDateAnnualGrowth = calendarYearData.get(partialDate);
 
 				if (null == calendarDateAnnualGrowth) {
@@ -258,12 +258,12 @@ public class AnalysisReportServiceAsync {
 		// this calendar year 0 is for representing average of particular day across all the years
 
 		int calendarYear = 0;
-		calendarYearVsPartialDateVsAnnualGrowthPecentage.put(calendarYear, partialDateVsOverallAverageAnnualGrowth);
+		calendarYearVsPartialDateVsAnnualGrowthPercentage.put(calendarYear, partialDateVsOverallAverageAnnualGrowth);
 
 		log.info("identified -> (schemeId) {} (partialDateVsOverallAverageAnnualGrowth) {}",
 				schemeId, partialDateVsOverallAverageAnnualGrowth);
 
-		return calendarYearVsPartialDateVsAnnualGrowthPecentage;
+		return calendarYearVsPartialDateVsAnnualGrowthPercentage;
 
 		// -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -271,7 +271,7 @@ public class AnalysisReportServiceAsync {
 
 	}
 
-	private void writeSchemeInvestmentAnalysisToJsonFile(String schemeId, Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPecentage) throws Exception {
+	private void writeSchemeInvestmentAnalysisToJsonFile(String schemeId, Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPercentage) throws Exception {
 
 		String filePath = schemeInvestDataFilesPath + schemeId + FileExtension.JSON.getExtension();
 		File file = new File(filePath);
@@ -287,7 +287,7 @@ public class AnalysisReportServiceAsync {
 		FileWriter fileWriter = new FileWriter(file);
 		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
-		String jsonString = JsonUtil.convertObjectToJson(calendarYearVsPartialDateVsAnnualGrowthPecentage);
+		String jsonString = JsonUtil.convertObjectToJson(calendarYearVsPartialDateVsAnnualGrowthPercentage);
 
 		bufferedWriter.write(jsonString);
 
@@ -304,9 +304,14 @@ public class AnalysisReportServiceAsync {
 
 		schemeIds.stream()
 			.forEach(schemeId -> {
-				Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPecentage = generateDailyBasisAnnualGrowthReport(schemeId);
+				Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPercentage = generateDailyBasisAnnualGrowthReport(schemeId);
 				try {
-					writeSchemeInvestmentAnalysisToJsonFile(schemeId, calendarYearVsPartialDateVsAnnualGrowthPecentage);
+					writeSchemeInvestmentAnalysisToJsonFile(schemeId, calendarYearVsPartialDateVsAnnualGrowthPercentage);
+				} catch (Exception exception) {
+					ExceptionLogUtil.logException(exception, "Failed to write investment data for : " + schemeId);
+				}
+				try {
+					//writeSchemeInvestmentAnalysisToCsvFile(schemeId, calendarYearVsPartialDateVsAnnualGrowthPercentage);
 				} catch (Exception exception) {
 					ExceptionLogUtil.logException(exception, "Failed to write investment data for : " + schemeId);
 				}
