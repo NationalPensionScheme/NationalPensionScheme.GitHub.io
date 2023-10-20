@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import open.source.nps.model.DateSegmented;
+import open.source.nps.model.PartialDate;
 
 public class DateHelper {
 
@@ -97,6 +98,16 @@ public class DateHelper {
 				.build();
 
 		return futureDateSegmented;
+	}
+
+	public static PartialDate getPartialDate(DateSegmented dateSegmented) {
+
+		PartialDate partialDate = PartialDate.builder()
+				.dd()
+				.mm(dateSegmented.getMm())
+				.build(dateSegmented.getDd());
+
+		return partialDate;
 	}
 
 }
