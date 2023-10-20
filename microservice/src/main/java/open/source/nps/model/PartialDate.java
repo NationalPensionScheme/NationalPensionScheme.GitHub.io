@@ -22,4 +22,19 @@ public class PartialDate implements Serializable {
 
 	private int mm;
 
+	@Override
+	public String toString() {
+		StringBuilder stringBuilder = new StringBuilder();
+		if (mm < 10) {
+			stringBuilder.append("0");
+		}
+		stringBuilder.append(mm);
+		stringBuilder.append("/");
+		if (dd < 10) {
+			stringBuilder.append("0");
+		}
+		stringBuilder.append(dd);
+		return stringBuilder.toString();
+	}
+
 }
