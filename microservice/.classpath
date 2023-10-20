@@ -80,4 +80,5 @@
   <classpathentry kind="var" path="M2_REPO/org/mapstruct/mapstruct/1.3.0.Final/mapstruct-1.3.0.Final.jar" sourcepath="M2_REPO/org/mapstruct/mapstruct/1.3.0.Final/mapstruct-1.3.0.Final-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/TurquoiseSpace/throwable-utility/0.0.9/throwable-utility-0.0.9.jar" sourcepath="M2_REPO/com/github/TurquoiseSpace/throwable-utility/0.0.9/throwable-utility-0.0.9-sources.jar"/>
 </classpath>
