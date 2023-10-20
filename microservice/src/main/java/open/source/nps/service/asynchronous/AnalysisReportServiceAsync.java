@@ -310,9 +310,11 @@ public class AnalysisReportServiceAsync {
 		headerLine.append("Day (DD)");
 		headerLine.append("\"");
 
-		calendarYearSet.remove(0);
-
 		for (Integer calendarYear : calendarYearSet) {
+			if (calendarYear == 0) {
+				continue;
+			}
+
 			headerLine.append(",");
 
 			headerLine.append("\"");
@@ -351,9 +353,12 @@ public class AnalysisReportServiceAsync {
 		recordLine.append(dd);
 
 		Set<Integer> calendarYearSet = calendarYearVsPartialDateVsAnnualGrowthPercentage.keySet();
-		calendarYearSet.remove(0);
 
 		for (Integer calendarYear : calendarYearSet) {
+			if (calendarYear == 0) {
+				continue;
+			}
+
 			recordLine.append(",");
 
 			Map<PartialDate, Float> calendarYearData = calendarYearVsPartialDateVsAnnualGrowthPercentage.get(calendarYear);
@@ -398,9 +403,7 @@ public class AnalysisReportServiceAsync {
 		FileWriter fileWriter = new FileWriter(file);
 		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
-		Set<Integer> calendarYearSet = calendarYearVsPartialDateVsAnnualGrowthPercentage.keySet()
-				.stream()
-				.collect(Collectors.toSet());
+		Set<Integer> calendarYearSet = calendarYearVsPartialDateVsAnnualGrowthPercentage.keySet();
 		log.info("got -> (calendarYearSet) {}", calendarYearSet);
 
 		String headerLine = csvHeader(calendarYearSet);
