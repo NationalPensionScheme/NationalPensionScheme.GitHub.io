@@ -642,6 +642,13 @@ cd ..
 ```
 
 
+Hit the API, to generate the investment report for when to invest
+
+```
+curl -X GET "http://127.0.0.1:7777/generate-analysis-report/daily-basis-annual-growth" -H "accept: */*"
+```
+
+
 Make the application down
 
 ```
