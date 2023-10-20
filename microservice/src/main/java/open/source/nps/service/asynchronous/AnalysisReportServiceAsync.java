@@ -296,6 +296,122 @@ public class AnalysisReportServiceAsync {
 		log.info("written data to file and closed the writer");
 	}
 
+	private String csvHeader(Set<Integer> calendarYearSet) {
+
+		StringBuilder headerLine = new StringBuilder();
+
+		headerLine.append("\"");
+		headerLine.append("Month (MM)");
+		headerLine.append("\"");
+
+		headerLine.append(",");
+
+		headerLine.append("\"");
+		headerLine.append("Day (DD)");
+		headerLine.append("\"");
+
+		calendarYearSet.remove(0);
+
+		for (Integer calendarYear : calendarYearSet) {
+			headerLine.append(",");
+
+			headerLine.append("\"");
+			headerLine.append(calendarYear);
+			headerLine.append("\"");
+		}
+
+		headerLine.append(",");
+
+		headerLine.append("\"");
+		headerLine.append("Average Across Years");
+		headerLine.append("\"");
+
+		headerLine.append("\n");
+
+		return headerLine.toString();
+	}
+
+	private String csvLine(PartialDate partialDate, Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPercentage) {
+
+		StringBuilder recordLine = new StringBuilder();
+
+		int mm = partialDate.getMm();
+		int dd = partialDate.getDd();
+
+		if (mm < 10) {
+			recordLine.append(0);
+		}
+		recordLine.append(mm);
+
+		recordLine.append(",");
+
+		if (dd < 10) {
+			recordLine.append(0);
+		}
+		recordLine.append(dd);
+
+		Map<PartialDate, Float> averageData = calendarYearVsPartialDateVsAnnualGrowthPercentage.remove(0);
+
+		Set<Integer> calendarYearSet = calendarYearVsPartialDateVsAnnualGrowthPercentage.keySet();
+
+		for (Integer calendarYear : calendarYearSet) {
+			recordLine.append(",");
+
+			Map<PartialDate, Float> calendarYearData = calendarYearVsPartialDateVsAnnualGrowthPercentage.get(calendarYear);
+			Float growthPercentage = calendarYearData.get(partialDate);
+
+			recordLine.append(growthPercentage);
+		}
+
+		recordLine.append(",");
+
+		Float averageGrowthPercentage = averageData.get(partialDate);
+
+		recordLine.append(averageGrowthPercentage);
+
+		recordLine.append("\n");
+
+		calendarYearVsPartialDateVsAnnualGrowthPercentage.put(0, averageData);
+
+		return recordLine.toString();
+	}
+
+	private void writeSchemeInvestmentAnalysisToCsvFile(String schemeId, Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPercentage) throws Exception {
+
+		String filePath = schemeInvestDataFilesPath + schemeId + FileExtension.CSV.getExtension();
+		File file = new File(filePath);
+
+		boolean fileExists = file.exists();
+		log.info("file metadata -> (filePath) {} (fileExists) {}", filePath, fileExists);
+
+		if (fileExists) {
+			boolean fileDeleted = file.delete();
+			log.info("got -> (fileDeleted) {}", fileDeleted);
+		}
+
+		FileWriter fileWriter = new FileWriter(file);
+		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+		String headerLine = csvHeader(calendarYearVsPartialDateVsAnnualGrowthPercentage.keySet());
+		bufferedWriter.write(headerLine);
+
+		Set<PartialDate> allPartialDates = new TreeSet<PartialDate>(Comparators.PARTIAL_DATE_ASCENDING);
+
+		calendarYearVsPartialDateVsAnnualGrowthPercentage.values()
+				.stream()
+				.map(partialDateVsAnnualGrowth -> partialDateVsAnnualGrowth.keySet())
+				.forEach(partialDateSetForCalendarYear -> allPartialDates.addAll(partialDateSetForCalendarYear));
+
+		for (PartialDate partialDate : allPartialDates) {
+			String recordLine = csvLine(partialDate, calendarYearVsPartialDateVsAnnualGrowthPercentage);
+			bufferedWriter.write(recordLine);
+		}
+
+		bufferedWriter.close();
+
+		log.info("written data to file and closed the writer");
+	}
+
 	public Mono<?> generateDailyBasisAnnualGrowthReport() {
 
 		log.info("generate daily basis annual growth report");
@@ -311,7 +427,7 @@ public class AnalysisReportServiceAsync {
 					ExceptionLogUtil.logException(exception, "Failed to write investment data for : " + schemeId);
 				}
 				try {
-					//writeSchemeInvestmentAnalysisToCsvFile(schemeId, calendarYearVsPartialDateVsAnnualGrowthPercentage);
+					writeSchemeInvestmentAnalysisToCsvFile(schemeId, calendarYearVsPartialDateVsAnnualGrowthPercentage);
 				} catch (Exception exception) {
 					ExceptionLogUtil.logException(exception, "Failed to write investment data for : " + schemeId);
 				}
