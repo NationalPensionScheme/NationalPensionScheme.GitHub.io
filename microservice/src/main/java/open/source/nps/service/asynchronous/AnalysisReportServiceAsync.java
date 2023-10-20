@@ -271,7 +271,7 @@ public class AnalysisReportServiceAsync {
 
 	}
 
-	private void writeSchemeInvestmentAnalysisToFile(String schemeId, Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPecentage) throws Exception {
+	private void writeSchemeInvestmentAnalysisToJsonFile(String schemeId, Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPecentage) throws Exception {
 
 		String filePath = schemeInvestDataFilesPath + schemeId + FileExtension.JSON.getExtension();
 		File file = new File(filePath);
@@ -306,7 +306,7 @@ public class AnalysisReportServiceAsync {
 			.forEach(schemeId -> {
 				Map<Integer, Map<PartialDate, Float>> calendarYearVsPartialDateVsAnnualGrowthPecentage = generateDailyBasisAnnualGrowthReport(schemeId);
 				try {
-					writeSchemeInvestmentAnalysisToFile(schemeId, calendarYearVsPartialDateVsAnnualGrowthPecentage);
+					writeSchemeInvestmentAnalysisToJsonFile(schemeId, calendarYearVsPartialDateVsAnnualGrowthPecentage);
 				} catch (Exception exception) {
 					ExceptionLogUtil.logException(exception, "Failed to write investment data for : " + schemeId);
 				}
