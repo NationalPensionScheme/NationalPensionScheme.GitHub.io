@@ -103,9 +103,9 @@ public class DateHelper {
 	public static PartialDate getPartialDate(DateSegmented dateSegmented) {
 
 		PartialDate partialDate = PartialDate.builder()
-				.dd()
+				.dd(dateSegmented.getDd())
 				.mm(dateSegmented.getMm())
-				.build(dateSegmented.getDd());
+				.build();
 
 		return partialDate;
 	}
