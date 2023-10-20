@@ -163,7 +163,7 @@ function plotGoogleDataChart(fundSchemeId, googleChartData) {
                 },
                 viewWindow : {
                     min : 0,
-                    max : 55
+                    max : 60
                 },
                 /*
                 scaleType: 'log',

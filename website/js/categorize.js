@@ -161,7 +161,7 @@ function plotCategoryChart(categoryId, chartElementId, columnArray, googleChartD
                 },
                 viewWindow : {
                     min : 0,
-                    max : 55
+                    max : 60
                 },
                 */
             },
