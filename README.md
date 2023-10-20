@@ -118,6 +118,20 @@ https://npscra.nsdl.co.in/download/NAV_File_DDMMYYYY.zip
 [NSDL - Contact Us](https://www.npscra.nsdl.co.in/contact-us.php)
 
 
+
+## Reference - Company Information
+
+Format
+
+https://www.thecompanycheck.com/company/x/<COMPANY_IDENTIFACTION_NUMBER>
+
+
+Example
+
+https://www.thecompanycheck.com/company/x/U66000MH2009PLC191350
+
+
+
 ## Fund Managers' Websites ##
 
 [SBI](http://www.sbipensionfunds.com/)
