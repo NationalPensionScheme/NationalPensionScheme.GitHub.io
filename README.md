@@ -15,6 +15,23 @@ India
 Jai Hind
 
 
+
+## TODO : important
+
+implement directly on frontend, for investment choice by date, create a page to choose a scheme, and display its data in data-tables, source path of files would be {PROJECT_URL}/nav-data/scheme-invest/{SCHEME_ID}.csv
+
+make menu hidden, based on 3 lines, upon click show full page popup, give text based options to navigate instead of icons
+
+give a sub heading to give the context of the page loaded
+
+remove one call of client meta
+
+modify json of push notification
+
+remove the page refresh time, or make it more
+
+
+
 ## Funds & Schemes Perfomance ##
 
 [NAV Timeline - Graphs Visualization](https://NationalPensionScheme.GitHub.io/)
@@ -677,7 +694,7 @@ kill -9 `lsof -t -i:7777`
 sudo kill -9 `sudo lsof -t -i:7777`
 ```
 
-- Combining and Consolidating the Investment Files (In-Progress)
+- Combining and Consolidating the Investment Files (Abandoned) (Deprecated) (Not Required)
 
 ```
 cd code
@@ -686,6 +703,7 @@ sh consolidate.sh &> logs/consolidate_scheme_date_invest.log
 
 cd ..
 ```
+
 
 
 
