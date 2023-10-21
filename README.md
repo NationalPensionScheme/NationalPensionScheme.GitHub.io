@@ -359,6 +359,8 @@ Edit the main Shell Script `execute.sh` the variable `year` in configuration and
 cd code
 
 sh execute.sh
+
+cd ..
 ```
 
 Assign a relevant year value to `yyyy` below
@@ -368,7 +370,9 @@ Write output to a file
 ```
 cd code
 
-sh execute.sh &> logs/output-yyyy.log
+sh execute.sh &> logs/output-2023.log
+
+cd ..
 ```
 
 If executing again / re-executing for the same year
@@ -672,6 +676,17 @@ kill -9 `lsof -t -i:7777`
 ```
 sudo kill -9 `sudo lsof -t -i:7777`
 ```
+
+- Combining and Consolidating the Investment Files (In-Progress)
+
+```
+cd code
+
+sh consolidate.sh &> logs/consolidate_scheme_date_invest.log
+
+cd ..
+```
+
 
 
 Swagger
