@@ -694,7 +694,7 @@ kill -9 `lsof -t -i:7777`
 sudo kill -9 `sudo lsof -t -i:7777`
 ```
 
-- Combining and Consolidating the Investment Files (Abandoned) (Deprecated) (Not Required)
+- Combining and Consolidating the Investment Files (In-Progress)
 
 ```
 cd code
@@ -704,6 +704,23 @@ sh consolidate.sh &> logs/consolidate_scheme_date_invest.log
 cd ..
 ```
 
+## Important Implementation Note
+
+from every scheme file, at the following path {PROJECT_URL}/nav-data/scheme-invest/{SCHEME_ID}.csv
+
+for indiviual Correct the logic calculation of average calculation, don't consider the future dates of current year as well in counting
+
+to consolidate, pick only the first two date columns (mm & dd), and its last column (the average across all years), it would become the scheme column
+
+consolidated should look like
+
+Date (MM), Date (DD), SM011008, SM011007, ...
+10, 19, 2.715041, 3.81951, ...
+
+or it can be
+
+Date (MM/DD), SM012001, SM012002, ...
+10/19, 7.5077415, 3.6406846, ...
 
 
 
