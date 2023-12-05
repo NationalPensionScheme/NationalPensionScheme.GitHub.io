@@ -478,6 +478,36 @@ mv nps-funds-performance-nav-data-sorted.csv nps-funds-performance-nav-data.csv
 cd ..
 ```
 
+- Trimming the Leading Spaces in Columns
+
+```
+cd nav-data
+
+cat nps-funds-performance-nav-data.csv | awk 'BEGIN{ FS=", *"; OFS="," } {$1=$1; print $0}' > nps-funds-performance-nav-data-trimmed.csv
+
+rm nps-funds-performance-nav-data.csv
+
+mv nps-funds-performance-nav-data-trimmed.csv nps-funds-performance-nav-data.csv
+
+cd ..
+```
+
+
+- Trimming the Trailing Spaces in Columns
+
+```
+cd nav-data
+
+cat nps-funds-performance-nav-data.csv | awk 'BEGIN{ FS=" *,"; OFS="," } {$1=$1; print $0}' > nps-funds-performance-nav-data-trimmed.csv
+
+rm nps-funds-performance-nav-data.csv
+
+mv nps-funds-performance-nav-data-trimmed.csv nps-funds-performance-nav-data.csv
+
+cd ..
+```
+
+
 - Extracting Meta Data
 
 Fund Managers
