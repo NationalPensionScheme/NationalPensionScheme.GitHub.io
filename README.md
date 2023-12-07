@@ -1503,6 +1503,22 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 
 	https://www.toptal.com/designers/htmlarrows/symbols/
 
+- Font Awesome Cheatsheet
+
+	https://fontawesome.com/v4/cheatsheet/
+
+- Font Awesome
+
+	https://fontawesome.com/
+
+	https://www.fontawesomecheatsheet.com/
+
+	https://www.w3schools.com/icons/fontawesome_icons_chart.asp
+
+	https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-address-book-o
+
+	https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-address-card-o
+
 - Font Awesome Icons
 
 	https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
@@ -1792,18 +1808,6 @@ cat schemeId.csv | sed 's/\r$//' > scheme-id.csv
 	https://developers.google.com/chart/interactive/docs/gallery/combochart
 
 	https://developers.google.com/chart/interactive/docs/gallery/diffchart
-
-- Font Awesome
-
-	https://fontawesome.com/
-
-	https://www.fontawesomecheatsheet.com/
-
-	https://www.w3schools.com/icons/fontawesome_icons_chart.asp
-
-	https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-address-book-o
-
-	https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-address-card-o
 
 - Google Chart - Zoom Buttons
 
