@@ -2,19 +2,19 @@
 <html lang="en">
 
     <head>
-        <title>Individual Scheme NAV Graph Charts - National Pension System</title>
+        <title>Best Day to Invest - Select your Scheme - National Pension System</title>
         <meta charset="UTF-8">
-        <meta name="application-name" content="Individual Scheme NAV Graph Charts - National Pension System">
+        <meta name="application-name" content="Best Day to Invest - Select your Scheme - National Pension System">
         <meta name="author" content="Turquoise Space">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="NPS, National Pension Scheme, National Pension System, eNPS, India, SBI, UTI, LIC, IDFC, Kotak Mahindra, Reliance Capital, ICICI Prudential, HDFC, DSP BlackRock, Aditya Birla Sun Life, Tata, Max Life, Axis, Performance, Growth, Visualization, Analysis, NPS Trust, Pension Fund Managers, Pension, Pension Fund, Pension Funds, Pension Scheme, Pension Schemes, Government, Public, Private, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, Financial Year, FY, PFM, Capital, Management, Invest, Investment, Gain, Worth, Tax, Rebate, Tax Rebate, Tax Declaration, Income, Savings, Other, Others, Tier I, Tier 1, Tier II, Tier 2, Scheme A, Scheme C, Scheme E, Scheme G, Tax Saver Scheme, State, State Government, Central, Central Government, Corporate, Corporate CG, Lite Scheme, APY, APY Fund Scheme, Atal Pension Yojana, NPS Trust A/C, Contact, Contact Number, Phone Number, Telephone Number, Toll Free Number, Email, Email Id, Contact Information, NSDL, PFRDA, Ombudsman, Sec, Section, u/s, Under Section, 80C, Section 80C, 80 C, Section 80 C, 80 CCD (1), Sec 80 CCD (1), 80CCD (1B), Section 80CCD (1B), 80 CCD (1B), Section 80 CCD (1B), 10 (12B), 80CCD (2), Section 80CCD (2), 80 CCD (2), Section 80 CCD (2), 80 CCD 1, 80 CCD 1B, 80 CCD 2, 80 CCE, Account, NPS Account, Subscriber, Information, NAV, Net Asset Value, Timeline, Date, Share, Price, Profit, Loss, Money, INR, Rupee, Rupees, Paisa, Rupay, Rupiya, Rupiyah, Indian, Trending, News, Newz, Market, Finance, Ministry of Corporate Affairs, MCA, Registrar of Companies, Equity, Corporate Dept, Government Bonds, Alternate Investment, CMBS, MBS, REITS, AIFs, Invlts, Instruments, Financial Instruments, Related, Research, Development, Turquoise Space, TurquoiseSpace, GitHub">
-        <meta name="description" content="Fund Manager wise Individual Scheme line Graph charts of daily Net Asset Value trends under National Pension System NPS India">
-        <meta http-equiv="refresh" content="60">
-        <meta property="og:title" content="Individual Scheme NAV Graph Charts - National Pension System">
+        <meta name="description" content="Best Day to Invest in a particular Scheme, growth analysis tabular data, row is month-day and column is year, under National Pension System NPS India">
+        <meta http-equiv="refresh" content="100">
+        <meta property="og:title" content="Best Day to Invest - Select your Scheme - National Pension System">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://NationalPensionScheme.GitHub.io/Fund-Manager-wise-Individual-Scheme-line-Graph-charts-of-daily-Net-Asset-Value-trends-under-National-Pension-System-NPS-India.html">
+        <meta property="og:url" content="https://NationalPensionScheme.GitHub.io/Best-Day-to-Invest.html">
         <meta property="og:site_name" content="National Pension Scheme - NationalPensionScheme.GitHub.io">
-        <meta property="og:description" content="Fund Manager wise Individual Scheme line Graph charts of daily Net Asset Value trends under National Pension System NPS India">
+        <meta property="og:description" content="Best Day to Invest in a particular Scheme, growth analysis tabular data, row is month-day and column is year, under National Pension System NPS India">
         <meta property="og:locale" content="en_IN">
         <meta property="og:locale:alternate" content="en_US">
         <meta property="og:image" content="https://NationalPensionScheme.GitHub.io/website/images/Flag_of_India.svg">
@@ -24,11 +24,13 @@
         <link rel="icon" type="image/svg+xml" sizes="any" href="website/images/Flag_of_India.svg">
         <link rel="stylesheet" href="website/css/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
         <script type="text/javascript" src="website/js/schemeInfo.js"></script>
         <script type="text/javascript" src="website/js/pushNotification.js"></script>
         <script type="text/javascript" src="website/js/page.js"></script>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript" src="website/js/projection.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="website/js/investDataTable.js"></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7600374410956303" crossorigin="anonymous"></script>
     </head>
 
@@ -50,16 +52,16 @@
 
                 <div id="page-options">
                     <i id="page-0-icon" class="fa page-icons" onclick="openPage(0)" title="Pension Managers & Schemes">&#xf19c;</i>
-                    <i id="page-1-icon" class="fa page-icons active-page-icon" onclick="openPage(1)" title="Individual Charts - Fund Manager Wise - Daily NAV Trends">&#xf201;</i>
+                    <i id="page-1-icon" class="fa page-icons" onclick="openPage(1)" title="Individual Charts - Fund Manager Wise - Daily NAV Trends">&#xf201;</i>
                     <i id="page-2-icon" class="fa page-icons" onclick="openPage(2)" title="Consolidated Charts - Category Wise - Daily NAV Trends">&#xf247;</i>
                     <i id="page-3-icon" class="fa page-icons" onclick="openPage(3)" title="Consolidated Performance Analysis - Category Wise - Financial Year Average Growth Percentage">&#xf0ce;</i>
                     <i id="page-4-icon" class="fa page-icons" onclick="openPage(4)" title="Contact Book">&#xf2ba;</i>
-                    <i id="page-5-icon" class="fa page-icons" onclick="openPage(5)" title="Best Day to Invest - Scheme wise">&#xf2dd;</i>
+                    <i id="page-5-icon" class="fa page-icons active-page-icon" onclick="openPage(5)" title="Best Day to Invest - Scheme wise">&#xf2dd;</i>
                 </div>
 
-                <section id="page-1">
+                <section id="page-5">
 
-                    <nav id="page-1-nav" class="left">
+                    <nav id="page-5-nav" class="left">
 
                         <h3>
                             Fund Managers
@@ -77,32 +79,32 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM001011" value="SM001011" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001011" value="SM001011" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Atal Pension Yojana - NPS Trust A/C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001010" value="SM001010" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001010" value="SM001010" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Corporate CG
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001001" value="SM001001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001001" value="SM001001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Government - Central
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001002" value="SM001002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001002" value="SM001002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Government - State
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001009" value="SM001009" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001009" value="SM001009" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001015" value="SM001015" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001015" value="SM001015" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     APY Fund Scheme
                                                 </button>
                                             </li>
@@ -112,22 +114,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM001012" value="SM001012" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001012" value="SM001012" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001004" value="SM001004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001004" value="SM001004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001003" value="SM001003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001003" value="SM001003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001005" value="SM001005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001005" value="SM001005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -137,27 +139,27 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM001013" value="SM001013" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001013" value="SM001013" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001007" value="SM001007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001007" value="SM001007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001006" value="SM001006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001006" value="SM001006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001008" value="SM001008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001008" value="SM001008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM001014" value="SM001014" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM001014" value="SM001014" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -173,32 +175,32 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM002011" value="SM002011" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002011" value="SM002011" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Atal Pension Yojana - NPS Trust A/C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002010" value="SM002010" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002010" value="SM002010" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Corporate CG
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002001" value="SM002001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002001" value="SM002001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Government - Central
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002002" value="SM002002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002002" value="SM002002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Government - State
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002009" value="SM002009" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002009" value="SM002009" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002015" value="SM002015" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002015" value="SM002015" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     APY Fund Scheme
                                                 </button>
                                             </li>
@@ -208,22 +210,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM002012" value="SM002012" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002012" value="SM002012" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002004" value="SM002004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002004" value="SM002004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002003" value="SM002003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002003" value="SM002003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002005" value="SM002005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002005" value="SM002005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -233,27 +235,27 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM002013" value="SM002013" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002013" value="SM002013" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002007" value="SM002007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002007" value="SM002007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002006" value="SM002006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002006" value="SM002006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002008" value="SM002008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002008" value="SM002008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM002014" value="SM002014" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM002014" value="SM002014" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -269,32 +271,32 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM003011" value="SM003011" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003011" value="SM003011" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Atal Pension Yojana - NPS Trust A/C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003004" value="SM003004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003004" value="SM003004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Corporate CG
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003001" value="SM003001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003001" value="SM003001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Government - Central
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003002" value="SM003002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003002" value="SM003002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Government - State
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003003" value="SM003003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003003" value="SM003003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003015" value="SM003015" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003015" value="SM003015" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     APY Fund Scheme
                                                 </button>
                                             </li>
@@ -304,22 +306,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM003012" value="SM003012" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003012" value="SM003012" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003006" value="SM003006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003006" value="SM003006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003005" value="SM003005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003005" value="SM003005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003007" value="SM003007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003007" value="SM003007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -329,27 +331,27 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM003013" value="SM003013" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003013" value="SM003013" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003009" value="SM003009" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003009" value="SM003009" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003008" value="SM003008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003008" value="SM003008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003010" value="SM003010" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003010" value="SM003010" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM003014" value="SM003014" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM003014" value="SM003014" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -365,7 +367,7 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM004007" value="SM004007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM004007" value="SM004007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -375,17 +377,17 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM004002" value="SM004002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM004002" value="SM004002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM004001" value="SM004001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM004001" value="SM004001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM004003" value="SM004003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM004003" value="SM004003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -395,17 +397,17 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM004005" value="SM004005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM004005" value="SM004005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM004004" value="SM004004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM004004" value="SM004004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM004006" value="SM004006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM004006" value="SM004006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -421,7 +423,7 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM005007" value="SM005007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005007" value="SM005007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -431,22 +433,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM005008" value="SM005008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005008" value="SM005008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM005002" value="SM005002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005002" value="SM005002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM005001" value="SM005001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005001" value="SM005001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM005003" value="SM005003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005003" value="SM005003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -456,27 +458,27 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM005009" value="SM005009" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005009" value="SM005009" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM005005" value="SM005005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005005" value="SM005005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM005004" value="SM005004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005004" value="SM005004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM005006" value="SM005006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005006" value="SM005006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM005010" value="SM005010" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM005010" value="SM005010" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -492,7 +494,7 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM006007" value="SM006007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006007" value="SM006007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -502,22 +504,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM006008" value="SM006008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006008" value="SM006008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM006002" value="SM006002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006002" value="SM006002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM006001" value="SM006001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006001" value="SM006001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM006003" value="SM006003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006003" value="SM006003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -527,22 +529,22 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM006009" value="SM006009" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006009" value="SM006009" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM006005" value="SM006005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006005" value="SM006005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM006004" value="SM006004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006004" value="SM006004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM006006" value="SM006006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM006006" value="SM006006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -558,7 +560,7 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM007007" value="SM007007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007007" value="SM007007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -568,22 +570,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM007008" value="SM007008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007008" value="SM007008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM007002" value="SM007002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007002" value="SM007002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM007001" value="SM007001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007001" value="SM007001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM007003" value="SM007003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007003" value="SM007003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -593,27 +595,27 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM007009" value="SM007009" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007009" value="SM007009" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM007005" value="SM007005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007005" value="SM007005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM007004" value="SM007004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007004" value="SM007004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM007006" value="SM007006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007006" value="SM007006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM007010" value="SM007010" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM007010" value="SM007010" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme
                                                 </button>
                                             </li>
@@ -629,7 +631,7 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM008007" value="SM008007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008007" value="SM008007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -639,22 +641,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM008008" value="SM008008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008008" value="SM008008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM008002" value="SM008002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008002" value="SM008002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM008001" value="SM008001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008001" value="SM008001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM008003" value="SM008003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008003" value="SM008003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -664,27 +666,27 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM008009" value="SM008009" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008009" value="SM008009" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM008005" value="SM008005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008005" value="SM008005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM008004" value="SM008004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008004" value="SM008004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM008006" value="SM008006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008006" value="SM008006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM008010" value="SM008010" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM008010" value="SM008010" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -700,7 +702,7 @@
                                         <span class="toggle-arrow">Other</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM009007" value="SM009007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM009007" value="SM009007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Lite Scheme - NPS Trust A/C
                                                 </button>
                                             </li>
@@ -710,17 +712,17 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM009002" value="SM009002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM009002" value="SM009002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM009001" value="SM009001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM009001" value="SM009001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM009003" value="SM009003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM009003" value="SM009003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -730,17 +732,17 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM009005" value="SM009005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM009005" value="SM009005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM009004" value="SM009004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM009004" value="SM009004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM009006" value="SM009006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM009006" value="SM009006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -756,22 +758,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM010004" value="SM010004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010004" value="SM010004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM010002" value="SM010002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010002" value="SM010002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM010001" value="SM010001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010001" value="SM010001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM010003" value="SM010003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010003" value="SM010003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -781,27 +783,27 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM010008" value="SM010008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010008" value="SM010008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM010006" value="SM010006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010006" value="SM010006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM010005" value="SM010005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010005" value="SM010005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM010007" value="SM010007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010007" value="SM010007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM010009" value="SM010009" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM010009" value="SM010009" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme
                                                 </button>
                                             </li>
@@ -817,22 +819,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM011004" value="SM011004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM011004" value="SM011004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM011002" value="SM011002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM011002" value="SM011002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM011001" value="SM011001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM011001" value="SM011001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM011003" value="SM011003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM011003" value="SM011003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -842,22 +844,22 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM011006" value="SM011006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM011006" value="SM011006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM011005" value="SM011005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM011005" value="SM011005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM011007" value="SM011007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM011007" value="SM011007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM011008" value="SM011008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM011008" value="SM011008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme
                                                 </button>
                                             </li>
@@ -873,22 +875,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM012004" value="SM012004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM012004" value="SM012004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM012002" value="SM012002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM012002" value="SM012002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM012001" value="SM012001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM012001" value="SM012001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM012003" value="SM012003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM012003" value="SM012003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -898,22 +900,22 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM012006" value="SM012006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM012006" value="SM012006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM012005" value="SM012005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM012005" value="SM012005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM012007" value="SM012007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM012007" value="SM012007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM012008" value="SM012008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM012008" value="SM012008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme
                                                 </button>
                                             </li>
@@ -929,22 +931,22 @@
                                         <span class="toggle-arrow">Tier I</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM013004" value="SM013004" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM013004" value="SM013004" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme A
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM013002" value="SM013002" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM013002" value="SM013002" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM013001" value="SM013001" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM013001" value="SM013001" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM013003" value="SM013003" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM013003" value="SM013003" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
@@ -954,22 +956,22 @@
                                         <span class="toggle-arrow">Tier II</span>
                                         <ul class="nested-list">
                                             <li>
-                                                <button id="SM013006" value="SM013006" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM013006" value="SM013006" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme C
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM013005" value="SM013005" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM013005" value="SM013005" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme E
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM013007" value="SM013007" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM013007" value="SM013007" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Scheme G
                                                 </button>
                                             </li>
                                             <li>
-                                                <button id="SM013008" value="SM013008" class="fund-scheme" onclick="visualize(this)">
+                                                <button id="SM013008" value="SM013008" class="fund-scheme" onclick="loadSchemeTabular(this)">
                                                     Tax Saver Scheme
                                                 </button>
                                             </li>
@@ -984,8 +986,8 @@
 
                     <article class="left">
                         <!-- All the Code and Content goes here -->
-                        <div id="graph-chart">
-                            <div id="google-graph-chart">
+                        <div id="tabular-scheme">
+                            <div id="tabular-scheme-best-day-invest">
                                 <div id="instructions">
                                     <div id="pointer" class="left">
                                         <h3>&#8592;</h3>
@@ -998,14 +1000,20 @@
                                             Check on the left side; expand and select a "Red" coloured
                                         </h3>
                                         <h3>
-                                            To visualize "Individual" timeline graph of the Net Asset Value
-                                        </h3>
-                                        <h3>
-                                            Note : Scroll to Zoom In & Out, Right Click to Reset, Left Click to Mark Points
+                                            To load the Best Day to Invest for particular Scheme
                                         </h3>
                                     </div>
                                     <div class="clear"></div>
                                 </div>
+
+                                <table id="tabular-scheme-best-day-to-invest">
+                                    <thead>
+                                        <tr></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr></tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
 

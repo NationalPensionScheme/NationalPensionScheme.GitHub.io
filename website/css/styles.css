@@ -344,8 +344,32 @@ i {
     font-size: 30px;
 }
 
+#page-5-icon {
+    font-size: 30px;
+}
+
 .page-icons {
     border-radius: 12px;
+    border-color: #ff580080;
+    border-width: 5px;
+    border-style: groove;
+    /*
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: hidden;
+    border-style: inset;
+    border-style: none;
+    border-style: outset;
+    border-style: ridge;
+    border-style: solid;
+    border-style: inherit;
+    border-style: initial;
+    border-style: revert;
+    border-style: revert-layer;
+    border-style: unset;
+    */
 }
 
 .page-icons:hover {
@@ -355,7 +379,8 @@ i {
     /* background-color: rgb(245, 130, 49); */
     /* background-color: rgb(153, 102, 51); */
     /* background-color: rgb(148, 49, 49); */
-    background-color: #7f3199;
+    background-color: rgb(65, 225, 105);
+    border-color: #1c0d0580;
     cursor: pointer;
 }
 
@@ -363,14 +388,14 @@ i {
     /* color: black; */
     /* background-color: rgb(102, 51, 153); */
     /* background-color: #7f3199; */
-    background-color: rgb(51, 153, 102);
+    background-color: royalblue;
     color: #000;
     border-radius: 12px;
 }
 
 .active-page-icon:hover {
     /* background-color: #7f3199; */
-    background-color: rgb(51, 153, 102);
+    background-color: royalblue;
 }
 
 section {
@@ -450,7 +475,7 @@ section {
     width: 28%;
     /* margin-top: 0.5%; */
     margin-bottom: 5%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 ul {
@@ -584,7 +609,7 @@ text {
     font-size: 14px;
     width: 28%;
     margin-bottom: 5%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 #fund-selection-consolidated {
@@ -837,6 +862,37 @@ input:focus {
     background-color: royalblue;
     color: black;
     cursor: pointer;
+}
+
+#page-5 {
+    margin-top: 3%;
+}
+
+#page-5-nav {
+    text-align: left;
+    font-family: verdana;
+    font-size: 14px;
+    width: 28%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+
+#tabular-scheme {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#tabular-scheme-best-day-invest {
+
+}
+
+#tabular-scheme-best-day-to-invest {
+
+}
+
+.even {
+    background-color: #111 !important;
 }
 
 #last-updated {
