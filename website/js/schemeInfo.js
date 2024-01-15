@@ -36,6 +36,7 @@ let managerNameVsColour = {
     "Tata":"#ff0000",
     "Max Life":"#00ff00",
     "Axis":"#0000ff",
+    "DSP":"#00ff00",
 };
 
 function processSchemeInfo(schemeInfoContent) {
