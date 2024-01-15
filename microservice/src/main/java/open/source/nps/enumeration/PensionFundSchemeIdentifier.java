@@ -150,6 +150,15 @@ public enum PensionFundSchemeIdentifier {
 	SM013007 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_II_SCHEME_G),
 	SM013008 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 
+	SM014001 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_SCHEME_E),
+	SM014002 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_SCHEME_C),
+	SM014003 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_SCHEME_G),
+	SM014004 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_SCHEME_A),
+	SM014005 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_SCHEME_E),
+	SM014006 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_SCHEME_C),
+	SM014007 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_SCHEME_G),
+	SM014008 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
+
 	;
 
 	private PensionFundManagerIdentifier managerId;
