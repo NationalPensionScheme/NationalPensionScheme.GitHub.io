@@ -384,10 +384,12 @@ Assign a relevant year value to `yyyy` below
 
 Write output to a file
 
+prefer this
+
 ```
 cd code
 
-sh execute.sh &> logs/output-2023.log
+sh execute.sh &> logs/output-2024.log
 
 cd ..
 ```
@@ -397,7 +399,7 @@ If executing again / re-executing for the same year
 ```
 cd code
 
-sh execute.sh &>> logs/output-2023.log
+sh execute.sh &>> logs/output-2024.log
 
 cd ..
 ```

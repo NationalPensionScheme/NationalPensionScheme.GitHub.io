@@ -4,8 +4,8 @@
 
 # date from which the download or update of data files should start from
 # update these start values by current / today's date, after sucessful execution of this script
-start_year=2023
-end_year=2023
+start_year=2024
+end_year=2024
 
 #### dynamic date value generation ####
 
