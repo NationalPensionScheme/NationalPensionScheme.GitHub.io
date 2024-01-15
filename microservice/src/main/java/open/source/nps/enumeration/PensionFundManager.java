@@ -20,6 +20,7 @@ public enum PensionFundManager {
 	TATA ("Tata", "Tata Pension Management Limited"),
 	MAX_LIFE ("Max Life", "Max Life Pension Fund Management Limited"),
 	AXIS ("Axis", "Axis Pension Fund Management Limited"),
+	DSP ("DSP", "DSP Pension Fund Managers Private Limited"),
 	;
 
 	private String value;

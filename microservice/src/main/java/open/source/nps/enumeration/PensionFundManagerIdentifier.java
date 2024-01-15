@@ -20,6 +20,7 @@ public enum PensionFundManagerIdentifier {
 	PFM011 (PensionFundManager.TATA),
 	PFM012 (PensionFundManager.MAX_LIFE),
 	PFM013 (PensionFundManager.AXIS),
+	PFM014 (PensionFundManager.DSP),
 	;
 
 	private PensionFundManager manager;
