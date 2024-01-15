@@ -1,5 +1,5 @@
 
-let schemeInfoUrl = "https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/meta-data/pension-fund-schemes-v6.json";
+let schemeInfoUrl = "https://raw.githubusercontent.com/NationalPensionScheme/NationalPensionScheme.GitHub.io/main/meta-data/pension-fund-schemes-v7.json";
 
 let schemeInfo = [];
 let schemeIdVsSchemeName = {};
