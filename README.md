@@ -18,8 +18,6 @@ Jai Hind
 
 ## TODO : important
 
-implement directly on frontend, for investment choice by date, create a page to choose a scheme, and display its data in data-tables, source path of files would be {PROJECT_URL}/nav-data/scheme-invest/{SCHEME_ID}.csv
-
 make menu hidden, based on 3 lines, upon click show full page popup, give text based options to navigate instead of icons
 
 give a sub heading to give the context of the page loaded
