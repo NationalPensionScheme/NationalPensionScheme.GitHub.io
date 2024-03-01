@@ -155,6 +155,7 @@ function plotGoogleDataChart(fundSchemeId, googleChartData) {
                 title: 'Net Asset Value (INR)',
                 baselineColor: '#777',
                 gridlineColor: '#777',
+                /*
                 minorGridlines : {
                     count : 6
                 },
@@ -163,8 +164,9 @@ function plotGoogleDataChart(fundSchemeId, googleChartData) {
                 },
                 viewWindow : {
                     min : 0,
-                    max : 60
+                    max : 70
                 },
+                */
                 /*
                 scaleType: 'log',
                 gridlines: {
