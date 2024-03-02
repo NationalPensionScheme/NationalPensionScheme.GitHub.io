@@ -150,6 +150,8 @@ function populateDataTable(fundSchemeId, dataTableArgs) {
         //ajax: {
         //    data: dataTableArgs,
         //}
+        scrollX: true,
+        //scrollCollapse: true,
     });
 
     console.log("best day to invest data table generated -> (fundSchemeId) " + fundSchemeId);
