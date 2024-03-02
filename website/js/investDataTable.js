@@ -134,13 +134,17 @@ function populateDataTable(fundSchemeId, dataTableArgs) {
 
     // let table = new DataTable('#tabular-scheme-best-day-to-invest');
 
-    let table = new DataTable('#tabular-scheme-best-day-to-invest', {
+    let table;
+
+    table = new DataTable('#tabular-scheme-best-day-to-invest', {
         // options
-        paging: true,
-        lengthMenu: [ 500, 200, 100, 75, 50, 25, 10 ],
+        paging: false,
+        lengthMenu: [ 366 ],
         searching: true,
+        //retrieve: true,
+        destroy: true,
         ordering: true,
-        select: true,
+        //select: true,
         columns: dataTableArgs.head,
         data: dataTableArgs.body,
         //ajax: {
