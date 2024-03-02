@@ -14,8 +14,8 @@ let websitePageUriMapping = {
     1: "Fund-Manager-wise-Individual-Scheme-line-Graph-charts-of-daily-Net-Asset-Value-trends-under-National-Pension-System-NPS-India.html",
     2: "Scheme-Category-wise-all-in-one-Consolidated-line-Graph-charts-of-daily-Net-Asset-Value-trends-for-Comparison-under-National-Pension-System-NPS-India.html",
     3: "Scheme-Category-wise-all-in-one-Consolidated-Tabular-Performance-Analysis-showing-Average-Growth-Percentage-for-each-Financial-Year-under-National-Pension-System-NPS-India.html",
-    4: "Contact-Book-having-Email-Ids-and-Phone-Numbers-to-Reach-out-to-various-Entities-under-National-Pension-System-NPS-India.html",
-    5: "Best-Day-to-Invest.html"
+    4: "Best-Day-to-Invest.html",
+    5: "Contact-Book-having-Email-Ids-and-Phone-Numbers-to-Reach-out-to-various-Entities-under-National-Pension-System-NPS-India.html"
 }
 
 /*
