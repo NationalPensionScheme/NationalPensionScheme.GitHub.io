@@ -888,7 +888,11 @@ input:focus {
 }
 
 #tabular-scheme-best-day-to-invest {
+    margin-left: 0px;
+}
 
+.dt-scroll-body {
+    
 }
 
 .dt-scroll-body::-webkit-scrollbar {
