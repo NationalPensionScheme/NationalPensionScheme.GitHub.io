@@ -438,6 +438,40 @@ Verify the data in the other columns, using `filter` option
 
 Verify the output daily files, located in the directory `nav-data/daily/`, if they follow the naming convention `YYYY-MM-DD.csv`, else correct as required and append to consolidated data file `nps-funds-performance-nav-data.csv`
 
+
+- Validate Data Programatically
+
+Check in the output if any number is greater than 12, which means it is incorrect record, as month cannot be greater than 12
+
+```
+cd nav-data
+
+cat nps-funds-performance-nav-data.csv | cut -d/ -f1 | sort | uniq
+
+cd ..
+```
+
+Check in the output if any number is greater than 31, which means it is incorrect record, as date cannot be greater than 31
+
+```
+cd nav-data
+
+cat nps-funds-performance-nav-data.csv | cut -d/ -f2 | sort | uniq
+
+cd ..
+```
+
+Check in the output if any number is less than 2008 or greater than the current running Calendar Year, which means it is incorrect record, as year cannot be less than the starting year and greater than the current running Calendar Year
+
+```
+cd nav-data
+
+cat nps-funds-performance-nav-data.csv | cut -d/ -f3 | cut -d, -f1 | sort | uniq
+
+cd ..
+```
+
+
 - Watch Duplicates in the Consolidated / Combined CSV
 
 Check duplicate entries for date + schemeId combo
