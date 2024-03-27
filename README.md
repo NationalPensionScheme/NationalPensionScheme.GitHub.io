@@ -768,6 +768,11 @@ sh consolidate.sh &> logs/consolidate_scheme_date_invest.log
 cd ..
 ```
 
+- Last Updated Attribute
+
+Manually update the dates in sitemap and html pages
+
+
 ## Important Implementation Note
 
 from every scheme file, at the following path {PROJECT_URL}/nav-data/scheme-invest/{SCHEME_ID}.csv
