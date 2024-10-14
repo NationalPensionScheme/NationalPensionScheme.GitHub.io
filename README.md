@@ -415,6 +415,8 @@ git add *
 
 git commit -m "[data] adding latest NPS NAV data of year 2024"
 
+git status
+
 ```
 
 All the logs can be found in directory `code/logs/`
@@ -441,6 +443,8 @@ Commit
 git add *
 
 git commit -m "[data] removing carriage return from consolidated data file"
+
+git status
 
 ```
 
@@ -543,6 +547,8 @@ git add *
 
 git commit -m "[data] removing duplicates from the combined csv"
 
+git status
+
 ```
 
 - Sorting the consolidated data
@@ -567,6 +573,8 @@ Commit
 git add *
 
 git commit -m "[data] sorting combined csv in ascending order, based on the date field by year month day"
+
+git status
 
 ```
 
@@ -593,6 +601,8 @@ git add *
 
 git commit -m "[data] removing leading spaces"
 
+git status
+
 ```
 
 
@@ -618,6 +628,8 @@ Commit
 git add *
 
 git commit -m "[data] removing trailing spaces"
+
+git status
 
 ```
 
@@ -669,6 +681,8 @@ git add *
 
 git commit -m "[meta] adding latest generated meta-data"
 
+git status
+
 ```
 
 
@@ -690,6 +704,8 @@ Commit
 git add *
 
 git commit -m "[split] updating the content of scheme wise csv files and scheme min csv files"
+
+git status
 
 ```
 
@@ -903,6 +919,8 @@ Commit
 git add *
 
 git commit -m "[microservice] executing the APIs and adding the response"
+
+git status
 
 ```
 
