@@ -763,12 +763,10 @@ td {
 }
 
 /*
-Since the existing background color of the web page is black, we'll need to ensure that the colors chosen for each rank provide sufficient contrast for readability while maintaining the desired visual hierarchy. Bright colors will work well for the top ranks, while darker colors (especially reds) will contrast well for the lower ranks.
-
-Here's the updated CSS considering a black background:
+Here's a refined version of the color scheme where ranks 1 to 7 use lighter shades that contrast well against a black background, and ranks 8 to 14 use darker shades with lighter text for readability.
 */
 
-/* Rank 1-4: Bright Green and Yellow variants (for black background) */
+/* Rank 1-7: Lighter shades for higher ranks */
 
 /* Rank 1: Bright Green */
 .rank-component-1 {
@@ -776,7 +774,7 @@ Here's the updated CSS considering a black background:
     color: #000000; /* Black */
 }
 
-/* Rank 2: Light Green */
+/* Rank 2: Light Mint Green */
 .rank-component-2 {
     background-color: #66ff99; /* Light Mint Green */
     color: #000000; /* Black */
@@ -794,51 +792,47 @@ Here's the updated CSS considering a black background:
     color: #000000; /* Black */
 }
 
-/* Rank 5-8: Bright Cyan, Blue, and Purple */
-
 /* Rank 5: Bright Cyan */
 .rank-component-5 {
     background-color: #33ffff; /* Bright Cyan */
     color: #000000; /* Black */
 }
 
-/* Rank 6: Soft Blue */
+/* Rank 6: Sky Blue */
 .rank-component-6 {
-    background-color: #6699ff; /* Soft Blue */
-    color: #000000; /* Black */
-}
-
-/* Rank 7: Sky Blue */
-.rank-component-7 {
     background-color: #99ccff; /* Sky Blue */
     color: #000000; /* Black */
 }
 
-/* Rank 8: Light Lavender */
-.rank-component-8 {
+/* Rank 7: Soft Lavender */
+.rank-component-7 {
     background-color: #cc99ff; /* Light Lavender */
     color: #000000; /* Black */
 }
 
-/* Rank 9-10: Darker Cyan and Blue variants */
+/* Rank 8-14: Darker shades for lower ranks */
 
-/* Rank 9: Dark Cyan */
-.rank-component-9 {
+/* Rank 8: Dark Cyan */
+.rank-component-8 {
     background-color: #3399cc; /* Dark Cyan */
     color: #f0f0f0; /* Light Gray */
 }
 
-/* Rank 10: Steel Blue */
-.rank-component-10 {
+/* Rank 9: Steel Blue */
+.rank-component-9 {
     background-color: #3366ff; /* Steel Blue */
     color: #f5f5f5; /* Light Grayish White */
 }
 
-/* Rank 11-14: Red variants for lower ranks */
+/* Rank 10: Deep Purple */
+.rank-component-10 {
+    background-color: #6633cc; /* Deep Purple */
+    color: #f0f0f0; /* Light Gray */
+}
 
-/* Rank 11: Bright Red */
+/* Rank 11: Light Red */
 .rank-component-11 {
-    background-color: #ff6666; /* Bright Red */
+    background-color: #ff6666; /* Light Red */
     color: #000000; /* Black */
 }
 
@@ -851,7 +845,7 @@ Here's the updated CSS considering a black background:
 /* Rank 13: Medium Red */
 .rank-component-13 {
     background-color: #cc0000; /* Medium Red */
-    color: #ffffff; /* Pure White */
+    color: #ffffff; /* White */
 }
 
 /* Rank 14: Dark Red */
@@ -863,11 +857,9 @@ Here's the updated CSS considering a black background:
 
 /*
 Explanation:
-Higher ranks (1-4): Use bright green and yellow variants that stand out clearly against a black background with dark text.
-Mid-ranks (5-8): Use bright cyan, blue, and lavender shades, maintaining readability.
-Lower ranks (9-10): Use darker cyan and blue shades with lighter text for contrast.
-Lowest ranks (11-14): Red shades, with progressively darker reds, ensuring high contrast with black or light text.
-This approach ensures the colors pop against the black background, maintaining readability and a clear visual ranking system.
+Ranks 1-7 (Lighter Shades): These are vibrant, bright colors like neon green, yellow-green, cyan, sky blue, and lavender. They stand out well on a black background and have black text to ensure readability.
+Ranks 8-14 (Darker Shades): Starting from darker cyan and steel blue, progressing to deeper tones like purple and various shades of red, with lighter text colors (gray or white) for contrast.
+This distribution provides a clear visual progression from lighter, more vibrant tones in the higher ranks to darker, more subdued colors in the lower ranks, while maintaining contrast for good readability on the black background.
 */
 
 #nps-official {
