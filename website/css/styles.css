@@ -763,112 +763,118 @@ td {
 }
 
 /*
-I understand! You want to create a visual hierarchy where ranks 1 to 4 have bright, eye-catching colors, encouraging users to focus on them. As the ranks progress, the colors become progressively darker, signaling lower relevancy. For ranks 12 to 14, the darkest colors will be used to subtly discourage users from paying attention to those ranks.
+Summary of the Ask:
+You want a color scheme for 14 ranks that:
 
-The goal is to guide the user's focus from the top ranks (bright and attractive) to the lower ones (dull and muted), clearly indicating which ranks they should prioritize.
-
-Here’s the revised color scheme with this logic:
+Ranks 1 to 4: Have bright, attention-grabbing colors to emphasize high relevance.
+Ranks 5 to 8: Have slightly darker colors to show medium relevance, still noticeable but not as striking.
+Ranks 9 to 11: Use even darker colors, indicating low relevance and discouraging attention.
+Ranks 12 to 14: Reserve very dark colors, particularly red variants, to signal the least relevant ranks that users should avoid focusing on.
+Background: The webpage has a black background, so the colors need to contrast well against it.
+Behavior: The color scheme should guide users visually, pulling attention to higher ranks and discouraging focus on lower ranks.
+Fresh Color Scheme Based on the Ask:
+I'll now assign colors afresh based on these principles, making sure the brighter colors are reserved for higher ranks, and the red and very dark shades are used for the lowest.
 */
 
-/* Rank 1-4: Bright, attention-grabbing colors */
+/* Rank 1-4: Bright, high-relevance colors */
 
-/* Rank 1: Bright Green */
+/* Rank 1: Neon Green */
 .rank-component-1 {
     background-color: #00ff66; /* Bright Neon Green */
-    color: #000000; /* Black */
+    color: #000000; /* Black for contrast */
 }
 
-/* Rank 2: Bright Sky Blue */
+/* Rank 2: Bright Cyan */
 .rank-component-2 {
-    background-color: #66ccff; /* Bright Sky Blue */
-    color: #000000; /* Black */
+    background-color: #00ffff; /* Bright Cyan */
+    color: #000000; /* Black for contrast */
 }
 
 /* Rank 3: Soft Lavender */
 .rank-component-3 {
     background-color: #cc99ff; /* Soft Lavender */
-    color: #000000; /* Black */
+    color: #000000; /* Black for contrast */
 }
 
-/* Rank 4: Bright Cyan */
+/* Rank 4: Bright Sky Blue */
 .rank-component-4 {
-    background-color: #00ffff; /* Bright Cyan */
-    color: #000000; /* Black */
+    background-color: #66ccff; /* Bright Sky Blue */
+    color: #000000; /* Black for contrast */
 }
 
-/* Rank 5-8: Medium-dark, still noticeable colors */
+/* Rank 5-8: Medium-dark, noticeable colors */
 
 /* Rank 5: Light Mint Green */
 .rank-component-5 {
     background-color: #66ff99; /* Light Mint Green */
-    color: #000000; /* Black */
+    color: #000000; /* Black for contrast */
 }
 
 /* Rank 6: Soft Blue */
 .rank-component-6 {
-    background-color: #99ccff; /* Light Blue */
-    color: #000000; /* Black */
+    background-color: #99ccff; /* Soft Blue */
+    color: #000000; /* Black for contrast */
 }
 
 /* Rank 7: Deep Purple */
 .rank-component-7 {
     background-color: #6633cc; /* Deep Purple */
-    color: #f0f0f0; /* Light Gray */
+    color: #f0f0f0; /* Light Gray for contrast */
 }
 
 /* Rank 8: Dark Cyan */
 .rank-component-8 {
     background-color: #3399cc; /* Dark Cyan */
-    color: #f0f0f0; /* Light Gray */
+    color: #f0f0f0; /* Light Gray for contrast */
 }
 
-/* Rank 9-11: Darker shades to signal less relevance */
+/* Rank 9-11: Darker colors signaling lower relevance */
 
 /* Rank 9: Dark Blue */
 .rank-component-9 {
     background-color: #003366; /* Dark Blue */
-    color: #f5f5f5; /* Light Gray */
+    color: #f5f5f5; /* Light Gray for contrast */
 }
 
 /* Rank 10: Darker Steel Blue */
 .rank-component-10 {
     background-color: #336699; /* Darker Steel Blue */
-    color: #f0f0f0; /* Light Gray */
+    color: #f0f0f0; /* Light Gray for contrast */
 }
 
 /* Rank 11: Dark Purple */
 .rank-component-11 {
     background-color: #4b0082; /* Dark Purple */
-    color: #ffffff; /* White */
+    color: #ffffff; /* White for contrast */
 }
 
-/* Rank 12-14: Very dark, subdued colors for the least relevant ranks */
+/* Rank 12-14: Darkest shades for least relevance */
 
-/* Rank 12: Soft Red */
+/* Rank 12: Medium Red */
 .rank-component-12 {
-    background-color: #cc0000; /* Soft Red */
-    color: #ffffff; /* White */
+    background-color: #cc0000; /* Medium Red */
+    color: #ffffff; /* White for contrast */
 }
 
 /* Rank 13: Dark Red */
 .rank-component-13 {
     background-color: #990000; /* Dark Red */
-    color: #ffffff; /* White */
+    color: #ffffff; /* White for contrast */
 }
 
 /* Rank 14: Deep Maroon */
 .rank-component-14 {
     background-color: #660000; /* Deep Maroon */
-    color: #ffffff; /* White */
+    color: #ffffff; /* White for contrast */
 }
 
 /*
-Design Breakdown:
-Ranks 1 to 4: Use bright, attractive colors like neon green, bright sky blue, soft lavender, and bright cyan to immediately catch attention and signify high relevancy.
-Ranks 5 to 8: Shift to slightly darker shades like light mint green, soft blue, and deep purple, still noticeable but less eye-catching than the top ranks.
-Ranks 9 to 11: Use darker colors like dark blue, darker steel blue, and dark purple to show decreasing importance.
-Ranks 12 to 14: The most dark and muted colors, like dark and deep red shades, are reserved for the lowest ranks, guiding the user away from these options.
-This color hierarchy ensures that users’ focus naturally falls on the brighter, higher-ranked components, while the lower ranks fade into the background. Let me know if you need further adjustments!
+Key Design Decisions:
+Ranks 1-4: Use neon green, bright cyan, soft lavender, and bright sky blue — vibrant and bright colors to draw immediate attention.
+Ranks 5-8: Light mint green, soft blue, deep purple, and dark cyan — still noticeable, but less striking than the top ranks.
+Ranks 9-11: Darker shades like dark blue, darker steel blue, and dark purple — to signal these ranks are less important.
+Ranks 12-14: Use red variants like medium red, dark red, and deep maroon — conveying the lowest relevance, visually discouraging users from considering these ranks.
+This approach provides a clear, intuitive guide for users to focus on the higher ranks and ignore the lower ones, with a seamless progression from light and bright colors to dark, muted shades.
 */
 
 #nps-official {
