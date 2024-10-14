@@ -763,58 +763,58 @@ td {
 }
 
 .rank-component-1 {
-    background-color: #00FF00; /* Green */
-    color: #000000; /* Black */
+    background-color: #dff0d8; /* Light Green */
+    color: #3c763d; /* Dark Green */
 }
 
 .rank-component-2 {
-    background-color: #90EE90; /* Light Green */
-    color: #000000; /* Black */
+    background-color: #f0e68c; /* Light Yellow */
+    color: #8a6d3b; /* Dark Yellow */
 }
 
 .rank-component-3 {
-    background-color: #FFFFE0; /* Light Yellow */
-    color: #000000; /* Black */
+    background-color: #ffffcc; /* Light Yellow-Green */
+    color: #5e5e3f; /* Darker Yellow-Green */
 }
 
 .rank-component-4 {
-    background-color: #FFFF00; /* Yellow */
-    color: #000000; /* Black */
+    background-color: #f2dede; /* Light Red */
+    color: #a94442; /* Dark Red */
 }
 
 .rank-component-5 {
-    background-color: #FFA07A; /* Light Orange */
-    color: #000000; /* Black */
+    background-color: #d9edf7; /* Medium Light Blue */
+    color: #31708f; /* Medium Blue */
 }
 
 .rank-component-6 {
-    background-color: #FFA500; /* Orange */
-    color: #000000; /* Black */
+    background-color: #dff0d8; /* Medium Light Green */
+    color: #3c763d; /* Medium Dark Green */
 }
 
 .rank-component-7 {
-    background-color: #E6E6FA; /* Soft Lavender */
-    color: #000000; /* Black */
+    background-color: #f5f5f5; /* Medium Gray */
+    color: #333333; /* Dark Gray */
 }
 
 .rank-component-8 {
-    background-color: #E6E6FA; /* Lavender */
-    color: #000000; /* Black */
+    background-color: #fcf8e3; /* Medium Light Yellow */
+    color: #8a6d3b; /* Medium Dark Yellow */
 }
 
 .rank-component-9 {
-    background-color: #4682B4; /* Steel Blue */
-    color: #FFFFFF; /* White */
+    background-color: #f1f1f1; /* Dark Gray */
+    color: #212529; /* Very Dark Gray */
 }
 
 .rank-component-10 {
-    background-color: #FFB6C1; /* Light Pink */
-    color: #000000; /* Black */
+    background-color: #d9d9d9; /* Darker Gray */
+    color: #4f4f4f; /* Darker Dark Gray */
 }
 
 .rank-component-11 {
-    background-color: #FF0000; /* Red */
-    color: #FFFFFF; /* White */
+    background-color: #b0b0b0; /* Very Dark Gray */
+    color: #1c1c1c; /* Near Black */
 }
 
 #nps-official {
