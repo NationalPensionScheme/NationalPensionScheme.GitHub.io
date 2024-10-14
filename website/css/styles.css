@@ -763,30 +763,20 @@ td {
 }
 
 /*
-Summary of the Ask:
-You want a color scheme for 14 ranks that:
-
-Ranks 1 to 4: Have bright, attention-grabbing colors to emphasize high relevance.
-Ranks 5 to 8: Have slightly darker colors to show medium relevance, still noticeable but not as striking.
-Ranks 9 to 11: Use even darker colors, indicating low relevance and discouraging attention.
-Ranks 12 to 14: Reserve very dark colors, particularly red variants, to signal the least relevant ranks that users should avoid focusing on.
-Background: The webpage has a black background, so the colors need to contrast well against it.
-Behavior: The color scheme should guide users visually, pulling attention to higher ranks and discouraging focus on lower ranks.
-Fresh Color Scheme Based on the Ask:
-I'll now assign colors afresh based on these principles, making sure the brighter colors are reserved for higher ranks, and the red and very dark shades are used for the lowest.
+Here’s an updated color scheme for 11 ranks with a gradual transition from the lightest to the darkest, keeping rank 1 the lightest and rank 11 the darkest.
 */
 
 /* Rank 1-4: Bright, high-relevance colors */
 
 /* Rank 1: Neon Green */
 .rank-component-1 {
-    background-color: #00ff66; /* Bright Neon Green */
+    background-color: #99ffcc; /* Light Neon Green */
     color: #000000; /* Black for contrast */
 }
 
-/* Rank 2: Bright Cyan */
+/* Rank 2: Bright Sky Blue */
 .rank-component-2 {
-    background-color: #00ffff; /* Bright Cyan */
+    background-color: #66ccff; /* Bright Sky Blue */
     color: #000000; /* Black for contrast */
 }
 
@@ -796,13 +786,13 @@ I'll now assign colors afresh based on these principles, making sure the brighte
     color: #000000; /* Black for contrast */
 }
 
-/* Rank 4: Bright Sky Blue */
+/* Rank 4: Bright Cyan */
 .rank-component-4 {
-    background-color: #66ccff; /* Bright Sky Blue */
+    background-color: #33ffff; /* Bright Cyan */
     color: #000000; /* Black for contrast */
 }
 
-/* Rank 5-8: Medium-dark, noticeable colors */
+/* Rank 5-7: Medium-dark, noticeable colors */
 
 /* Rank 5: Light Mint Green */
 .rank-component-5 {
@@ -812,15 +802,17 @@ I'll now assign colors afresh based on these principles, making sure the brighte
 
 /* Rank 6: Soft Blue */
 .rank-component-6 {
-    background-color: #99ccff; /* Soft Blue */
+    background-color: #6699ff; /* Soft Blue */
     color: #000000; /* Black for contrast */
 }
 
 /* Rank 7: Deep Purple */
 .rank-component-7 {
-    background-color: #6633cc; /* Deep Purple */
+    background-color: #9966ff; /* Deep Purple */
     color: #f0f0f0; /* Light Gray for contrast */
 }
+
+/* Rank 8-11: Darker colors signaling lower relevance */
 
 /* Rank 8: Dark Cyan */
 .rank-component-8 {
@@ -828,53 +820,31 @@ I'll now assign colors afresh based on these principles, making sure the brighte
     color: #f0f0f0; /* Light Gray for contrast */
 }
 
-/* Rank 9-11: Darker colors signaling lower relevance */
-
 /* Rank 9: Dark Blue */
 .rank-component-9 {
     background-color: #003366; /* Dark Blue */
     color: #f5f5f5; /* Light Gray for contrast */
 }
 
-/* Rank 10: Darker Steel Blue */
+/* Rank 10: Dark Red */
 .rank-component-10 {
-    background-color: #336699; /* Darker Steel Blue */
-    color: #f0f0f0; /* Light Gray for contrast */
-}
-
-/* Rank 11: Dark Purple */
-.rank-component-11 {
-    background-color: #4b0082; /* Dark Purple */
-    color: #ffffff; /* White for contrast */
-}
-
-/* Rank 12-14: Darkest shades for least relevance */
-
-/* Rank 12: Medium Red */
-.rank-component-12 {
-    background-color: #cc0000; /* Medium Red */
-    color: #ffffff; /* White for contrast */
-}
-
-/* Rank 13: Dark Red */
-.rank-component-13 {
     background-color: #990000; /* Dark Red */
     color: #ffffff; /* White for contrast */
 }
 
-/* Rank 14: Deep Maroon */
-.rank-component-14 {
+/* Rank 11: Deep Maroon */
+.rank-component-11 {
     background-color: #660000; /* Deep Maroon */
     color: #ffffff; /* White for contrast */
 }
 
 /*
-Key Design Decisions:
-Ranks 1-4: Use neon green, bright cyan, soft lavender, and bright sky blue — vibrant and bright colors to draw immediate attention.
-Ranks 5-8: Light mint green, soft blue, deep purple, and dark cyan — still noticeable, but less striking than the top ranks.
-Ranks 9-11: Darker shades like dark blue, darker steel blue, and dark purple — to signal these ranks are less important.
-Ranks 12-14: Use red variants like medium red, dark red, and deep maroon — conveying the lowest relevance, visually discouraging users from considering these ranks.
-This approach provides a clear, intuitive guide for users to focus on the higher ranks and ignore the lower ones, with a seamless progression from light and bright colors to dark, muted shades.
+Key Highlights:
+Rank 1: The lightest color, light neon green, is used to grab the most attention.
+Ranks 2-4: Bright colors like sky blue, lavender, and cyan maintain high relevance.
+Ranks 5-7: Medium shades like light mint green, soft blue, and deep purple balance visibility and gradual darkening.
+Ranks 8-11: Darker colors, such as dark cyan, dark blue, dark red, and deep maroon, signal lower relevance as ranks progress.
+This color scheme uses the full range of colors and contrasts, transitioning smoothly from light to dark, guiding users through relevance rankings.
 */
 
 #nps-official {
