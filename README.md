@@ -408,6 +408,15 @@ cd ..
 git status
 ```
 
+Commit
+
+```
+git add *
+
+git commit -m "[data] adding latest NPS NAV data of year 2024"
+
+```
+
 All the logs can be found in directory `code/logs/`
 
 The CSV data is written by the script can be found in the directory `nav-data` filename `nps-funds-performance-nav-data.csv`
@@ -424,6 +433,15 @@ mv nps-funds-performance-nav-data-x.csv nps-funds-performance-nav-data.csv
 cd ..
 
 git status
+```
+
+Commit
+
+```
+git add *
+
+git commit -m "[data] removing carriage return from consolidated data file"
+
 ```
 
 - Validate Data Manually
@@ -518,6 +536,15 @@ cd ..
 git status
 ```
 
+Commit
+
+```
+git add *
+
+git commit -m "[data] removing duplicates from the combined csv"
+
+```
+
 - Sorting the consolidated data
 
 ```
@@ -532,6 +559,15 @@ mv nps-funds-performance-nav-data-sorted.csv nps-funds-performance-nav-data.csv
 cd ..
 
 git status
+```
+
+Commit
+
+```
+git add *
+
+git commit -m "[data] sorting combined csv in ascending order, based on the date field by year month day"
+
 ```
 
 - Trimming the Leading Spaces in Columns
@@ -550,6 +586,15 @@ cd ..
 git status
 ```
 
+Commit
+
+```
+git add *
+
+git commit -m "[data] removing leading spaces"
+
+```
+
 
 - Trimming the Trailing Spaces in Columns
 
@@ -565,6 +610,15 @@ mv nps-funds-performance-nav-data-trimmed.csv nps-funds-performance-nav-data.csv
 cd ..
 
 git status
+```
+
+Commit
+
+```
+git add *
+
+git commit -m "[data] removing trailing spaces"
+
 ```
 
 
@@ -606,6 +660,18 @@ git status
 
 ```
 
+TODO : "[meta] adding new fund manager / schemes related changes"
+
+Commit
+
+```
+git add *
+
+git commit -m "[meta] adding latest generated meta-data"
+
+```
+
+
 - Split the consolidated data into various Pension Fund Schemes
 
 ```
@@ -616,6 +682,15 @@ sh split.sh &> logs/split.log
 cd ..
 
 git status
+```
+
+Commit
+
+```
+git add *
+
+git commit -m "[split] updating the content of scheme wise csv files and scheme min csv files"
+
 ```
 
 Every individual Scheme CSV data files will be generated in directory `nav-data/scheme/`, which will follow the naming convention `SCHEME_ID.csv`
@@ -820,6 +895,17 @@ sudo kill -9 `sudo lsof -t -i:7777`
 
 git status
 ```
+
+
+Commit
+
+```
+git add *
+
+git commit -m "[microservice] executing the APIs and adding the response"
+
+```
+
 
 - Combining and Consolidating the Investment Files (In-Progress)
 
