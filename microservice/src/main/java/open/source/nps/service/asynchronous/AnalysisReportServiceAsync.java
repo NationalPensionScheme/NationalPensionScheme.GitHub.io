@@ -81,7 +81,7 @@ public class AnalysisReportServiceAsync {
 		for (String schemeId : schemeIds) {
 
 			log.info("iteration -> (schemeId) {}", schemeId);
-			Map<FinancialYear, Set<Float>> financialYearVsDayWiseYearlyGrowthPercentSet = new TreeMap<FinancialYear, Set<Float>>();
+			Map<FinancialYear, Set<Float>> financialYearVsDayWiseYearlyGrowthPercentSet = new HashMap<FinancialYear, Set<Float>>();
 
 			Map<DateSegmented, MinCsvLineData> schemeData = schemeCsvServiceAsync.getSchemeData(schemeId);
 
