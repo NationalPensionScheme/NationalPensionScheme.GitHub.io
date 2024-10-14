@@ -81,7 +81,7 @@ public class AnalysisReportServiceAsync {
 		for (String schemeId : schemeIds) {
 
 			log.info("iteration -> (schemeId) {}", schemeId);
-			Map<FinancialYear, Set<Float>> financialYearVsDayWiseYearlyGrowthPercentSet = new HashMap<FinancialYear, Set<Float>>();
+			Map<FinancialYear, Set<Float>> financialYearVsDayWiseYearlyGrowthPercentSet = new TreeMap<FinancialYear, Set<Float>>();
 
 			Map<DateSegmented, MinCsvLineData> schemeData = schemeCsvServiceAsync.getSchemeData(schemeId);
 
@@ -185,7 +185,7 @@ public class AnalysisReportServiceAsync {
 			Map<String, Integer> financialYearVsYearlyGrowthAverageRanking = schemeIdVsFinancialYearVsYearlyGrowthAverageRanking.get(schemeId);
 
 			if (null == financialYearVsYearlyGrowthAverageRankingMaster) {
-				financialYearVsYearlyGrowthAverageRankingMaster = new HashMap<String, Integer>();
+				financialYearVsYearlyGrowthAverageRankingMaster = new TreeMap<String, Integer>();
 			}
 
 			financialYearVsYearlyGrowthAverageRankingMaster.putAll(financialYearVsYearlyGrowthAverageRanking);
@@ -246,7 +246,7 @@ public class AnalysisReportServiceAsync {
 					log.info("got -> (schemeIdVsYearlyGrowthPercentAverage) {}", schemeIdVsYearlyGrowthPercentAverage);
 
 					if (null == schemeIdVsYearlyGrowthPercentAverage) {
-						schemeIdVsYearlyGrowthPercentAverage = new HashMap<String, Float>();
+						schemeIdVsYearlyGrowthPercentAverage = new TreeMap<String, Float>();
 					}
 
 					schemeIdVsYearlyGrowthPercentAverage.put(schemeId, yearlyGrowthPercentAverage);
@@ -310,7 +310,7 @@ public class AnalysisReportServiceAsync {
 					log.info("got -> (financialYearVsYearlyGrowthAverageRanking) {}", financialYearVsYearlyGrowthAverageRanking);
 
 					if (null == financialYearVsYearlyGrowthAverageRanking) {
-						financialYearVsYearlyGrowthAverageRanking = new HashMap<String, Integer>();
+						financialYearVsYearlyGrowthAverageRanking = new TreeMap<String, Integer>();
 					}
 
 					financialYearVsYearlyGrowthAverageRanking.put(financialYear, currentRank);
