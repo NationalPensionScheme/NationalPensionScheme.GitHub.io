@@ -763,34 +763,40 @@ td {
 }
 
 /*
-Based on your preferences, I've redesigned the color scheme to place the more attractive colors (like Soft Lavender and Steel Blue) in the higher ranks, and the yellow gradients (previously in ranks 3 and 4) toward the lower ranks. Here's the updated design:
+I understand! You want to create a visual hierarchy where ranks 1 to 4 have bright, eye-catching colors, encouraging users to focus on them. As the ranks progress, the colors become progressively darker, signaling lower relevancy. For ranks 12 to 14, the darkest colors will be used to subtly discourage users from paying attention to those ranks.
+
+The goal is to guide the user's focus from the top ranks (bright and attractive) to the lower ones (dull and muted), clearly indicating which ranks they should prioritize.
+
+Here’s the revised color scheme with this logic:
 */
 
-/* Rank 1-7: Lighter and more attractive shades */
+/* Rank 1-4: Bright, attention-grabbing colors */
 
-/* Rank 1: Soft Lavender */
+/* Rank 1: Bright Green */
 .rank-component-1 {
+    background-color: #00ff66; /* Bright Neon Green */
+    color: #000000; /* Black */
+}
+
+/* Rank 2: Bright Sky Blue */
+.rank-component-2 {
+    background-color: #66ccff; /* Bright Sky Blue */
+    color: #000000; /* Black */
+}
+
+/* Rank 3: Soft Lavender */
+.rank-component-3 {
     background-color: #cc99ff; /* Soft Lavender */
     color: #000000; /* Black */
 }
 
-/* Rank 2: Sky Blue */
-.rank-component-2 {
-    background-color: #99ccff; /* Sky Blue */
-    color: #000000; /* Black */
-}
-
-/* Rank 3: Steel Blue */
-.rank-component-3 {
-    background-color: #3366ff; /* Steel Blue */
-    color: #f5f5f5; /* Light Gray */
-}
-
 /* Rank 4: Bright Cyan */
 .rank-component-4 {
-    background-color: #33ffff; /* Bright Cyan */
+    background-color: #00ffff; /* Bright Cyan */
     color: #000000; /* Black */
 }
+
+/* Rank 5-8: Medium-dark, still noticeable colors */
 
 /* Rank 5: Light Mint Green */
 .rank-component-5 {
@@ -798,9 +804,9 @@ Based on your preferences, I've redesigned the color scheme to place the more at
     color: #000000; /* Black */
 }
 
-/* Rank 6: Bright Green */
+/* Rank 6: Soft Blue */
 .rank-component-6 {
-    background-color: #00ff66; /* Neon Green */
+    background-color: #99ccff; /* Light Blue */
     color: #000000; /* Black */
 }
 
@@ -810,55 +816,59 @@ Based on your preferences, I've redesigned the color scheme to place the more at
     color: #f0f0f0; /* Light Gray */
 }
 
-/* Rank 8-14: Darker shades and less attractive gradients */
-
 /* Rank 8: Dark Cyan */
 .rank-component-8 {
     background-color: #3399cc; /* Dark Cyan */
     color: #f0f0f0; /* Light Gray */
 }
 
-/* Rank 9: Light Red */
+/* Rank 9-11: Darker shades to signal less relevance */
+
+/* Rank 9: Dark Blue */
 .rank-component-9 {
-    background-color: #ff6666; /* Light Red */
-    color: #000000; /* Black */
+    background-color: #003366; /* Dark Blue */
+    color: #f5f5f5; /* Light Gray */
 }
 
-/* Rank 10: Soft Red */
+/* Rank 10: Darker Steel Blue */
 .rank-component-10 {
-    background-color: #ff3333; /* Soft Red */
+    background-color: #336699; /* Darker Steel Blue */
     color: #f0f0f0; /* Light Gray */
 }
 
-/* Rank 11: Bright Yellow */
+/* Rank 11: Dark Purple */
 .rank-component-11 {
-    background-color: #ffcc00; /* Bright Yellow */
-    color: #000000; /* Black */
-}
-
-/* Rank 12: Bright Yellow-Green */
-.rank-component-12 {
-    background-color: #ccff33; /* Bright Yellow-Green */
-    color: #000000; /* Black */
-}
-
-/* Rank 13: Medium Red */
-.rank-component-13 {
-    background-color: #cc0000; /* Medium Red */
+    background-color: #4b0082; /* Dark Purple */
     color: #ffffff; /* White */
 }
 
-/* Rank 14: Dark Red */
-.rank-component-14 {
+/* Rank 12-14: Very dark, subdued colors for the least relevant ranks */
+
+/* Rank 12: Soft Red */
+.rank-component-12 {
+    background-color: #cc0000; /* Soft Red */
+    color: #ffffff; /* White */
+}
+
+/* Rank 13: Dark Red */
+.rank-component-13 {
     background-color: #990000; /* Dark Red */
-    color: #ffffff; /* Pure White */
+    color: #ffffff; /* White */
+}
+
+/* Rank 14: Deep Maroon */
+.rank-component-14 {
+    background-color: #660000; /* Deep Maroon */
+    color: #ffffff; /* White */
 }
 
 /*
-Adjustments:
-Ranks 1-7: Now feature more attractive shades like Soft Lavender (rank 1), Sky Blue (rank 2), and Steel Blue (rank 3). This makes the higher ranks visually more appealing.
-Ranks 8-14: Darker colors and less attractive gradients like the yellow tones (now in ranks 11-12) and red variants are shifted to the lower ranks.
-This design aligns with your preferences for color positioning, creating a more visually satisfying ranking system. Let me know if you'd like any further tweaks!
+Design Breakdown:
+Ranks 1 to 4: Use bright, attractive colors like neon green, bright sky blue, soft lavender, and bright cyan to immediately catch attention and signify high relevancy.
+Ranks 5 to 8: Shift to slightly darker shades like light mint green, soft blue, and deep purple, still noticeable but less eye-catching than the top ranks.
+Ranks 9 to 11: Use darker colors like dark blue, darker steel blue, and dark purple to show decreasing importance.
+Ranks 12 to 14: The most dark and muted colors, like dark and deep red shades, are reserved for the lowest ranks, guiding the user away from these options.
+This color hierarchy ensures that users’ focus naturally falls on the brighter, higher-ranked components, while the lower ranks fade into the background. Let me know if you need further adjustments!
 */
 
 #nps-official {
