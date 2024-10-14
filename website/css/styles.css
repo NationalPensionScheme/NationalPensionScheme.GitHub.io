@@ -763,59 +763,67 @@ td {
 }
 
 .rank-component-1 {
-    background-color: #dff0d8; /* Light Green */
-    color: #3c763d; /* Dark Green */
+    background-color: #D1E8E4; /* Lightest Green */
+    color: #000000; /* Dark text */
 }
 
 .rank-component-2 {
-    background-color: #f0e68c; /* Light Yellow */
-    color: #8a6d3b; /* Dark Yellow */
+    background-color: #A4D8B1; /* Light Green */
+    color: #000000; /* Dark text */
 }
 
 .rank-component-3 {
-    background-color: #ffffcc; /* Light Yellow-Green */
-    color: #5e5e3f; /* Darker Yellow-Green */
+    background-color: #FFED9D; /* Light Yellow-Green */
+    color: #000000; /* Dark text */
 }
 
 .rank-component-4 {
-    background-color: #f2dede; /* Light Red */
-    color: #a94442; /* Dark Red */
+    background-color: #F9EFA1; /* Light Yellow */
+    color: #000000; /* Dark text */
 }
 
 .rank-component-5 {
-    background-color: #d9edf7; /* Medium Light Blue */
-    color: #31708f; /* Medium Blue */
+    background-color: #FFE5B3; /* Medium Visibility Yellow */
+    color: #000000; /* Dark text */
 }
 
 .rank-component-6 {
-    background-color: #dff0d8; /* Medium Light Green */
-    color: #3c763d; /* Medium Dark Green */
+    background-color: #FFB84D; /* Medium Visibility Orange */
+    color: #000000; /* Dark text */
 }
 
 .rank-component-7 {
-    background-color: #f5f5f5; /* Medium Gray */
-    color: #333333; /* Dark Gray */
+    background-color: #B8B6E6; /* Medium Visibility Lavender */
+    color: #000000; /* Dark text */
 }
 
 .rank-component-8 {
-    background-color: #fcf8e3; /* Medium Light Yellow */
-    color: #8a6d3b; /* Medium Dark Yellow */
+    background-color: #A0A0A0; /* Medium Visibility Gray */
+    color: #000000; /* Dark text */
 }
 
 .rank-component-9 {
-    background-color: #f1f1f1; /* Dark Gray */
-    color: #212529; /* Very Dark Gray */
+    background-color: #3C3C3C; /* Dark Gray */
+    color: #FFFFFF; /* Light text */
 }
 
 .rank-component-10 {
-    background-color: #d9d9d9; /* Darker Gray */
-    color: #4f4f4f; /* Darker Dark Gray */
+    background-color: #1A1A1A; /* Darker Gray */
+    color: #FFFFFF; /* Light text */
 }
 
 .rank-component-11 {
-    background-color: #b0b0b0; /* Very Dark Gray */
-    color: #1c1c1c; /* Near Black */
+    background-color: #000000; /* Black */
+    color: #FFFFFF; /* Light text */
 }
+
+/*
+Summary of the Color Assignments:
+Ranks 1-4: Lightest colors with dark text
+Ranks 5-8: Medium visibility colors with dark text
+Ranks 9-11: Dark colors with light text
+Let me know if you need any further adjustments!
+*/
 
 #nps-official {
 
