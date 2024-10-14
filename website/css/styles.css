@@ -763,127 +763,130 @@ td {
 }
 
 /*
-This CSS setup includes 20 unique background-color and text-color pairs, perfect for a dark theme. The background colors are predominantly dark, while the text colors provide sufficient contrast to be easily legible.
+Breakdown:
+Top ranks (1-10): Bright background colors with darker text.
+Middle ranks (11-15): Soft and pastel colors, transitioning from bright to darker backgrounds.
+Bottom ranks (16-20): Darker background colors with lighter text for readability on dark surfaces.
 */
 
-/* Rank 1 */
-.component-1 {
-    background-color: #1e1e2e; /* Dark Purple */
-    color: #cdd6f4; /* Light Blue */
+/* Rank 1 (Brightest background, dark text) */
+.rank-component-1 {
+    background-color: #ffecd2; /* Light Peach */
+    color: #2e2e2e; /* Dark Gray */
 }
 
 /* Rank 2 */
-.component-2 {
-    background-color: #23232e; /* Dark Navy */
-    color: #ebebff; /* Light Violet */
+.rank-component-2 {
+    background-color: #fff5ba; /* Light Yellow */
+    color: #2c2c2c; /* Dark Charcoal */
 }
 
 /* Rank 3 */
-.component-3 {
-    background-color: #2b2b37; /* Dark Grayish Blue */
-    color: #a0aec0; /* Light Gray */
+.rank-component-3 {
+    background-color: #ffedb5; /* Soft Gold */
+    color: #2b2b2b; /* Deep Charcoal */
 }
 
 /* Rank 4 */
-.component-4 {
-    background-color: #252533; /* Charcoal */
-    color: #fbd38d; /* Pale Gold */
+.rank-component-4 {
+    background-color: #ffeaa7; /* Warm Pastel Yellow */
+    color: #292929; /* Dark Slate */
 }
 
 /* Rank 5 */
-.component-5 {
-    background-color: #282836; /* Deep Blue-Gray */
-    color: #a3be8c; /* Light Green */
+.rank-component-5 {
+    background-color: #e8f7c9; /* Soft Green */
+    color: #252525; /* Almost Black */
 }
 
 /* Rank 6 */
-.component-6 {
-    background-color: #2f2f3f; /* Dim Gray */
-    color: #f4babc; /* Soft Red */
+.rank-component-6 {
+    background-color: #a8e6cf; /* Mint Green */
+    color: #202020; /* Dark Graphite */
 }
 
 /* Rank 7 */
-.component-7 {
-    background-color: #2e2e3e; /* Slate Blue */
-    color: #bf616a; /* Salmon Pink */
+.rank-component-7 {
+    background-color: #bde0fe; /* Pale Blue */
+    color: #1f1f1f; /* Darker Gray */
 }
 
 /* Rank 8 */
-.component-8 {
-    background-color: #242632; /* Very Dark Blue */
-    color: #d08770; /* Warm Orange */
+.rank-component-8 {
+    background-color: #d1c4e9; /* Light Purple */
+    color: #1e1e1e; /* Almost Black */
 }
 
 /* Rank 9 */
-.component-9 {
-    background-color: #20212c; /* Blackened Blue */
-    color: #b48ead; /* Pale Purple */
+.rank-component-9 {
+    background-color: #ffd1dc; /* Soft Pink */
+    color: #1d1d1d; /* Charcoal Black */
 }
 
 /* Rank 10 */
-.component-10 {
-    background-color: #171722; /* Darker Charcoal */
-    color: #88c0d0; /* Soft Cyan */
+.rank-component-10 {
+    background-color: #f0f0c9; /* Soft Yellow Green */
+    color: #1c1c1c; /* Dark Charcoal */
 }
 
 /* Rank 11 */
-.component-11 {
-    background-color: #2d2e3c; /* Gunmetal Blue */
-    color: #eac4a3; /* Peach Beige */
+.rank-component-11 {
+    background-color: #fae3d9; /* Warm Peach */
+    color: #f0f0f0; /* Light Gray Text */
 }
 
 /* Rank 12 */
-.component-12 {
-    background-color: #3a3a4f; /* Midnight Blue */
-    color: #f6e6cb; /* Pale Cream */
+.rank-component-12 {
+    background-color: #d8bfd8; /* Thistle (Soft Purple) */
+    color: #f5f5f5; /* Light Grayish White */
 }
 
 /* Rank 13 */
-.component-13 {
-    background-color: #1f1f29; /* Almost Black */
-    color: #a5d8ff; /* Light Sky Blue */
+.rank-component-13 {
+    background-color: #bde0fe; /* Light Baby Blue */
+    color: #fafafa; /* Off White */
 }
 
 /* Rank 14 */
-.component-14 {
-    background-color: #21212f; /* Onyx */
-    color: #ffadad; /* Pale Coral */
+.rank-component-14 {
+    background-color: #f7cac9; /* Soft Rose Pink */
+    color: #fefefe; /* Near White */
 }
 
 /* Rank 15 */
-.component-15 {
-    background-color: #262637; /* Dark Slate */
-    color: #f2a65a; /* Warm Amber */
+.rank-component-15 {
+    background-color: #f4a261; /* Warm Orange */
+    color: #f9f9f9; /* Almost White */
 }
 
 /* Rank 16 */
-.component-16 {
-    background-color: #2b2b3b; /* Deep Slate Blue */
-    color: #d8dee9; /* Light Grayish Blue */
+.rank-component-16 {
+    background-color: #2f3542; /* Dark Slate Gray */
+    color: #f1f2f6; /* Light Silver */
 }
 
 /* Rank 17 */
-.component-17 {
-    background-color: #2d2d41; /* Dark Indigo */
-    color: #b5c7e3; /* Misty Blue */
+.rank-component-17 {
+    background-color: #30336b; /* Dark Indigo */
+    color: #dfe6e9; /* Very Light Gray */
 }
 
 /* Rank 18 */
-.component-18 {
-    background-color: #272833; /* Dark Gunmetal */
-    color: #fad390; /* Light Yellow Orange */
+.rank-component-18 {
+    background-color: #2d3436; /* Charcoal Black */
+    color: #b2bec3; /* Soft Gray */
 }
 
 /* Rank 19 */
-.component-19 {
-    background-color: #2c2c3b; /* Dark Blue Violet */
-    color: #e0af68; /* Muted Gold */
+.rank-component-19 {
+    background-color: #1e272e; /* Very Dark Blue */
+    color: #dcdde1; /* Pale Silver */
 }
 
-/* Rank 20 */
-.component-20 {
-    background-color: #1e1e2c; /* Dark Plum */
-    color: #dfe7fd; /* Light Pastel Blue */
+/* Rank 20 (Darkest background, lightest text) */
+.rank-component-20 {
+    background-color: #0c0c1e; /* Almost Black */
+    color: #ffffff; /* Pure White */
 }
 
 #nps-official {
