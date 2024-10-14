@@ -763,131 +763,162 @@ td {
 }
 
 /*
-Breakdown:
-Top ranks (1-10): Bright background colors with darker text.
-Middle ranks (11-15): Soft and pastel colors, transitioning from bright to darker backgrounds.
-Bottom ranks (16-20): Darker background colors with lighter text for readability on dark surfaces.
+To create a visually appealing ranking system where colors contrast distinctly across different spectrum ranges, I'll arrange them in groups of three:
+
+Rank 1-3: Bright, contrasting RGB primary colors.
+Rank 4-6: Slightly darker variations of contrasting colors.
+Rank 7-9: Mid-tone contrasting shades.
+Rank 10-12: Darker contrasting colors.
+Rank 13-15: Even darker tones.
+Rank 16-18: Deep, muted shades.
+Rank 19-20: Darkest tones with light text.
 */
 
-/* Rank 1 (Brightest background, dark text) */
+/* Rank 1-3: Bright RGB primary colors */
+
+/* Rank 1: Bright Red */
 .rank-component-1 {
-    background-color: #ffecd2; /* Light Peach */
+    background-color: #ff4d4d; /* Bright Red */
     color: #2e2e2e; /* Dark Gray */
 }
 
-/* Rank 2 */
+/* Rank 2: Bright Green */
 .rank-component-2 {
-    background-color: #fff5ba; /* Light Yellow */
-    color: #2c2c2c; /* Dark Charcoal */
-}
-
-/* Rank 3 */
-.rank-component-3 {
-    background-color: #ffedb5; /* Soft Gold */
-    color: #2b2b2b; /* Deep Charcoal */
-}
-
-/* Rank 4 */
-.rank-component-4 {
-    background-color: #ffeaa7; /* Warm Pastel Yellow */
-    color: #292929; /* Dark Slate */
-}
-
-/* Rank 5 */
-.rank-component-5 {
-    background-color: #e8f7c9; /* Soft Green */
-    color: #252525; /* Almost Black */
-}
-
-/* Rank 6 */
-.rank-component-6 {
-    background-color: #a8e6cf; /* Mint Green */
-    color: #202020; /* Dark Graphite */
-}
-
-/* Rank 7 */
-.rank-component-7 {
-    background-color: #bde0fe; /* Pale Blue */
-    color: #1f1f1f; /* Darker Gray */
-}
-
-/* Rank 8 */
-.rank-component-8 {
-    background-color: #d1c4e9; /* Light Purple */
-    color: #1e1e1e; /* Almost Black */
-}
-
-/* Rank 9 */
-.rank-component-9 {
-    background-color: #ffd1dc; /* Soft Pink */
-    color: #1d1d1d; /* Charcoal Black */
-}
-
-/* Rank 10 */
-.rank-component-10 {
-    background-color: #f0f0c9; /* Soft Yellow Green */
+    background-color: #4dff4d; /* Bright Green */
     color: #1c1c1c; /* Dark Charcoal */
 }
 
-/* Rank 11 */
-.rank-component-11 {
-    background-color: #fae3d9; /* Warm Peach */
-    color: #f0f0f0; /* Light Gray Text */
+/* Rank 3: Bright Blue */
+.rank-component-3 {
+    background-color: #4d4dff; /* Bright Blue */
+    color: #1a1a1a; /* Charcoal */
 }
 
-/* Rank 12 */
-.rank-component-12 {
-    background-color: #d8bfd8; /* Thistle (Soft Purple) */
+/* Rank 4-6: Slightly darker versions of RGB */
+
+/* Rank 4: Darker Red */
+.rank-component-4 {
+    background-color: #cc3333; /* Darker Red */
+    color: #eaeaea; /* Light Gray */
+}
+
+/* Rank 5: Darker Green */
+.rank-component-5 {
+    background-color: #33cc33; /* Darker Green */
+    color: #f0f0f0; /* Almost White */
+}
+
+/* Rank 6: Darker Blue */
+.rank-component-6 {
+    background-color: #3333cc; /* Darker Blue */
     color: #f5f5f5; /* Light Grayish White */
 }
 
-/* Rank 13 */
-.rank-component-13 {
-    background-color: #bde0fe; /* Light Baby Blue */
+/* Rank 7-9: Mid-tone colors */
+
+/* Rank 7: Warm Orange */
+.rank-component-7 {
+    background-color: #ff944d; /* Warm Orange */
+    color: #121212; /* Very Dark Gray */
+}
+
+/* Rank 8: Soft Mint */
+.rank-component-8 {
+    background-color: #4dffcc; /* Soft Mint */
+    color: #171717; /* Dark Charcoal */
+}
+
+/* Rank 9: Sky Blue */
+.rank-component-9 {
+    background-color: #4da6ff; /* Sky Blue */
+    color: #101010; /* Charcoal Black */
+}
+
+/* Rank 10-12: Darker mid-tones */
+
+/* Rank 10: Burnt Orange */
+.rank-component-10 {
+    background-color: #cc704d; /* Burnt Orange */
+    color: #f0f0f0; /* Light Gray */
+}
+
+/* Rank 11: Dark Cyan */
+.rank-component-11 {
+    background-color: #33cccc; /* Dark Cyan */
+    color: #eaeaea; /* Pale Gray */
+}
+
+/* Rank 12: Steel Blue */
+.rank-component-12 {
+    background-color: #3366cc; /* Steel Blue */
     color: #fafafa; /* Off White */
 }
 
-/* Rank 14 */
-.rank-component-14 {
-    background-color: #f7cac9; /* Soft Rose Pink */
-    color: #fefefe; /* Near White */
+/* Rank 13-15: Dark contrasting tones */
+
+/* Rank 13: Dark Crimson */
+.rank-component-13 {
+    background-color: #992233; /* Dark Crimson */
+    color: #f8f8f8; /* Very Light Gray */
 }
 
-/* Rank 15 */
+/* Rank 14: Forest Green */
+.rank-component-14 {
+    background-color: #228833; /* Forest Green */
+    color: #f0f0f0; /* Almost White */
+}
+
+/* Rank 15: Navy Blue */
 .rank-component-15 {
-    background-color: #f4a261; /* Warm Orange */
+    background-color: #223388; /* Navy Blue */
     color: #f9f9f9; /* Almost White */
 }
 
-/* Rank 16 */
+/* Rank 16-18: Deep muted shades */
+
+/* Rank 16: Dark Burgundy */
 .rank-component-16 {
-    background-color: #2f3542; /* Dark Slate Gray */
-    color: #f1f2f6; /* Light Silver */
+    background-color: #661a33; /* Dark Burgundy */
+    color: #f2f2f2; /* Light Gray */
 }
 
-/* Rank 17 */
+/* Rank 17: Deep Teal */
 .rank-component-17 {
-    background-color: #30336b; /* Dark Indigo */
-    color: #dfe6e9; /* Very Light Gray */
+    background-color: #1a6666; /* Deep Teal */
+    color: #f5f5f5; /* Very Light Gray */
 }
 
-/* Rank 18 */
+/* Rank 18: Midnight Blue */
 .rank-component-18 {
-    background-color: #2d3436; /* Charcoal Black */
-    color: #b2bec3; /* Soft Gray */
+    background-color: #1a1a66; /* Midnight Blue */
+    color: #fefefe; /* Near White */
 }
 
-/* Rank 19 */
+/* Rank 19-20: Darkest tones with light text */
+
+/* Rank 19: Almost Black Red */
 .rank-component-19 {
-    background-color: #1e272e; /* Very Dark Blue */
-    color: #dcdde1; /* Pale Silver */
-}
-
-/* Rank 20 (Darkest background, lightest text) */
-.rank-component-20 {
-    background-color: #0c0c1e; /* Almost Black */
+    background-color: #330011; /* Almost Black Red */
     color: #ffffff; /* Pure White */
 }
+
+/* Rank 20: Deep Blackish Blue */
+.rank-component-20 {
+    background-color: #000033; /* Almost Black Blue */
+    color: #ffffff; /* Pure White */
+}
+
+/*
+Breakdown:
+Ranks 1-3 (Bright RGB): High contrast bright colors, great for a vibrant start.
+Ranks 4-6 (Slightly Darker RGB): Still contrasting but toned down.
+Ranks 7-9 (Mid-tone colors): Slightly softer, warm contrasts.
+Ranks 10-12 (Darker mid-tones): More muted but still colorful and visible.
+Ranks 13-15 (Dark tones): Darker shades of contrasting colors.
+Ranks 16-18 (Deep muted tones): Very deep, muted shades for a subtle look.
+Ranks 19-20 (Darkest shades): Dark, near-black backgrounds with light text for high readability.
+This setup gives you a smooth gradient of brightness and contrast, from vibrant light colors to deep dark tones.
+*/
 
 #nps-official {
 
