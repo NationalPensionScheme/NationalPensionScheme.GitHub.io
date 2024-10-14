@@ -376,6 +376,8 @@ cd code
 sh execute.sh
 
 cd ..
+
+git status
 ```
 
 Assign a relevant year value to `yyyy` below
@@ -390,6 +392,8 @@ cd code
 sh execute.sh &> logs/output-2024.log
 
 cd ..
+
+git status
 ```
 
 If executing again / re-executing for the same year
@@ -400,6 +404,8 @@ cd code
 sh execute.sh &>> logs/output-2024.log
 
 cd ..
+
+git status
 ```
 
 All the logs can be found in directory `code/logs/`
@@ -416,6 +422,8 @@ rm nps-funds-performance-nav-data.csv
 mv nps-funds-performance-nav-data-x.csv nps-funds-performance-nav-data.csv
 
 cd ..
+
+git status
 ```
 
 - Validate Data Manually
@@ -428,6 +436,8 @@ cd nav-data
 cat nps-funds-performance-nav-data.csv | grep "\""
 
 cd ..
+
+git status
 ```
 
 Verify the csv in any software like `LibreOffice Calc` or `Microsoft Excel`, the columns count must be `6`
@@ -449,6 +459,8 @@ cd nav-data
 cat nps-funds-performance-nav-data.csv | cut -d/ -f1 | sort | uniq
 
 cd ..
+
+git status
 ```
 
 Check in the output if any number is greater than 31, which means it is incorrect record, as date cannot be greater than 31
@@ -459,6 +471,8 @@ cd nav-data
 cat nps-funds-performance-nav-data.csv | cut -d/ -f2 | sort | uniq
 
 cd ..
+
+git status
 ```
 
 Check in the output if any number is less than 2008 or greater than the current running Calendar Year, which means it is incorrect record, as year cannot be less than the starting year and greater than the current running Calendar Year
@@ -469,6 +483,8 @@ cd nav-data
 cat nps-funds-performance-nav-data.csv | cut -d/ -f3 | cut -d, -f1 | sort | uniq
 
 cd ..
+
+git status
 ```
 
 
@@ -482,6 +498,8 @@ cd nav-data
 awk -F, 'dup[$1,$4]++' nps-funds-performance-nav-data.csv
 
 cd ..
+
+git status
 ```
 
 Extract non-duplicate entries
@@ -496,6 +514,8 @@ rm nps-funds-performance-nav-data.csv
 mv nps-funds-performance-nav-data-unique.csv nps-funds-performance-nav-data.csv
 
 cd ..
+
+git status
 ```
 
 - Sorting the consolidated data
@@ -510,6 +530,8 @@ rm nps-funds-performance-nav-data.csv
 mv nps-funds-performance-nav-data-sorted.csv nps-funds-performance-nav-data.csv
 
 cd ..
+
+git status
 ```
 
 - Trimming the Leading Spaces in Columns
@@ -524,6 +546,8 @@ rm nps-funds-performance-nav-data.csv
 mv nps-funds-performance-nav-data-trimmed.csv nps-funds-performance-nav-data.csv
 
 cd ..
+
+git status
 ```
 
 
@@ -539,6 +563,8 @@ rm nps-funds-performance-nav-data.csv
 mv nps-funds-performance-nav-data-trimmed.csv nps-funds-performance-nav-data.csv
 
 cd ..
+
+git status
 ```
 
 
@@ -549,12 +575,16 @@ Fund Managers
 ```
 cat nav-data/nps-funds-performance-nav-data.csv | cut -d, -f2,3 | sort | uniq > meta-data/unique-fund-managers.csv
 
+git status
+
 ```
 
 Fund Manager Ids
 
 ```
 cat meta-data/unique-fund-managers.csv | cut -d, -f1 | grep "PFM" | uniq > meta-data/unique-fund-managers-ids.csv
+
+git status
 
 ```
 
@@ -563,12 +593,16 @@ Schemes
 ```
 cat nav-data/nps-funds-performance-nav-data.csv | cut -d, -f4,5 | sort | uniq > meta-data/unique-schemes.csv
 
+git status
+
 ```
 
 Scheme Ids
 
 ```
 cat meta-data/unique-schemes.csv | cut -d, -f1 | grep "SM" | uniq > meta-data/unique-schemes-ids.csv
+
+git status
 
 ```
 
@@ -580,6 +614,8 @@ cd code
 sh split.sh &> logs/split.log
 
 cd ..
+
+git status
 ```
 
 Every individual Scheme CSV data files will be generated in directory `nav-data/scheme/`, which will follow the naming convention `SCHEME_ID.csv`
@@ -597,6 +633,8 @@ cat * | wc -l
 
 cd ..
 cd ..
+
+git status
 ```
 
 View the number of lines in each file, sorted in ascending order, based on file name
@@ -608,6 +646,8 @@ wc -l `ls`
 
 cd ..
 cd ..
+
+git status
 ```
 
 View the number of lines in each file, sorted in ascending order, based on line count
@@ -619,9 +659,11 @@ wc -l `ls` | sort -n
 
 cd ..
 cd ..
+
+git status
 ```
 
-- Merge the min files for Categorization (Deprecated, use the API instead)
+- Merge the min files for Categorization (DEPRECATED, use the API instead)
 
 ```
 cd code
@@ -629,6 +671,8 @@ cd code
 sh categorize.sh &> logs/categorize.log
 
 cd ..
+
+git status
 ```
 
 - GitHub Pages Website
@@ -669,6 +713,8 @@ cd microservice
 mvn -Dmaven.artifact.threads=25 clean eclipse:eclipse -DdownloadSources=true dependency:go-offline dependency:resolve-plugins install
 
 cd ..
+
+git status
 ```
 
 Deploy the application, make it up
@@ -765,10 +811,14 @@ Make the application down
 
 ```
 kill -9 `lsof -t -i:7777`
+
+git status
 ```
 
 ```
 sudo kill -9 `sudo lsof -t -i:7777`
+
+git status
 ```
 
 - Combining and Consolidating the Investment Files (In-Progress)
