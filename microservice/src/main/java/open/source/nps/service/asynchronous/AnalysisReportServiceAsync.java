@@ -208,55 +208,91 @@ public class AnalysisReportServiceAsync {
 
 		// for each scheme category
 		for (PensionFundScheme pensionFundScheme : schemeCategoryVsSchemeIds.keySet()) {
+			
+			log.info("iteration -> (pensionFundScheme) {}", pensionFundScheme);
 
 			// limited scheme ids
 			Set<PensionFundSchemeIdentifier> pensionFundSchemeIdentifierSet = schemeCategoryVsSchemeIds.get(pensionFundScheme);
+			
+			log.info("got -> (pensionFundSchemeIdentifierSet) {}", pensionFundSchemeIdentifierSet);
 
 			// -----------
 
 			Map<String, Map<String, Float>> financialYearVsSchemeIdVsYearlyGrowthPercentAverage = new TreeMap<String, Map<String, Float>>();
 
 			for (PensionFundSchemeIdentifier pensionFundSchemeIdentifier : pensionFundSchemeIdentifierSet) {
+				
+				log.info("iteration -> (pensionFundSchemeIdentifier) {}", pensionFundSchemeIdentifier);
 
 				String schemeId = pensionFundSchemeIdentifier.getId();
+				
+				log.info("got -> (schemeId) {}", schemeId);
 
 				Map<String, Float> financialYearVsYearlyGrowthPercentAverage = schemeIdVsFinancialYearVsYearlyGrowthPercentAverage.get(schemeId);
+				
+				log.info("got -> (financialYearVsYearlyGrowthPercentAverage) {}", financialYearVsYearlyGrowthPercentAverage);
 
 				for (String financialYear : financialYearVsYearlyGrowthPercentAverage.keySet()) {
+					
+					log.info("iteration -> (financialYear) {}", financialYear);
 
 					Float yearlyGrowthPercentAverage = financialYearVsYearlyGrowthPercentAverage.get(financialYear);
+					
+					log.info("got -> (yearlyGrowthPercentAverage) {}", yearlyGrowthPercentAverage);
 
 					// fill
 					Map<String, Float> schemeIdVsYearlyGrowthPercentAverage = financialYearVsSchemeIdVsYearlyGrowthPercentAverage.get(financialYear);
+					
+					log.info("got -> (schemeIdVsYearlyGrowthPercentAverage) {}", schemeIdVsYearlyGrowthPercentAverage);
 
 					if (null == schemeIdVsYearlyGrowthPercentAverage) {
 						schemeIdVsYearlyGrowthPercentAverage = new HashMap<String, Float>();
 					}
 
 					schemeIdVsYearlyGrowthPercentAverage.put(schemeId, yearlyGrowthPercentAverage);
+					
+					log.info("updated -> (schemeIdVsYearlyGrowthPercentAverage) {}", schemeIdVsYearlyGrowthPercentAverage);
 
 					financialYearVsSchemeIdVsYearlyGrowthPercentAverage.put(financialYear, schemeIdVsYearlyGrowthPercentAverage);
+					
+					log.info("updated -> (financialYearVsSchemeIdVsYearlyGrowthPercentAverage) {}", financialYearVsSchemeIdVsYearlyGrowthPercentAverage);
 				}
 			}
 
 			// -----------
+			
+			log.info("--------------------------------------------------------------------------------------------------------------------------");
 
 			// sort
 
 			Map<String, Map<String, Integer>> schemeIdVsFinancialYearVsYearlyGrowthAverageRanking = new TreeMap<String, Map<String, Integer>>();
+			
+			Set<String> financialYearSet = financialYearVsSchemeIdVsYearlyGrowthPercentAverage.keySet();
+			
+			log.info("got -> (financialYearSet) {}", financialYearSet);
 
-			for (String financialYear : financialYearVsSchemeIdVsYearlyGrowthPercentAverage.keySet()) {
+			for (String financialYear : financialYearSet) {
+				
+				log.info("iteration -> (financialYear) {}", financialYear);
 
 				Map<String, Float> schemeIdVsYearlyGrowthPercentAverage = financialYearVsSchemeIdVsYearlyGrowthPercentAverage.get(financialYear);
+				
+				log.info("got -> (schemeIdVsYearlyGrowthPercentAverage) {}", schemeIdVsYearlyGrowthPercentAverage);
 
 				Map<String, Float> schemeIdVsYearlyGrowthPercentAverageReverseSortedByValue = Sorters.sortMapByValueDescending(schemeIdVsYearlyGrowthPercentAverage);
+				
+				log.info("got -> (schemeIdVsYearlyGrowthPercentAverageReverseSortedByValue) {}", schemeIdVsYearlyGrowthPercentAverageReverseSortedByValue);
 
 				// fill
 				int rank = 0;
 
 				for (String schemeId : schemeIdVsYearlyGrowthPercentAverageReverseSortedByValue.keySet()) {
+					
+					log.info("iteration -> (schemeId) {}", schemeId);
 
 					Float yearlyGrowthPercentAverage = schemeIdVsYearlyGrowthPercentAverageReverseSortedByValue.get(schemeId);
+					
+					log.info("got -> (yearlyGrowthPercentAverage) {}", yearlyGrowthPercentAverage);
 
 					int currentRank = rank;
 
@@ -266,20 +302,36 @@ public class AnalysisReportServiceAsync {
 						rank++;
 						currentRank = rank;
 					}
+					
+					log.info("identified -> (rank) {} (currentRank) {}", rank, currentRank);
 
 					Map<String, Integer> financialYearVsYearlyGrowthAverageRanking = schemeIdVsFinancialYearVsYearlyGrowthAverageRanking.get(schemeId);
+					
+					log.info("got -> (financialYearVsYearlyGrowthAverageRanking) {}", financialYearVsYearlyGrowthAverageRanking);
 
 					if (null == financialYearVsYearlyGrowthAverageRanking) {
 						financialYearVsYearlyGrowthAverageRanking = new HashMap<String, Integer>();
 					}
 
 					financialYearVsYearlyGrowthAverageRanking.put(financialYear, currentRank);
+					
+					log.info("updated -> (financialYearVsYearlyGrowthAverageRanking) {}", financialYearVsYearlyGrowthAverageRanking);
 
 					schemeIdVsFinancialYearVsYearlyGrowthAverageRanking.put(schemeId, financialYearVsYearlyGrowthAverageRanking);
+					
+					log.info("updated -> (schemeIdVsFinancialYearVsYearlyGrowthAverageRanking) {}", schemeIdVsFinancialYearVsYearlyGrowthAverageRanking);
 				}
 			}
 
+			log.info("--------------------------------------------------------------------------------------------------------------------------");
+
+			log.info("got -> (masterTracker) {}", masterTracker);
+
 			updateToMaster(masterTracker, schemeIdVsFinancialYearVsYearlyGrowthAverageRanking);
+
+			log.info("updated -> (masterTracker) {}", masterTracker);
+
+			log.info("**************************************************************************************************************************");
 
 		}
 

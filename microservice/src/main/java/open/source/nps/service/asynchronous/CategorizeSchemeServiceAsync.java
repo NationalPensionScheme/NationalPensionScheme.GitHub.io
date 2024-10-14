@@ -54,6 +54,8 @@ public class CategorizeSchemeServiceAsync {
 	}
 
 	public Map<PensionFundScheme, Set<PensionFundSchemeIdentifier>> getAllSchemeCategoryVsSchemeIds() {
+		
+		log.info("get all scheme category vs scheme ids");
 
 		Map<PensionFundScheme, Set<PensionFundSchemeIdentifier>> schemeCategoryVsSchemeIds = new HashMap<PensionFundScheme, Set<PensionFundSchemeIdentifier>>();
 
@@ -72,6 +74,8 @@ public class CategorizeSchemeServiceAsync {
 
 			schemeCategoryVsSchemeIds.put(pensionFundScheme, pensionFundSchemeIdentifierSet);
 		}
+		
+		log.info("identified -> (schemeCategoryVsSchemeIds) {}", schemeCategoryVsSchemeIds);
 
 		return schemeCategoryVsSchemeIds;
 	}
