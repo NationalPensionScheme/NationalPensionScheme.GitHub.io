@@ -52,6 +52,29 @@ public class CategorizeSchemeServiceAsync {
 		}
 	}
 
+	public Map<PensionFundScheme, Set<PensionFundSchemeIdentifier>> getAllSchemeCategoryVsSchemeIds() {
+
+		Map<PensionFundScheme, Set<PensionFundSchemeIdentifier>> schemeCategoryVsSchemeIds = new HashMap<PensionFundScheme, Set<PensionFundSchemeIdentifier>>();
+
+		for (PensionFundSchemeIdentifier pensionFundSchemeIdentifier : PensionFundSchemeIdentifier.values()) {
+
+			PensionFundScheme pensionFundScheme = pensionFundSchemeIdentifier.getScheme();
+
+			Set<PensionFundSchemeIdentifier> pensionFundSchemeIdentifierSet = schemeCategoryVsSchemeIds.get(pensionFundScheme);
+
+			if (null == pensionFundSchemeIdentifierSet) {
+
+				pensionFundSchemeIdentifierSet = new TreeSet<PensionFundSchemeIdentifier>();
+			}
+
+			pensionFundSchemeIdentifierSet.add(pensionFundSchemeIdentifier);
+
+			schemeCategoryVsSchemeIds.put(pensionFundScheme, pensionFundSchemeIdentifierSet);
+		}
+
+		return schemeCategoryVsSchemeIds;
+	}
+
 	private Set<DateSegmented> identifyAllOriginalDatesInCategory(Set<String> schemeIds) {
 
 		Set<DateSegmented> categoryAllDates = new TreeSet<>(Comparators.DATE_SEGMENTED_ASCENDING);
