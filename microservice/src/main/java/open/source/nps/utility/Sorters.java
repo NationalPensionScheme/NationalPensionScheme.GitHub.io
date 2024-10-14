@@ -1,5 +1,7 @@
 package open.source.nps.utility;
 
+import java.util.Map;
+
 public class Sorters {
 
 	public static <K, V extends Comparable<? super V>> Map<K, V> sortMapByValueDescending(Map<K, V> map) {
