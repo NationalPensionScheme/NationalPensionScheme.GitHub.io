@@ -763,66 +763,66 @@ td {
 }
 
 .rank-component-1 {
-    background-color: #D1E8E4; /* Lightest Green */
-    color: #000000; /* Dark text */
+    background-color: #39FF14; /* Neon Green */
+    color: #000000; /* Black */
 }
 
 .rank-component-2 {
-    background-color: #A4D8B1; /* Light Green */
-    color: #000000; /* Dark text */
+    background-color: #FF5733; /* Neon Red */
+    color: #000000; /* Black */
 }
 
 .rank-component-3 {
-    background-color: #FFED9D; /* Light Yellow-Green */
-    color: #000000; /* Dark text */
+    background-color: #FF33B5; /* Neon Pink */
+    color: #000000; /* Black */
 }
 
 .rank-component-4 {
-    background-color: #F9EFA1; /* Light Yellow */
-    color: #000000; /* Dark text */
+    background-color: #33FFBD; /* Neon Turquoise */
+    color: #000000; /* Black */
 }
 
 .rank-component-5 {
-    background-color: #FFE5B3; /* Medium Visibility Yellow */
-    color: #000000; /* Dark text */
+    background-color: #666666; /* Mild Dark Gray */
+    color: #FFFFFF; /* White */
 }
 
 .rank-component-6 {
-    background-color: #FFB84D; /* Medium Visibility Orange */
-    color: #000000; /* Dark text */
+    background-color: #7D7D7D; /* Medium Gray */
+    color: #FFFFFF; /* White */
 }
 
 .rank-component-7 {
-    background-color: #B8B6E6; /* Medium Visibility Lavender */
-    color: #000000; /* Dark text */
+    background-color: #AFAFAF; /* Light Gray */
+    color: #000000; /* Black */
 }
 
 .rank-component-8 {
-    background-color: #A0A0A0; /* Medium Visibility Gray */
-    color: #000000; /* Dark text */
+    background-color: #B0B0B0; /* Slightly Darker Gray */
+    color: #000000; /* Black */
 }
 
 .rank-component-9 {
-    background-color: #3C3C3C; /* Dark Gray */
-    color: #FFFFFF; /* Light text */
+    background-color: #1C1C1C; /* Very Dark Gray */
+    color: #FFFFFF; /* White */
 }
 
 .rank-component-10 {
-    background-color: #1A1A1A; /* Darker Gray */
-    color: #FFFFFF; /* Light text */
+    background-color: #0A0A0A; /* Almost Black */
+    color: #FFFFFF; /* White */
 }
 
 .rank-component-11 {
     background-color: #000000; /* Black */
-    color: #FFFFFF; /* Light text */
+    color: #FFFFFF; /* White */
 }
 
 /*
-Summary of the Color Assignments:
-Ranks 1-4: Lightest colors with dark text
-Ranks 5-8: Medium visibility colors with dark text
-Ranks 9-11: Dark colors with light text
-Let me know if you need any further adjustments!
+Explanation:
+Ranks 1-4: Neon colors provide a vibrant and attention-grabbing appearance.
+Ranks 5-8: Mild dark colors maintain visibility while not being too harsh on the eyes.
+Ranks 9-11: Very dark colors ensure strong contrast with white font for readability.
+Feel free to adjust any of the color codes if you have specific shades in mind!
 */
 
 #nps-official {
