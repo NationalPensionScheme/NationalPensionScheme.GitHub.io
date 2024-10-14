@@ -30,6 +30,14 @@ public class AnalysisReportControllerAsync {
 		return analysisReportServiceAsync.generateYearlyAverageReport();
 	}
 
+	@GetMapping("/yearly-average-ranking")
+	public Mono<?> generateYearlyAverageRankingReport() {
+
+		log.info("generate yearly average ranking report request");
+
+		return analysisReportServiceAsync.generateYearlyAverageRankingReport();
+	}
+
 	@GetMapping("/daily-basis-annual-growth")
 	public Mono<?> generateDailyBasisAnnualGrowthReport() {
 

@@ -28,6 +28,7 @@ import open.source.nps.model.PartialDate;
 import open.source.nps.utility.Comparators;
 import open.source.nps.utility.DateHelper;
 import open.source.nps.utility.FinancialYearUtil;
+import open.source.nps.utility.Sorters;
 import reactor.core.publisher.Mono;
 
 @Log4j2
@@ -46,6 +47,8 @@ public class AnalysisReportServiceAsync {
 
 	@Autowired
 	private SchemeCsvServiceAsync schemeCsvServiceAsync;
+
+	private static Map<String, Map<String, Float>> schemeIdVsFinancialYearVsYearlyGrowthPercentAverage = null;
 
 
 	private Set<FinancialYear> getSupportedFinancialYearsRangeSet() {
@@ -162,7 +165,83 @@ public class AnalysisReportServiceAsync {
 
 		}
 
+		if (null == schemeIdVsFinancialYearVsYearlyGrowthPercentAverage) {
+			schemeIdVsFinancialYearVsYearlyGrowthPercentAverage = schemeIdVsAnalysis;
+		}
+
 		return Mono.just(schemeIdVsAnalysis);
+	}
+
+	public Mono<?> generateYearlyAverageRankingReport() {
+
+		log.info("generate yearly average ranking report");
+
+		// use
+		// schemeIdVsFinancialYearVsYearlyGrowthPercentAverage
+		// transform
+
+		Map<String, Map<String, Float>> financialYearVsSchemeIdVsYearlyGrowthPercentAverage = new TreeMap<String, Map<String, Float>>();
+
+		for (String schemeId : schemeIdVsFinancialYearVsYearlyGrowthPercentAverage.keySet()) {
+
+			Map<String, Float> financialYearVsYearlyGrowthPercentAverage = schemeIdVsFinancialYearVsYearlyGrowthPercentAverage.get(schemeId);
+
+			for (String financialYear : financialYearVsYearlyGrowthPercentAverage.keySet()) {
+
+				Float yearlyGrowthPercentAverage = financialYearVsYearlyGrowthPercentAverage.get(financialYear);
+
+				// fill
+				Map<String, Float> schemeIdVsYearlyGrowthPercentAverage = financialYearVsSchemeIdVsYearlyGrowthPercentAverage.get(financialYear);
+
+				if (null == schemeIdVsYearlyGrowthPercentAverage) {
+					schemeIdVsYearlyGrowthPercentAverage = new HashMap<String, Float>();
+				}
+
+				schemeIdVsYearlyGrowthPercentAverage.put(schemeId, yearlyGrowthPercentAverage);
+
+				financialYearVsSchemeIdVsYearlyGrowthPercentAverage.put(financialYear, schemeIdVsYearlyGrowthPercentAverage);
+			}
+		}
+
+		// sort
+
+		Map<String, Map<String, Integer>> schemeIdVsFinancialYearVsYearlyGrowthAverageRanking = new TreeMap<String, Map<String, Integer>>();
+
+		for (String financialYear : financialYearVsSchemeIdVsYearlyGrowthPercentAverage.keySet()) {
+
+			Map<String, Float> schemeIdVsYearlyGrowthPercentAverage = financialYearVsSchemeIdVsYearlyGrowthPercentAverage.get(financialYear);
+
+			Map<String, Float> schemeIdVsYearlyGrowthPercentAverageReverseSortedByValue = Sorters.sortMapByValueDescending(schemeIdVsYearlyGrowthPercentAverage);
+
+			// fill
+			int rank = 0;
+
+			for (String schemeId : schemeIdVsYearlyGrowthPercentAverageReverseSortedByValue.keySet()) {
+
+				Float yearlyGrowthPercentAverage = schemeIdVsYearlyGrowthPercentAverageReverseSortedByValue.get(schemeId);
+
+				int currentRank = rank;
+
+				if (0.0f == yearlyGrowthPercentAverage) {
+					currentRank = 0;
+				} else {
+					rank++;
+					currentRank = rank;
+				}
+
+				Map<String, Integer> financialYearVsYearlyGrowthAverageRanking = schemeIdVsFinancialYearVsYearlyGrowthAverageRanking.get(schemeId);
+
+				if (null == financialYearVsYearlyGrowthAverageRanking) {
+					financialYearVsYearlyGrowthAverageRanking = new HashMap<String, Integer>();
+				}
+
+				financialYearVsYearlyGrowthAverageRanking.put(financialYear, currentRank);
+
+				schemeIdVsFinancialYearVsYearlyGrowthAverageRanking.put(schemeId, financialYearVsYearlyGrowthAverageRanking);
+			}
+		}
+
+		return Mono.just(schemeIdVsFinancialYearVsYearlyGrowthAverageRanking);
 	}
 
 	public Map<Integer, Map<PartialDate, Float>> generateDailyBasisAnnualGrowthReport(String schemeId) {

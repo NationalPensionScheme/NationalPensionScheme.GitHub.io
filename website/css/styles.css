@@ -348,6 +348,10 @@ i {
     font-size: 30px;
 }
 
+#page-6-icon {
+    font-size: 30px;
+}
+
 .page-icons {
     border-radius: 12px;
     border-color: #ff580080;
@@ -889,6 +893,10 @@ input:focus {
 
 #tabular-scheme-best-day-to-invest {
     margin-left: 0px;
+}
+
+#page-6 {
+    margin-top: 3%;
 }
 
 .dt-scroll-body {

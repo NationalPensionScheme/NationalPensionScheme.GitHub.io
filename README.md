@@ -741,6 +741,19 @@ cd ..
 ```
 
 
+Hit the API, to generate the yearly growth performance ranking data
+
+```
+cd nav-data
+cd growth
+
+curl -X GET "http://127.0.0.1:7777/generate-analysis-report/yearly-average-ranking" -H "accept: */*" -o yearly-average-ranking.json
+
+cd ..
+cd ..
+```
+
+
 Hit the API, to generate the investment report for when to invest
 
 ```
