@@ -763,161 +763,108 @@ td {
 }
 
 /*
-To create a visually appealing ranking system where colors contrast distinctly across different spectrum ranges, I'll arrange them in groups of three:
-
-Rank 1-3: Bright, contrasting RGB primary colors.
-Rank 4-6: Slightly darker variations of contrasting colors.
-Rank 7-9: Mid-tone contrasting shades.
-Rank 10-12: Darker contrasting colors.
-Rank 13-15: Even darker tones.
-Rank 16-18: Deep, muted shades.
-Rank 19-20: Darkest tones with light text.
+Here's an updated color scheme where green variants are used for the higher ranks, and red variants are reserved for the lower ranks. I’ve created a smooth gradient across 14 ranks, with red shades starting from rank 11 to 14. The remaining ranks (15 to 20) will be reserved for future adjustments.
 */
 
-/* Rank 1-3: Bright RGB primary colors */
+/* Rank 1-4: Green and Yellow variants */
 
-/* Rank 1: Bright Red */
+/* Rank 1: Light Green */
 .rank-component-1 {
-    background-color: #ff4d4d; /* Bright Red */
-    color: #2e2e2e; /* Dark Gray */
-}
-
-/* Rank 2: Bright Green */
-.rank-component-2 {
-    background-color: #4dff4d; /* Bright Green */
+    background-color: #a8e6cf; /* Mint Green */
     color: #1c1c1c; /* Dark Charcoal */
 }
 
-/* Rank 3: Bright Blue */
+/* Rank 2: Medium Green */
+.rank-component-2 {
+    background-color: #6ddccf; /* Seafoam Green */
+    color: #171717; /* Very Dark Gray */
+}
+
+/* Rank 3: Light Yellow-Green */
 .rank-component-3 {
-    background-color: #4d4dff; /* Bright Blue */
+    background-color: #ccffcc; /* Light Yellow-Green */
+    color: #141414; /* Almost Black */
+}
+
+/* Rank 4: Warm Yellow */
+.rank-component-4 {
+    background-color: #fff4b3; /* Pale Yellow */
     color: #1a1a1a; /* Charcoal */
 }
 
-/* Rank 4-6: Slightly darker versions of RGB */
+/* Rank 5-8: Mid-tone Cyan, Blue, and Purple */
 
-/* Rank 4: Darker Red */
-.rank-component-4 {
-    background-color: #cc3333; /* Darker Red */
-    color: #eaeaea; /* Light Gray */
-}
-
-/* Rank 5: Darker Green */
+/* Rank 5: Light Cyan */
 .rank-component-5 {
-    background-color: #33cc33; /* Darker Green */
-    color: #f0f0f0; /* Almost White */
+    background-color: #a3e4ff; /* Light Cyan */
+    color: #0d0d0d; /* Almost Black */
 }
 
-/* Rank 6: Darker Blue */
+/* Rank 6: Soft Blue */
 .rank-component-6 {
-    background-color: #3333cc; /* Darker Blue */
+    background-color: #80bfff; /* Soft Blue */
+    color: #101010; /* Charcoal */
+}
+
+/* Rank 7: Sky Blue */
+.rank-component-7 {
+    background-color: #c6e2ff; /* Sky Blue */
+    color: #121212; /* Dark Gray */
+}
+
+/* Rank 8: Light Lavender */
+.rank-component-8 {
+    background-color: #e6ccff; /* Light Lavender */
+    color: #1e1e1e; /* Dark Gray */
+}
+
+/* Rank 9-10: Darker Cyan and Blue variants */
+
+/* Rank 9: Dark Cyan */
+.rank-component-9 {
+    background-color: #3399cc; /* Dark Cyan */
     color: #f5f5f5; /* Light Grayish White */
 }
 
-/* Rank 7-9: Mid-tone colors */
-
-/* Rank 7: Warm Orange */
-.rank-component-7 {
-    background-color: #ff944d; /* Warm Orange */
-    color: #121212; /* Very Dark Gray */
-}
-
-/* Rank 8: Soft Mint */
-.rank-component-8 {
-    background-color: #4dffcc; /* Soft Mint */
-    color: #171717; /* Dark Charcoal */
-}
-
-/* Rank 9: Sky Blue */
-.rank-component-9 {
-    background-color: #4da6ff; /* Sky Blue */
-    color: #101010; /* Charcoal Black */
-}
-
-/* Rank 10-12: Darker mid-tones */
-
-/* Rank 10: Burnt Orange */
+/* Rank 10: Steel Blue */
 .rank-component-10 {
-    background-color: #cc704d; /* Burnt Orange */
-    color: #f0f0f0; /* Light Gray */
-}
-
-/* Rank 11: Dark Cyan */
-.rank-component-11 {
-    background-color: #33cccc; /* Dark Cyan */
-    color: #eaeaea; /* Pale Gray */
-}
-
-/* Rank 12: Steel Blue */
-.rank-component-12 {
     background-color: #3366cc; /* Steel Blue */
-    color: #fafafa; /* Off White */
-}
-
-/* Rank 13-15: Dark contrasting tones */
-
-/* Rank 13: Dark Crimson */
-.rank-component-13 {
-    background-color: #992233; /* Dark Crimson */
-    color: #f8f8f8; /* Very Light Gray */
-}
-
-/* Rank 14: Forest Green */
-.rank-component-14 {
-    background-color: #228833; /* Forest Green */
-    color: #f0f0f0; /* Almost White */
-}
-
-/* Rank 15: Navy Blue */
-.rank-component-15 {
-    background-color: #223388; /* Navy Blue */
-    color: #f9f9f9; /* Almost White */
-}
-
-/* Rank 16-18: Deep muted shades */
-
-/* Rank 16: Dark Burgundy */
-.rank-component-16 {
-    background-color: #661a33; /* Dark Burgundy */
-    color: #f2f2f2; /* Light Gray */
-}
-
-/* Rank 17: Deep Teal */
-.rank-component-17 {
-    background-color: #1a6666; /* Deep Teal */
-    color: #f5f5f5; /* Very Light Gray */
-}
-
-/* Rank 18: Midnight Blue */
-.rank-component-18 {
-    background-color: #1a1a66; /* Midnight Blue */
     color: #fefefe; /* Near White */
 }
 
-/* Rank 19-20: Darkest tones with light text */
+/* Rank 11-14: Red variants for lower ranks */
 
-/* Rank 19: Almost Black Red */
-.rank-component-19 {
-    background-color: #330011; /* Almost Black Red */
-    color: #ffffff; /* Pure White */
+/* Rank 11: Light Red */
+.rank-component-11 {
+    background-color: #ff9999; /* Light Red */
+    color: #0d0d0d; /* Almost Black */
 }
 
-/* Rank 20: Deep Blackish Blue */
-.rank-component-20 {
-    background-color: #000033; /* Almost Black Blue */
+/* Rank 12: Soft Red */
+.rank-component-12 {
+    background-color: #ff6666; /* Soft Red */
+    color: #eaeaea; /* Light Gray */
+}
+
+/* Rank 13: Medium Red */
+.rank-component-13 {
+    background-color: #cc3333; /* Medium Red */
+    color: #f9f9f9; /* Almost White */
+}
+
+/* Rank 14: Dark Red */
+.rank-component-14 {
+    background-color: #b30000; /* Dark Red */
     color: #ffffff; /* Pure White */
 }
 
 /*
-Breakdown:
-Ranks 1-3 (Bright RGB): High contrast bright colors, great for a vibrant start.
-Ranks 4-6 (Slightly Darker RGB): Still contrasting but toned down.
-Ranks 7-9 (Mid-tone colors): Slightly softer, warm contrasts.
-Ranks 10-12 (Darker mid-tones): More muted but still colorful and visible.
-Ranks 13-15 (Dark tones): Darker shades of contrasting colors.
-Ranks 16-18 (Deep muted tones): Very deep, muted shades for a subtle look.
-Ranks 19-20 (Darkest shades): Dark, near-black backgrounds with light text for high readability.
-This setup gives you a smooth gradient of brightness and contrast, from vibrant light colors to deep dark tones.
+Explanation:
+Ranks 1-4: Green and yellow variants to create a fresh and vibrant feel for the higher ranks.
+Ranks 5-8: Cyan, blue, and lavender shades as mid-tones to maintain balance.
+Ranks 9-10: Darker shades of cyan and blue, still providing good contrast.
+Ranks 11-14: Red variants, progressively getting darker as we move down the ranks, making them suitable for the lower ranks.
+This setup ensures a smooth gradient across the ranks while reserving red variants for the lower end, starting from rank 11. The remaining ranks (15 to 20) can be easily incorporated later with even darker or more muted red shades, as needed.
 */
 
 #nps-official {
