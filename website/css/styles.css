@@ -763,59 +763,61 @@ td {
 }
 
 /*
-Here's an updated color scheme where green variants are used for the higher ranks, and red variants are reserved for the lower ranks. I’ve created a smooth gradient across 14 ranks, with red shades starting from rank 11 to 14. The remaining ranks (15 to 20) will be reserved for future adjustments.
+Since the existing background color of the web page is black, we'll need to ensure that the colors chosen for each rank provide sufficient contrast for readability while maintaining the desired visual hierarchy. Bright colors will work well for the top ranks, while darker colors (especially reds) will contrast well for the lower ranks.
+
+Here's the updated CSS considering a black background:
 */
 
-/* Rank 1-4: Green and Yellow variants */
+/* Rank 1-4: Bright Green and Yellow variants (for black background) */
 
-/* Rank 1: Light Green */
+/* Rank 1: Bright Green */
 .rank-component-1 {
-    background-color: #a8e6cf; /* Mint Green */
-    color: #1c1c1c; /* Dark Charcoal */
+    background-color: #00ff66; /* Neon Green */
+    color: #000000; /* Black */
 }
 
-/* Rank 2: Medium Green */
+/* Rank 2: Light Green */
 .rank-component-2 {
-    background-color: #6ddccf; /* Seafoam Green */
-    color: #171717; /* Very Dark Gray */
+    background-color: #66ff99; /* Light Mint Green */
+    color: #000000; /* Black */
 }
 
-/* Rank 3: Light Yellow-Green */
+/* Rank 3: Bright Yellow-Green */
 .rank-component-3 {
-    background-color: #ccffcc; /* Light Yellow-Green */
-    color: #141414; /* Almost Black */
+    background-color: #ccff33; /* Bright Yellow-Green */
+    color: #000000; /* Black */
 }
 
-/* Rank 4: Warm Yellow */
+/* Rank 4: Bright Yellow */
 .rank-component-4 {
-    background-color: #fff4b3; /* Pale Yellow */
-    color: #1a1a1a; /* Charcoal */
+    background-color: #ffcc00; /* Bright Yellow */
+    color: #000000; /* Black */
 }
 
-/* Rank 5-8: Mid-tone Cyan, Blue, and Purple */
+/* Rank 5-8: Bright Cyan, Blue, and Purple */
 
-/* Rank 5: Light Cyan */
+/* Rank 5: Bright Cyan */
 .rank-component-5 {
-    background-color: #a3e4ff; /* Light Cyan */
-    color: #0d0d0d; /* Almost Black */
+    background-color: #33ffff; /* Bright Cyan */
+    color: #000000; /* Black */
 }
 
 /* Rank 6: Soft Blue */
 .rank-component-6 {
-    background-color: #80bfff; /* Soft Blue */
-    color: #101010; /* Charcoal */
+    background-color: #6699ff; /* Soft Blue */
+    color: #000000; /* Black */
 }
 
 /* Rank 7: Sky Blue */
 .rank-component-7 {
-    background-color: #c6e2ff; /* Sky Blue */
-    color: #121212; /* Dark Gray */
+    background-color: #99ccff; /* Sky Blue */
+    color: #000000; /* Black */
 }
 
 /* Rank 8: Light Lavender */
 .rank-component-8 {
-    background-color: #e6ccff; /* Light Lavender */
-    color: #1e1e1e; /* Dark Gray */
+    background-color: #cc99ff; /* Light Lavender */
+    color: #000000; /* Black */
 }
 
 /* Rank 9-10: Darker Cyan and Blue variants */
@@ -823,48 +825,49 @@ Here's an updated color scheme where green variants are used for the higher rank
 /* Rank 9: Dark Cyan */
 .rank-component-9 {
     background-color: #3399cc; /* Dark Cyan */
-    color: #f5f5f5; /* Light Grayish White */
+    color: #f0f0f0; /* Light Gray */
 }
 
 /* Rank 10: Steel Blue */
 .rank-component-10 {
-    background-color: #3366cc; /* Steel Blue */
-    color: #fefefe; /* Near White */
+    background-color: #3366ff; /* Steel Blue */
+    color: #f5f5f5; /* Light Grayish White */
 }
 
 /* Rank 11-14: Red variants for lower ranks */
 
-/* Rank 11: Light Red */
+/* Rank 11: Bright Red */
 .rank-component-11 {
-    background-color: #ff9999; /* Light Red */
-    color: #0d0d0d; /* Almost Black */
+    background-color: #ff6666; /* Bright Red */
+    color: #000000; /* Black */
 }
 
 /* Rank 12: Soft Red */
 .rank-component-12 {
-    background-color: #ff6666; /* Soft Red */
-    color: #eaeaea; /* Light Gray */
+    background-color: #ff3333; /* Soft Red */
+    color: #f0f0f0; /* Light Gray */
 }
 
 /* Rank 13: Medium Red */
 .rank-component-13 {
-    background-color: #cc3333; /* Medium Red */
-    color: #f9f9f9; /* Almost White */
+    background-color: #cc0000; /* Medium Red */
+    color: #ffffff; /* Pure White */
 }
 
 /* Rank 14: Dark Red */
 .rank-component-14 {
-    background-color: #b30000; /* Dark Red */
+    background-color: #990000; /* Dark Red */
     color: #ffffff; /* Pure White */
 }
 
+
 /*
 Explanation:
-Ranks 1-4: Green and yellow variants to create a fresh and vibrant feel for the higher ranks.
-Ranks 5-8: Cyan, blue, and lavender shades as mid-tones to maintain balance.
-Ranks 9-10: Darker shades of cyan and blue, still providing good contrast.
-Ranks 11-14: Red variants, progressively getting darker as we move down the ranks, making them suitable for the lower ranks.
-This setup ensures a smooth gradient across the ranks while reserving red variants for the lower end, starting from rank 11. The remaining ranks (15 to 20) can be easily incorporated later with even darker or more muted red shades, as needed.
+Higher ranks (1-4): Use bright green and yellow variants that stand out clearly against a black background with dark text.
+Mid-ranks (5-8): Use bright cyan, blue, and lavender shades, maintaining readability.
+Lower ranks (9-10): Use darker cyan and blue shades with lighter text for contrast.
+Lowest ranks (11-14): Red shades, with progressively darker reds, ensuring high contrast with black or light text.
+This approach ensures the colors pop against the black background, maintaining readability and a clear visual ranking system.
 */
 
 #nps-official {
