@@ -762,6 +762,130 @@ td {
     margin-top: 3%;
 }
 
+/*
+This CSS setup includes 20 unique background-color and text-color pairs, perfect for a dark theme. The background colors are predominantly dark, while the text colors provide sufficient contrast to be easily legible.
+*/
+
+/* Rank 1 */
+.component-1 {
+    background-color: #1e1e2e; /* Dark Purple */
+    color: #cdd6f4; /* Light Blue */
+}
+
+/* Rank 2 */
+.component-2 {
+    background-color: #23232e; /* Dark Navy */
+    color: #ebebff; /* Light Violet */
+}
+
+/* Rank 3 */
+.component-3 {
+    background-color: #2b2b37; /* Dark Grayish Blue */
+    color: #a0aec0; /* Light Gray */
+}
+
+/* Rank 4 */
+.component-4 {
+    background-color: #252533; /* Charcoal */
+    color: #fbd38d; /* Pale Gold */
+}
+
+/* Rank 5 */
+.component-5 {
+    background-color: #282836; /* Deep Blue-Gray */
+    color: #a3be8c; /* Light Green */
+}
+
+/* Rank 6 */
+.component-6 {
+    background-color: #2f2f3f; /* Dim Gray */
+    color: #f4babc; /* Soft Red */
+}
+
+/* Rank 7 */
+.component-7 {
+    background-color: #2e2e3e; /* Slate Blue */
+    color: #bf616a; /* Salmon Pink */
+}
+
+/* Rank 8 */
+.component-8 {
+    background-color: #242632; /* Very Dark Blue */
+    color: #d08770; /* Warm Orange */
+}
+
+/* Rank 9 */
+.component-9 {
+    background-color: #20212c; /* Blackened Blue */
+    color: #b48ead; /* Pale Purple */
+}
+
+/* Rank 10 */
+.component-10 {
+    background-color: #171722; /* Darker Charcoal */
+    color: #88c0d0; /* Soft Cyan */
+}
+
+/* Rank 11 */
+.component-11 {
+    background-color: #2d2e3c; /* Gunmetal Blue */
+    color: #eac4a3; /* Peach Beige */
+}
+
+/* Rank 12 */
+.component-12 {
+    background-color: #3a3a4f; /* Midnight Blue */
+    color: #f6e6cb; /* Pale Cream */
+}
+
+/* Rank 13 */
+.component-13 {
+    background-color: #1f1f29; /* Almost Black */
+    color: #a5d8ff; /* Light Sky Blue */
+}
+
+/* Rank 14 */
+.component-14 {
+    background-color: #21212f; /* Onyx */
+    color: #ffadad; /* Pale Coral */
+}
+
+/* Rank 15 */
+.component-15 {
+    background-color: #262637; /* Dark Slate */
+    color: #f2a65a; /* Warm Amber */
+}
+
+/* Rank 16 */
+.component-16 {
+    background-color: #2b2b3b; /* Deep Slate Blue */
+    color: #d8dee9; /* Light Grayish Blue */
+}
+
+/* Rank 17 */
+.component-17 {
+    background-color: #2d2d41; /* Dark Indigo */
+    color: #b5c7e3; /* Misty Blue */
+}
+
+/* Rank 18 */
+.component-18 {
+    background-color: #272833; /* Dark Gunmetal */
+    color: #fad390; /* Light Yellow Orange */
+}
+
+/* Rank 19 */
+.component-19 {
+    background-color: #2c2c3b; /* Dark Blue Violet */
+    color: #e0af68; /* Muted Gold */
+}
+
+/* Rank 20 */
+.component-20 {
+    background-color: #1e1e2c; /* Dark Plum */
+    color: #dfe7fd; /* Light Pastel Blue */
+}
+
 #nps-official {
 
 }
