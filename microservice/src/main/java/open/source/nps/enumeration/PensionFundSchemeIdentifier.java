@@ -19,7 +19,7 @@ public enum PensionFundSchemeIdentifier {
 	SM001011 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.ATAL_PENSION_YOJANA_NPS_TRUST_ACCOUNT),
 	SM001012 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_I_SCHEME_A),
 	SM001013 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_II_SCHEME_A),
-	SM001014 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT),
+	SM001014 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM001015 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.ATAL_PENSION_YOJANA_FUND_SCHEME),
 	SM001016 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_II_COMPOSITE_SCHEME),
 
@@ -36,7 +36,7 @@ public enum PensionFundSchemeIdentifier {
 	SM002011 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.ATAL_PENSION_YOJANA_NPS_TRUST_ACCOUNT),
 	SM002012 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_I_SCHEME_A),
 	SM002013 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_II_SCHEME_A),
-	SM002014 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT),
+	SM002014 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM002015 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.ATAL_PENSION_YOJANA_FUND_SCHEME),
 	SM002016 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_II_COMPOSITE_SCHEME),
 
@@ -53,7 +53,7 @@ public enum PensionFundSchemeIdentifier {
 	SM003011 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.ATAL_PENSION_YOJANA_NPS_TRUST_ACCOUNT),
 	SM003012 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_I_SCHEME_A),
 	SM003013 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_II_SCHEME_A),
-	SM003014 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT),
+	SM003014 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM003015 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.ATAL_PENSION_YOJANA_FUND_SCHEME),
 	SM003016 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_II_COMPOSITE_SCHEME),
 
@@ -74,7 +74,7 @@ public enum PensionFundSchemeIdentifier {
 	SM005007 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT),
 	SM005008 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_I_SCHEME_A),
 	SM005009 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_II_SCHEME_A),
-	SM005010 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT),
+	SM005010 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 
 	SM006001 (PensionFundManagerIdentifier.PFM006, PensionFundScheme.TIER_I_SCHEME_E),
 	SM006002 (PensionFundManagerIdentifier.PFM006, PensionFundScheme.TIER_I_SCHEME_C),
@@ -106,7 +106,7 @@ public enum PensionFundSchemeIdentifier {
 	SM008007 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT),
 	SM008008 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_SCHEME_A),
 	SM008009 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_II_SCHEME_A),
-	SM008010 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT),
+	SM008010 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 
 	SM009001 (PensionFundManagerIdentifier.PFM009, PensionFundScheme.TIER_I_SCHEME_E),
 	SM009002 (PensionFundManagerIdentifier.PFM009, PensionFundScheme.TIER_I_SCHEME_C),

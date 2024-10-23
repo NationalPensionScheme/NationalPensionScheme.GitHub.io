@@ -21,7 +21,7 @@ public enum PensionFundScheme {
 	TIER_II_SCHEME_C ("Tier II - Scheme C", "tier-ii-scheme-c"),
 	TIER_II_SCHEME_E ("Tier II - Scheme E", "tier-ii-scheme-e"),
 	TIER_II_SCHEME_G ("Tier II - Scheme G", "tier-ii-scheme-g"),
-	TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT ("Tier II - Tax Saver Scheme - NPS Trust A/C", "tier-ii-tax-saver-scheme"),
+	//TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT ("Tier II - Tax Saver Scheme - NPS Trust A/C", "tier-ii-tax-saver-scheme"),
 	TIER_II_TAX_SAVER_SCHEME ("Tier II - Tax Saver Scheme", "tier-ii-tax-saver-scheme"),
 	TIER_II_COMPOSITE_SCHEME ("Tier II - Composite Scheme", "tier-ii-composite-scheme"),
 	;

@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public enum PensionFundManager {
 
 	SBI ("SBI", "SBI Pension Funds Private Limited"),
-	UTI ("UTI", "UTI Retirement Solutions Limited"),
+	UTI ("UTI", "UTI Pension Fund Limited"),
 	LIC ("LIC", "LIC Pension Fund Limited"),
 	IDFC ("IDFC", "IDFC Pension Fund Management Company Limited"),
 	KOTAK_MAHINDRA ("Kotak Mahindra", "Kotak Mahindra Pension Fund Limited"),
@@ -17,7 +17,7 @@ public enum PensionFundManager {
 	HDFC ("HDFC", "HDFC Pension Management Company Limited"),
 	DSP_BLACKROCK ("DSP BlackRock", "DSP BlackRock Pension Fund Managers Private Limited"),
 	ADITYA_BIRLA_SUN_LIFE ("Aditya Birla Sun Life", "Aditya Birla Sun Life Pension Management Limited"),
-	TATA ("Tata", "Tata Pension Management Limited"),
+	TATA ("Tata", "Tata Pension Management Private Limited"),
 	MAX_LIFE ("Max Life", "Max Life Pension Fund Management Limited"),
 	AXIS ("Axis", "Axis Pension Fund Management Limited"),
 	DSP ("DSP", "DSP Pension Fund Managers Private Limited"),
