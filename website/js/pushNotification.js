@@ -15,7 +15,7 @@ let notifyMeAboutUserInputMessageData = {
 
 let authorization = "key=AAAAucpu21Y:APA91bEYxJ6XGquZzAxqJnyUYeSwi7ocOWO4iJwi676vXnRXrDn-TazsJmESzQHHv5Dx2OO3HFOk5moxzpvEPCMCv3UA5ZopDnVFBK6lOeE1qWQugDVabmN229DAXd3G7tdul7mmlYpF";
 
-let notifyMeAt = "emb77sbyTEa7QztfZVZ98j:APA91bHj7E8ZUQ4vBzG_OwDJBgHFG5iYcf1Yczpuxd3IjeLmhHO7s7ape72aXkb0YPZaulxlTmVuJDtqdQuGpoThAvzhJYB2SKRscJ0ZnsZz6H2s-jxQ9qRfl71tn_MXYBESgQy-luR_";
+let notifyMeAt = "eDNlvt3USUut0Iw9PcKnpc:APA91bFp3jQX7ABpRz1jsQXauSvJIKXVE9E3lK8aBbrxVs6fq9i7wFHGeW8SSGAO6bc_vvm-ENsT89hGfIdYSsW9fnBLmwX9vrV5NJfbrirynwcyV8vCS2NwcuDEOTAvHvjeazb61jrl";
 
 
 function triggerGooglePushNotification(pushNotificationStringBody, alertUserFlag) {
@@ -51,7 +51,10 @@ function sendMeUserVisitPushNotification(clientMeaningfulDetails) {
     let pushNotificationData = JSON.parse(JSON.stringify(notifyMeAboutUserVisitData));
     console.log("cloned -> (pushNotificationData) " + JSON.stringify(pushNotificationData));
 
-    pushNotificationData.info = clientMeaningfulDetails;
+    //pushNotificationData.info = clientMeaningfulDetails;
+    let info = { ...clientMeaningfulDetails, ...pushNotificationData  };
+    pushNotificationData = info;
+
     console.log("got -> (pushNotificationData) " + JSON.stringify(pushNotificationData));
 
     let pushNotificationBody = {
