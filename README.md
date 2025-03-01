@@ -380,11 +380,12 @@ cd ..
 git status
 ```
 
+calendar yearly change required here
 Assign a relevant year value to `yyyy` below
 
 Write output to a file
 
-prefer this
+prefer this (write)
 
 ```
 cd code
@@ -396,7 +397,7 @@ cd ..
 git status
 ```
 
-If executing again / re-executing for the same year
+If executing again / re-executing for the same year (append)
 
 ```
 cd code
@@ -408,11 +409,13 @@ cd ..
 git status
 ```
 
-Commit for year 2024, works for  (if some filenames don't follow the order `nav-data/daily/<yyyy>-<mm>-<dd>.csv` )
+Commit/s for year 2024 , calendar yearly change required here (if some filenames don't follow the order `nav-data/daily/<yyyy>-<mm>-<dd>.csv` )
 
 ```
 git add code/logs/output-2024.log
+
 git add nav-data/nps-funds-performance-nav-data.csv
+
 git add nav-data/daily/2024-[0-1][0-9]-[0-3][0-9].csv
 
 git commit -m "[data] adding latest NPS NAV data of year 2024"
@@ -420,17 +423,48 @@ git commit -m "[data] adding latest NPS NAV data of year 2024"
 git status
 ```
 
-below line works for forward years also of 2xxx series (2000 - 2999)
-
-```
-git add nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].csv
-```
-
 rename the remaining files as per their content from dates
 and
 append their content to the single consolidated file
 
+below line works for forward years also of 2xxx series (2000 - 2999)
+
 ```
+less nav-data/nps-funds-performance-nav-data.csv
+```
+
+first column is `Date (MM/DD/YYYY)`
+
+but the individual date wise downloaded file names are as `nav-data/daily/<yyyy>-<mm>-<dd>.csv`
+
+hence check the content of every file from git status, to rename it
+
+manual logic to change the names of downloaded file
+
+need to make an automated logic for this
+
+```
+cat <old_filename_from_git_status>
+
+cat nav-data/nps-funds-performance-nav-data.csv | grep <date_from_the_content_of_above_old_filename>
+
+mv <old_filename> <new_filename>
+```
+
+new_filename as `nav-data/daily/<yyyy>-<mm>-<dd>.csv`
+
+calndar yearly change required
+
+```
+git status | grep "nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].csv"
+
+cat `git status | grep "nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].csv"` >> nav-data/nps-funds-performance-nav-data.csv
+
+git add `git status | grep "nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].csv"`
+
+git add nav-data/nps-funds-performance-nav-data.csv
+
+git commit -m "[data] adding latest missing NPS NAV data of year 2024"
 
 ```
 
