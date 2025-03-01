@@ -490,6 +490,8 @@ new_filename as `nav-data/daily/<yyyy>-<mm>-<dd>.csv`
 calndar yearly change required
 
 ```
+git status
+
 git status | grep "nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].csv"
 
 cat `git status | grep "nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].csv"` >> nav-data/nps-funds-performance-nav-data.csv
@@ -498,8 +500,11 @@ git add `git status | grep "nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9
 
 git add nav-data/nps-funds-performance-nav-data.csv
 
+git status
+
 git commit -m "[data] adding latest missing NPS NAV data of year 2025"
 
+git status
 ```
 
 Commit (if everything looks good)
