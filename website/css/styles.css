@@ -866,7 +866,7 @@ Feel free to adjust any of the color codes if you have specific shades in mind!
 }
 
 #turquoise-space {
-
+    display: none;
 }
 
 #contact-form {
