@@ -408,7 +408,33 @@ cd ..
 git status
 ```
 
-Commit
+Commit for year 2024, works for  (if some filenames don't follow the order `nav-data/daily/<yyyy>-<mm>-<dd>.csv` )
+
+```
+git add code/logs/output-2024.log
+git add nav-data/nps-funds-performance-nav-data.csv
+git add nav-data/daily/2024-[0-1][0-9]-[0-3][0-9].csv
+
+git commit -m "[data] adding latest NPS NAV data of year 2024"
+
+git status
+```
+
+below line works for forward years also of 2xxx series (2000 - 2999)
+
+```
+git add nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].csv
+```
+
+rename the remaining files as per their content from dates
+and
+append their content to the single consolidated file
+
+```
+
+```
+
+Commit (if everything looks good)
 
 ```
 git add *
