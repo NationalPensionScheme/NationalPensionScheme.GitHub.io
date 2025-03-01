@@ -364,6 +364,23 @@ upon Reject close the page
 
 ## Codebase ##
 
+- Calendar Yearly Changes Required for Data Update
+
+Check the date of the last commit
+
+Open the project in Visual Studio Code
+Search for the year `yyyy` as per the commit
+Exclude the files in search `*.log,*.xml,nav-data/*`
+Include the files first for `*.md,*.js,*.java` and later for `*.html`
+
+Make the required modifications
+and commit
+
+```
+
+```
+
+
 - Data Downloader
 
 Located in directory `code`
@@ -390,7 +407,7 @@ prefer this (write)
 ```
 cd code
 
-sh execute.sh &> logs/output-2024.log
+sh execute.sh &> logs/output-2025.log
 
 cd ..
 
@@ -402,23 +419,23 @@ If executing again / re-executing for the same year (append)
 ```
 cd code
 
-sh execute.sh &>> logs/output-2024.log
+sh execute.sh &>> logs/output-2025.log
 
 cd ..
 
 git status
 ```
 
-Commit/s for year 2024 , calendar yearly change required here (if some filenames don't follow the order `nav-data/daily/<yyyy>-<mm>-<dd>.csv` )
+Commit/s for year 2025 , calendar yearly change required here (if some filenames don't follow the order `nav-data/daily/<yyyy>-<mm>-<dd>.csv` )
 
 ```
-git add code/logs/output-2024.log
+git add code/logs/output-2025.log
 
 git add nav-data/nps-funds-performance-nav-data.csv
 
-git add nav-data/daily/2024-[0-1][0-9]-[0-3][0-9].csv
+git add nav-data/daily/2025-[0-1][0-9]-[0-3][0-9].csv
 
-git commit -m "[data] adding latest NPS NAV data of year 2024"
+git commit -m "[data] adding latest NPS NAV data of year 2025"
 
 git status
 ```
@@ -464,7 +481,7 @@ git add `git status | grep "nav-data/daily/2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9
 
 git add nav-data/nps-funds-performance-nav-data.csv
 
-git commit -m "[data] adding latest missing NPS NAV data of year 2024"
+git commit -m "[data] adding latest missing NPS NAV data of year 2025"
 
 ```
 
@@ -473,7 +490,7 @@ Commit (if everything looks good)
 ```
 git add *
 
-git commit -m "[data] adding latest NPS NAV data of year 2024"
+git commit -m "[data] adding latest NPS NAV data of year 2025"
 
 git status
 
