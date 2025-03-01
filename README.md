@@ -450,6 +450,8 @@ git add nav-data/nps-funds-performance-nav-data.csv
 
 git add nav-data/daily/2025-[0-1][0-9]-[0-3][0-9].csv
 
+git status
+
 git commit -m "[data] adding latest NPS NAV data of year 2025"
 
 git status
