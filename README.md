@@ -377,9 +377,12 @@ Make the required modifications
 and commit
 
 ```
+git add code/execute.sh
 
+git add website/js/
+
+git commit -m "[script] modifying the year to 2025 as per calendar yearly changes"
 ```
-
 
 - Data Downloader
 
