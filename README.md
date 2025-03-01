@@ -429,6 +429,18 @@ cd ..
 git status
 ```
 
+by that time open a new tab and run
+
+```
+cd ..
+
+ps -eaf | grep execute
+
+git status
+
+tail -1f code/logs/output-2025.log
+```
+
 Commit/s for year 2025 , calendar yearly change required here (if some filenames don't follow the order `nav-data/daily/<yyyy>-<mm>-<dd>.csv` )
 
 ```
