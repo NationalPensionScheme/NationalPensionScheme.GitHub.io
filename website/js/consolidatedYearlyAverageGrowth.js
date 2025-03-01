@@ -2,17 +2,17 @@
 let startFinancialYear = 2007;
 console.log("initial -> (startFinancialYear) " + startFinancialYear);
 
-// closing of the current or running financial year (2023 - 2024) , i.e. from 1 April 2023 to 31 March 2024
+// closing of the current or running financial year (2024 - 2025) , i.e. from 1 April 2024 to 31 March 2025
 
 let endFinancialYear = 2025;
 console.log("initial -> (endFinancialYear) " + endFinancialYear);
 
-// yearly analysis data should be finalized uptill previous (2019 - 2020) to last financial year (2020 - 2021)
-// as all the dates of last financial year have passed, i.e. from 1 April 2020 to 31 March 2021
+// yearly analysis data should be finalized uptill previous (2022 - 2023) to last financial year (2023 - 2024)
+// as all the dates of last financial year have passed, i.e. from 1 April 2023 to 31 March 2024
 // the yearly transition of percentage growth for each day of the 2nd last financial year 19-20 can be calculated
 
-// growth = NAV on a date of 2021 - NAV on the same date (dd) month (mm) of 2020
-// percentage growth = 100 * growth / NAV on 2020
+// growth = NAV on a date of 2024 - NAV on the same date (dd) month (mm) of 2023
+// percentage growth = 100 * growth / NAV on 2023
 
 // however the same cannot be calculated for every day of transition between the last financial year and current
 // since this current financial year is still running, so there are NAV missing for the days yet to come

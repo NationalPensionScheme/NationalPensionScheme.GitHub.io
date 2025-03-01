@@ -42,7 +42,7 @@ function transformCsvForDataTable(csvContent) {
     // at index 0 : `Date (MM/DD/YYYY),Net Asset Value (INR)`
     // from index 1 : `05/29/2015,10.0000`
 
-    // "Month (MM)","Day (DD)","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024","Average Across Years"
+    // "Month (MM)","Day (DD)","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024","2025","Average Across Years"
     // 01,01,0,15.174333,6.576464,6.5834203,12.548697,13.596871,6.5183015,3.2608614,8.151164,9.051264
 
     let csvLines = csvContent.split("\n");
