@@ -733,6 +733,35 @@ git status
 ```
 
 
+- Trimming the Multiple Occurences of Spaces in Columns
+
+```
+cd nav-data
+
+sed 's/ \+/ /g' < nps-funds-performance-nav-data.csv > nps-funds-performance-nav-data-trimmed.csv
+
+rm nps-funds-performance-nav-data.csv
+
+mv nps-funds-performance-nav-data-trimmed.csv nps-funds-performance-nav-data.csv
+
+cd ..
+
+git status
+```
+
+Commit
+
+```
+git add *
+
+git commit -m "[data] removing multiple occurences of spaces"
+
+git status
+
+```
+
+
+
 - Extracting Meta Data
 
 Fund Managers
