@@ -11,6 +11,7 @@ public enum PensionFundScheme {
 	CORPORATE_CG ("Corporate CG", "corporate-cg"),
 	GOVERNMENT_CENTRAL ("Government - Central", "government-central"),
 	GOVERNMENT_STATE ("Government - State", "government-state"),
+	UPS_CG_SCHEME ("UPS CG Scheme", "ups-cg-scheme"),
 	LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT ("Lite Scheme - Government Pattern - NPS Trust A/C", "lite-scheme"),
 	ATAL_PENSION_YOJANA_FUND_SCHEME ("APY - Fund Scheme", "apy-fund-scheme"),
 	TIER_I_SCHEME_A ("Tier I - Scheme A", "tier-i-scheme-a"),

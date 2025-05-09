@@ -4,7 +4,7 @@ console.log("initial -> (startFinancialYear) " + startFinancialYear);
 
 // closing of the current or running financial year (2024 - 2025) , i.e. from 1 April 2024 to 31 March 2025
 
-let endFinancialYear = 2025;
+let endFinancialYear = 2026;
 console.log("initial -> (endFinancialYear) " + endFinancialYear);
 
 // yearly analysis data should be finalized uptill previous (2022 - 2023) to last financial year (2023 - 2024)
