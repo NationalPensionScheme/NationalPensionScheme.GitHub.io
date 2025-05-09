@@ -706,7 +706,35 @@ git status
 ```
 
 
-- Trimming the Leading Spaces in Columns
+- Trimming the Leading & Trailing Spaces in Columns
+
+```
+cd nav-data
+
+sed 's/^[ \t]*//;s/[ \t]*$//' < nps-funds-performance-nav-data.csv > nps-funds-performance-nav-data-trimmed.csv
+
+rm nps-funds-performance-nav-data.csv
+
+mv nps-funds-performance-nav-data-trimmed.csv nps-funds-performance-nav-data.csv
+
+cd ..
+
+git status
+```
+
+Commit
+
+```
+git add *
+
+git commit -m "[data] removing leading and trailing spaces"
+
+git status
+
+```
+
+
+- Trimming the Leading Spaces in Columns (Deprecated)
 
 ```
 cd nav-data
@@ -734,7 +762,7 @@ git status
 ```
 
 
-- Trimming the Trailing Spaces in Columns
+- Trimming the Trailing Spaces in Columns (Deprecated)
 
 ```
 cd nav-data
