@@ -102,35 +102,53 @@ SCHEME A : Alternate Investment Funds including instruments like CMBS, MBS, REIT
 
 [NPS - Returns Archive](http://www.npstrust.org.in/return-of-nps-scheme-archive)
 
-[NAV - Data Source](https://www.npscra.nsdl.co.in/nav-search.php)
+[NAV - Data Source - Old](https://www.npscra.nsdl.co.in/nav-search.php)
 
-[Investment Options](https://npscra.nsdl.co.in/download/Investment-options-under-NPS.pdf)
+[NAV - Data Source](https://www.npscra.proteantech.in/nav-search.php)
 
-[NPS - Tax Benefits](https://npscra.nsdl.co.in/tax-benefits-under-nps.php)
+[Investment Options - Old](https://npscra.nsdl.co.in/download/Investment-options-under-NPS.pdf)
+
+[Investment Options](https://npscra.proteantech.in/download/Investment-options-under-NPS.pdf)
+
+[NPS - Tax Benefits - Old](https://npscra.nsdl.co.in/tax-benefits-under-nps.php)
+
+[NPS - Tax Benefits](https://npscra.proteantech.in/tax-benefits-under-nps.php)
 
 [NPS - Brief](https://financialservices.gov.in/pension-reforms-divisions/National-Pension-System)
 
 [NPS - Details](https://www.india.gov.in/spotlight/national-pension-system-retirement-plan-all)
 
-[NPS - PDF](https://npscra.nsdl.co.in/download/NEW_WELCOME_KIT396945283.pdf)
+[NPS - PDF - Old](https://npscra.nsdl.co.in/download/NEW_WELCOME_KIT396945283.pdf)
 
-[NPS Central Government](https://www.npscra.nsdl.co.in/central-government.php)
+[NPS - PDF](https://npscra.proteantech.in/download/NEW_WELCOME_KIT396945283.pdf)
 
-[Scheme FAQ](https://www.npscra.nsdl.co.in/all-faq-scheme.php)
+[NPS Central Government - Old](https://www.npscra.nsdl.co.in/central-government.php)
+
+[NPS Central Government](https://www.npscra.proteantech.in/central-government.php)
+
+[Scheme FAQ - Old](https://www.npscra.nsdl.co.in/all-faq-scheme.php)
+
+[Scheme FAQ](https://www.npscra.proteantech.in/all-faq-scheme.php)
 
 [NSDL - NPS CRA (Central Record Keeping Agency)](https://cra-nsdl.com/CRA/)
 
-[NSDL Downloads](https://www.npscra.nsdl.co.in/nsdl-downloads.php)
+[NSDL Downloads - Old](https://www.npscra.nsdl.co.in/nsdl-downloads.php)
+
+[NSDL Downloads](https://www.npscra.proteantech.in/nsdl-downloads.php)
 
 Type in appropriate value for `DDMMYYYY` in the link below
 
 https://npscra.nsdl.co.in/download/NAV_File_DDMMYYYY.zip
 
+https://npscra.proteantech.in/download/NAV_File_DDMMYYYY.zip
+
 [Value Research - Performance](https://www.valueresearchonline.com/nps/performance/)
 
 [CSC](http://13.126.173.165/nps/index.php/csc_login)
 
-[NSDL - Contact Us](https://www.npscra.nsdl.co.in/contact-us.php)
+[NSDL - Contact Us - Old](https://www.npscra.nsdl.co.in/contact-us.php)
+
+[NSDL - Contact Us](https://www.npscra.proteantech.in/contact-us.php)
 
 
 
