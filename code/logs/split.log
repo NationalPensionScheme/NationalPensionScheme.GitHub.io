@@ -431,6 +431,48 @@ extracting scheme data columns in individual min file
 
 __________________________________________________________________________________________________________________________
 
+line from input file: SM001018
+
+temp target file name: nav-data/scheme/SM001018.csv.tmp
+target file name: nav-data/scheme/SM001018.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM001018-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM001019
+
+temp target file name: nav-data/scheme/SM001019.csv.tmp
+target file name: nav-data/scheme/SM001019.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM001019-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
 line from input file: SM002001
 
 temp target file name: nav-data/scheme/SM002001.csv.tmp
@@ -851,6 +893,69 @@ target min file name: nav-data/scheme/min/SM002017-min.csv
 target min file exists: true
 
 removing
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM002018
+
+temp target file name: nav-data/scheme/SM002018.csv.tmp
+target file name: nav-data/scheme/SM002018.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM002018-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM002019
+
+temp target file name: nav-data/scheme/SM002019.csv.tmp
+target file name: nav-data/scheme/SM002019.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM002019-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM002020
+
+temp target file name: nav-data/scheme/SM002020.csv.tmp
+target file name: nav-data/scheme/SM002020.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM002020-min.csv
+
+target min file exists: false
 
 extracting scheme data columns in individual min file
 
@@ -1281,6 +1386,48 @@ extracting scheme data columns in individual min file
 
 __________________________________________________________________________________________________________________________
 
+line from input file: SM003018
+
+temp target file name: nav-data/scheme/SM003018.csv.tmp
+target file name: nav-data/scheme/SM003018.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM003018-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM003019
+
+temp target file name: nav-data/scheme/SM003019.csv.tmp
+target file name: nav-data/scheme/SM003019.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM003019-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
 line from input file: SM004001
 
 temp target file name: nav-data/scheme/SM004001.csv.tmp
@@ -1701,6 +1848,27 @@ target min file name: nav-data/scheme/min/SM005010-min.csv
 target min file exists: true
 
 removing
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM005011
+
+temp target file name: nav-data/scheme/SM005011.csv.tmp
+target file name: nav-data/scheme/SM005011.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM005011-min.csv
+
+target min file exists: false
 
 extracting scheme data columns in individual min file
 
@@ -2181,6 +2349,27 @@ extracting scheme data columns in individual min file
 
 __________________________________________________________________________________________________________________________
 
+line from input file: SM007011
+
+temp target file name: nav-data/scheme/SM007011.csv.tmp
+target file name: nav-data/scheme/SM007011.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM007011-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
 line from input file: SM008001
 
 temp target file name: nav-data/scheme/SM008001.csv.tmp
@@ -2426,6 +2615,69 @@ target min file name: nav-data/scheme/min/SM008010-min.csv
 target min file exists: true
 
 removing
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM008011
+
+temp target file name: nav-data/scheme/SM008011.csv.tmp
+target file name: nav-data/scheme/SM008011.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM008011-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM008012
+
+temp target file name: nav-data/scheme/SM008012.csv.tmp
+target file name: nav-data/scheme/SM008012.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM008012-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM008013
+
+temp target file name: nav-data/scheme/SM008013.csv.tmp
+target file name: nav-data/scheme/SM008013.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM008013-min.csv
+
+target min file exists: false
 
 extracting scheme data columns in individual min file
 
@@ -2831,6 +3083,27 @@ extracting scheme data columns in individual min file
 
 __________________________________________________________________________________________________________________________
 
+line from input file: SM010010
+
+temp target file name: nav-data/scheme/SM010010.csv.tmp
+target file name: nav-data/scheme/SM010010.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM010010-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
 line from input file: SM011001
 
 temp target file name: nav-data/scheme/SM011001.csv.tmp
@@ -3026,6 +3299,27 @@ target min file name: nav-data/scheme/min/SM011008-min.csv
 target min file exists: true
 
 removing
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM011009
+
+temp target file name: nav-data/scheme/SM011009.csv.tmp
+target file name: nav-data/scheme/SM011009.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM011009-min.csv
+
+target min file exists: false
 
 extracting scheme data columns in individual min file
 
@@ -3431,6 +3725,27 @@ extracting scheme data columns in individual min file
 
 __________________________________________________________________________________________________________________________
 
+line from input file: SM013009
+
+temp target file name: nav-data/scheme/SM013009.csv.tmp
+target file name: nav-data/scheme/SM013009.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM013009-min.csv
+
+target min file exists: false
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
 line from input file: SM014001
 
 temp target file name: nav-data/scheme/SM014001.csv.tmp
@@ -3626,6 +3941,27 @@ target min file name: nav-data/scheme/min/SM014008-min.csv
 target min file exists: true
 
 removing
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM014009
+
+temp target file name: nav-data/scheme/SM014009.csv.tmp
+target file name: nav-data/scheme/SM014009.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM014009-min.csv
+
+target min file exists: false
 
 extracting scheme data columns in individual min file
 
