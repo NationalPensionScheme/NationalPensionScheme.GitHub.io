@@ -21,7 +21,7 @@ echo "source date: $source_date"
 source_file="NAV_File_$source_date.zip"
 echo "source file: $source_file"
 
-source_base_url="https://npscra.proteantech.in/download/"
+source_base_url="https://www.npscra.proteantech.in/download/"
 
 # source_link_old = https://npscra.nsdl.co.in/download/NAV_File_{DDMMYYYY}.zip
 # source_link = https://npscra.proteantech.in/download/NAV_File_{DDMMYYYY}.zip
