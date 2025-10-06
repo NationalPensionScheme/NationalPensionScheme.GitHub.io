@@ -23,6 +23,8 @@ public enum PensionFundSchemeIdentifier {
 	SM001015 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.ATAL_PENSION_YOJANA_FUND_SCHEME),
 	SM001016 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_II_COMPOSITE_SCHEME),
 	SM001017 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.UPS_CG_SCHEME),
+	SM001018 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.UPS_POOL_CG_SCHEME),
+	SM001019 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_I_NPS_JEEVAN_SWARNA_RETIREMENT_YOJANA_LIFES_GOLDEN_PLAN),
 
 	SM002001 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.GOVERNMENT_CENTRAL),
 	SM002002 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.GOVERNMENT_STATE),
@@ -41,6 +43,9 @@ public enum PensionFundSchemeIdentifier {
 	SM002015 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.ATAL_PENSION_YOJANA_FUND_SCHEME),
 	SM002016 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_II_COMPOSITE_SCHEME),
 	SM002017 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.UPS_CG_SCHEME),
+	SM002018 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.UPS_POOL_CG_SCHEME),
+	SM002019 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_I_NPS_WEALTH_BUILDER_EQUITY_SCHEME),
+	SM002020 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_II_NPS_WEALTH_BUILDER_EQUITY_SCHEME),
 
 	SM003001 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.GOVERNMENT_CENTRAL),
 	SM003002 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.GOVERNMENT_STATE),
@@ -59,6 +64,8 @@ public enum PensionFundSchemeIdentifier {
 	SM003015 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.ATAL_PENSION_YOJANA_FUND_SCHEME),
 	SM003016 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_II_COMPOSITE_SCHEME),
 	SM003017 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.UPS_CG_SCHEME),
+	SM003018 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.UPS_POOL_CG_SCHEME),
+	SM003019 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_I_NPS_SMART_BALANCE),
 
 	SM004001 (PensionFundManagerIdentifier.PFM004, PensionFundScheme.TIER_I_SCHEME_E),
 	SM004002 (PensionFundManagerIdentifier.PFM004, PensionFundScheme.TIER_I_SCHEME_C),
@@ -78,6 +85,7 @@ public enum PensionFundSchemeIdentifier {
 	SM005008 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_I_SCHEME_A),
 	SM005009 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_II_SCHEME_A),
 	SM005010 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
+	SM005011 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_I_NPS_KUBER_EQUITY_FUND),
 
 	SM006001 (PensionFundManagerIdentifier.PFM006, PensionFundScheme.TIER_I_SCHEME_E),
 	SM006002 (PensionFundManagerIdentifier.PFM006, PensionFundScheme.TIER_I_SCHEME_C),
@@ -99,6 +107,7 @@ public enum PensionFundSchemeIdentifier {
 	SM007008 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.TIER_I_SCHEME_A),
 	SM007009 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.TIER_II_SCHEME_A),
 	SM007010 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
+	SM007011 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.TIER_I_NPS_MY_FAMILY_MY_FUTURE),
 
 	SM008001 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_SCHEME_E),
 	SM008002 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_SCHEME_C),
@@ -110,6 +119,9 @@ public enum PensionFundSchemeIdentifier {
 	SM008008 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_SCHEME_A),
 	SM008009 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_II_SCHEME_A),
 	SM008010 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
+	SM008011 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_NPS_SURAKSHIT_INCOME_FUND),
+	SM008012 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_II_NPS_SURAKSHIT_INCOME_FUND),
+	SM008013 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_NPS_EQUITY_ADVANTAGE_FUND),
 
 	SM009001 (PensionFundManagerIdentifier.PFM009, PensionFundScheme.TIER_I_SCHEME_E),
 	SM009002 (PensionFundManagerIdentifier.PFM009, PensionFundScheme.TIER_I_SCHEME_C),
@@ -128,6 +140,7 @@ public enum PensionFundSchemeIdentifier {
 	SM010007 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_II_SCHEME_G),
 	SM010008 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_II_SCHEME_A),
 	SM010009 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
+	SM010010 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_I_NPS_SECURE_RETIREMENT_EQUITY_FUND),
 
 	SM011001 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_I_SCHEME_E),
 	SM011002 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_I_SCHEME_C),
@@ -137,6 +150,7 @@ public enum PensionFundSchemeIdentifier {
 	SM011006 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_II_SCHEME_C),
 	SM011007 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_II_SCHEME_G),
 	SM011008 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
+	SM011009 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_I_NPS_SMART_RETIREMENT_FUND),
 
 	SM012001 (PensionFundManagerIdentifier.PFM012, PensionFundScheme.TIER_I_SCHEME_E),
 	SM012002 (PensionFundManagerIdentifier.PFM012, PensionFundScheme.TIER_I_SCHEME_C),
@@ -155,6 +169,7 @@ public enum PensionFundSchemeIdentifier {
 	SM013006 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_II_SCHEME_C),
 	SM013007 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_II_SCHEME_G),
 	SM013008 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
+	SM013009 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_I_NPS_GOLDEN_YEARS_GROWTH_FUND),
 
 	SM014001 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_SCHEME_E),
 	SM014002 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_SCHEME_C),
@@ -164,6 +179,7 @@ public enum PensionFundSchemeIdentifier {
 	SM014006 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_SCHEME_C),
 	SM014007 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_SCHEME_G),
 	SM014008 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
+	SM014009 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_NPS_LONG_TERM_EQUITY_FUND),
 
 	;
 
