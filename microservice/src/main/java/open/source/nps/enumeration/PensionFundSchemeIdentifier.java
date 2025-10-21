@@ -25,6 +25,7 @@ public enum PensionFundSchemeIdentifier {
 	SM001017 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.UPS_CG_SCHEME),
 	SM001018 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.UPS_POOL_CG_SCHEME),
 	SM001019 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_I_NPS_JEEVAN_SWARNA_RETIREMENT_YOJANA_LIFES_GOLDEN_PLAN),
+	SM001020 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_I_NPS_AKSHAY_DHARA_RETIREMENT_YOJANA_HAPPY_RETIREMENT_PLAN),
 
 	SM002001 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.GOVERNMENT_CENTRAL),
 	SM002002 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.GOVERNMENT_STATE),
@@ -141,6 +142,7 @@ public enum PensionFundSchemeIdentifier {
 	SM010008 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_II_SCHEME_A),
 	SM010009 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM010010 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_I_NPS_SECURE_RETIREMENT_EQUITY_FUND),
+	SM010011 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_I_NPS_SECURE_FUTURE_FUND),
 
 	SM011001 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_I_SCHEME_E),
 	SM011002 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_I_SCHEME_C),

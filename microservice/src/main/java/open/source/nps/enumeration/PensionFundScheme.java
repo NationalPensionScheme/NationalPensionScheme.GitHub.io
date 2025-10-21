@@ -30,6 +30,8 @@ public enum PensionFundScheme {
 	TIER_I_NPS_SMART_RETIREMENT_FUND ("Tier I - NPS Smart Retirement Fund", "tier-i-nps-smart-retirement-fund"),
 	TIER_I_NPS_GOLDEN_YEARS_GROWTH_FUND ("Tier I - NPS Golden Years Growth Fund", "tier-i-nps-golden-years-growth-fund"),
 	TIER_I_NPS_LONG_TERM_EQUITY_FUND ("Tier I - NPS Long Term Equity Fund", "tier-i-nps-long-term-equity-fund"),
+	TIER_I_NPS_AKSHAY_DHARA_RETIREMENT_YOJANA_HAPPY_RETIREMENT_PLAN ("Tier I - NPS Akshay Dhara Retirement Yojana - Happy Retirement Plan", "tier-i-nps-akshay-dhara-retirement-yojana-happy-retirement-plan"),
+	TIER_I_NPS_SECURE_FUTURE_FUND ("Tier I - NPS Secure Future Fund", "tier-i-nps-secure-future-fund"),
 	TIER_II_SCHEME_A ("Tier II - Scheme A", "tier-ii-scheme-a"),
 	TIER_II_SCHEME_C ("Tier II - Scheme C", "tier-ii-scheme-c"),
 	TIER_II_SCHEME_E ("Tier II - Scheme E", "tier-ii-scheme-e"),
