@@ -70,11 +70,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:55--  https://www.npscra.proteantech.in/download/NAV_File_04012025.zip
+--2025-10-21 16:45:27--  https://www.npscra.proteantech.in/download/NAV_File_04012025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:56 ERROR 404: Not Found.
+2025-10-21 16:45:28 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -97,11 +97,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:56--  https://www.npscra.proteantech.in/download/NAV_File_05012025.zip
+--2025-10-21 16:45:28--  https://www.npscra.proteantech.in/download/NAV_File_05012025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:56 ERROR 404: Not Found.
+2025-10-21 16:45:28 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -214,11 +214,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:57--  https://www.npscra.proteantech.in/download/NAV_File_11012025.zip
+--2025-10-21 16:45:28--  https://www.npscra.proteantech.in/download/NAV_File_11012025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:57 ERROR 404: Not Found.
+2025-10-21 16:45:28 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -241,11 +241,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:57--  https://www.npscra.proteantech.in/download/NAV_File_12012025.zip
+--2025-10-21 16:45:28--  https://www.npscra.proteantech.in/download/NAV_File_12012025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:57 ERROR 404: Not Found.
+2025-10-21 16:45:28 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -358,11 +358,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:57--  https://www.npscra.proteantech.in/download/NAV_File_18012025.zip
+--2025-10-21 16:45:28--  https://www.npscra.proteantech.in/download/NAV_File_18012025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:58 ERROR 404: Not Found.
+2025-10-21 16:45:28 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -385,11 +385,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:58--  https://www.npscra.proteantech.in/download/NAV_File_19012025.zip
+--2025-10-21 16:45:28--  https://www.npscra.proteantech.in/download/NAV_File_19012025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:58 ERROR 404: Not Found.
+2025-10-21 16:45:29 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -502,11 +502,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:58--  https://www.npscra.proteantech.in/download/NAV_File_25012025.zip
+--2025-10-21 16:45:29--  https://www.npscra.proteantech.in/download/NAV_File_25012025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:58 ERROR 404: Not Found.
+2025-10-21 16:45:29 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -529,11 +529,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:58--  https://www.npscra.proteantech.in/download/NAV_File_26012025.zip
+--2025-10-21 16:45:29--  https://www.npscra.proteantech.in/download/NAV_File_26012025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:58 ERROR 404: Not Found.
+2025-10-21 16:45:29 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -646,11 +646,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:58--  https://www.npscra.proteantech.in/download/NAV_File_01022025.zip
+--2025-10-21 16:45:29--  https://www.npscra.proteantech.in/download/NAV_File_01022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:58 ERROR 404: Not Found.
+2025-10-21 16:45:29 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -673,11 +673,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:58--  https://www.npscra.proteantech.in/download/NAV_File_02022025.zip
+--2025-10-21 16:45:29--  https://www.npscra.proteantech.in/download/NAV_File_02022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:59 ERROR 404: Not Found.
+2025-10-21 16:45:29 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -790,11 +790,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:59--  https://www.npscra.proteantech.in/download/NAV_File_08022025.zip
+--2025-10-21 16:45:29--  https://www.npscra.proteantech.in/download/NAV_File_08022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:59 ERROR 404: Not Found.
+2025-10-21 16:45:29 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -817,11 +817,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:59--  https://www.npscra.proteantech.in/download/NAV_File_09022025.zip
+--2025-10-21 16:45:29--  https://www.npscra.proteantech.in/download/NAV_File_09022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:59 ERROR 404: Not Found.
+2025-10-21 16:45:30 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -934,11 +934,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:59--  https://www.npscra.proteantech.in/download/NAV_File_15022025.zip
+--2025-10-21 16:45:30--  https://www.npscra.proteantech.in/download/NAV_File_15022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:59 ERROR 404: Not Found.
+2025-10-21 16:45:30 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -961,11 +961,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:59--  https://www.npscra.proteantech.in/download/NAV_File_16022025.zip
+--2025-10-21 16:45:30--  https://www.npscra.proteantech.in/download/NAV_File_16022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:13:59 ERROR 404: Not Found.
+2025-10-21 16:45:30 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1006,16 +1006,16 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:13:59--  https://www.npscra.proteantech.in/download/NAV_File_18022025.zip
+--2025-10-21 16:45:30--  https://www.npscra.proteantech.in/download/NAV_File_18022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 752 [application/zip]
 Saving to: ‘NAV_File_18022025.zip’
 
-     0K                                                       100% 5.19M=0s
+     0K                                                       100% 19.8M=0s
 
-2025-10-11 22:14:00 (5.19 MB/s) - ‘NAV_File_18022025.zip’ saved [752/752]
+2025-10-21 16:45:30 (19.8 MB/s) - ‘NAV_File_18022025.zip’ saved [752/752]
 
 downloaded: true
 
@@ -1053,11 +1053,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:00--  https://www.npscra.proteantech.in/download/NAV_File_19022025.zip
+--2025-10-21 16:45:30--  https://www.npscra.proteantech.in/download/NAV_File_19022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:00 ERROR 404: Not Found.
+2025-10-21 16:45:30 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1116,11 +1116,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:00--  https://www.npscra.proteantech.in/download/NAV_File_22022025.zip
+--2025-10-21 16:45:30--  https://www.npscra.proteantech.in/download/NAV_File_22022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:00 ERROR 404: Not Found.
+2025-10-21 16:45:30 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1143,11 +1143,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:00--  https://www.npscra.proteantech.in/download/NAV_File_23022025.zip
+--2025-10-21 16:45:30--  https://www.npscra.proteantech.in/download/NAV_File_23022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:00 ERROR 404: Not Found.
+2025-10-21 16:45:31 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1206,11 +1206,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:00--  https://www.npscra.proteantech.in/download/NAV_File_26022025.zip
+--2025-10-21 16:45:31--  https://www.npscra.proteantech.in/download/NAV_File_26022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:01 ERROR 404: Not Found.
+2025-10-21 16:45:31 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1269,11 +1269,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:01--  https://www.npscra.proteantech.in/download/NAV_File_29022025.zip
+--2025-10-21 16:45:31--  https://www.npscra.proteantech.in/download/NAV_File_29022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:01 ERROR 404: Not Found.
+2025-10-21 16:45:31 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1296,11 +1296,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:01--  https://www.npscra.proteantech.in/download/NAV_File_30022025.zip
+--2025-10-21 16:45:31--  https://www.npscra.proteantech.in/download/NAV_File_30022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:01 ERROR 404: Not Found.
+2025-10-21 16:45:31 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1323,11 +1323,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:01--  https://www.npscra.proteantech.in/download/NAV_File_31022025.zip
+--2025-10-21 16:45:31--  https://www.npscra.proteantech.in/download/NAV_File_31022025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:01 ERROR 404: Not Found.
+2025-10-21 16:45:31 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1350,11 +1350,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:01--  https://www.npscra.proteantech.in/download/NAV_File_01032025.zip
+--2025-10-21 16:45:31--  https://www.npscra.proteantech.in/download/NAV_File_01032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:01 ERROR 404: Not Found.
+2025-10-21 16:45:31 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1377,11 +1377,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:01--  https://www.npscra.proteantech.in/download/NAV_File_02032025.zip
+--2025-10-21 16:45:31--  https://www.npscra.proteantech.in/download/NAV_File_02032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:01 ERROR 404: Not Found.
+2025-10-21 16:45:32 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1422,11 +1422,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:01--  https://www.npscra.proteantech.in/download/NAV_File_04032025.zip
+--2025-10-21 16:45:32--  https://www.npscra.proteantech.in/download/NAV_File_04032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:02 ERROR 404: Not Found.
+2025-10-21 16:45:32 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1503,11 +1503,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:02--  https://www.npscra.proteantech.in/download/NAV_File_08032025.zip
+--2025-10-21 16:45:32--  https://www.npscra.proteantech.in/download/NAV_File_08032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:02 ERROR 404: Not Found.
+2025-10-21 16:45:32 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1530,11 +1530,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:02--  https://www.npscra.proteantech.in/download/NAV_File_09032025.zip
+--2025-10-21 16:45:32--  https://www.npscra.proteantech.in/download/NAV_File_09032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:02 ERROR 404: Not Found.
+2025-10-21 16:45:32 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1629,11 +1629,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:02--  https://www.npscra.proteantech.in/download/NAV_File_14032025.zip
+--2025-10-21 16:45:32--  https://www.npscra.proteantech.in/download/NAV_File_14032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:02 ERROR 404: Not Found.
+2025-10-21 16:45:32 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1656,11 +1656,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:02--  https://www.npscra.proteantech.in/download/NAV_File_15032025.zip
+--2025-10-21 16:45:32--  https://www.npscra.proteantech.in/download/NAV_File_15032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:02 ERROR 404: Not Found.
+2025-10-21 16:45:33 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1683,11 +1683,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:02--  https://www.npscra.proteantech.in/download/NAV_File_16032025.zip
+--2025-10-21 16:45:33--  https://www.npscra.proteantech.in/download/NAV_File_16032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:03 ERROR 404: Not Found.
+2025-10-21 16:45:33 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1800,11 +1800,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:03--  https://www.npscra.proteantech.in/download/NAV_File_22032025.zip
+--2025-10-21 16:45:33--  https://www.npscra.proteantech.in/download/NAV_File_22032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:03 ERROR 404: Not Found.
+2025-10-21 16:45:33 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1827,11 +1827,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:03--  https://www.npscra.proteantech.in/download/NAV_File_23032025.zip
+--2025-10-21 16:45:33--  https://www.npscra.proteantech.in/download/NAV_File_23032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:03 ERROR 404: Not Found.
+2025-10-21 16:45:33 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1944,11 +1944,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:03--  https://www.npscra.proteantech.in/download/NAV_File_29032025.zip
+--2025-10-21 16:45:33--  https://www.npscra.proteantech.in/download/NAV_File_29032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:03 ERROR 404: Not Found.
+2025-10-21 16:45:33 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -1971,11 +1971,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:03--  https://www.npscra.proteantech.in/download/NAV_File_30032025.zip
+--2025-10-21 16:45:33--  https://www.npscra.proteantech.in/download/NAV_File_30032025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:03 ERROR 404: Not Found.
+2025-10-21 16:45:33 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2016,11 +2016,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:03--  https://www.npscra.proteantech.in/download/NAV_File_01042025.zip
+--2025-10-21 16:45:33--  https://www.npscra.proteantech.in/download/NAV_File_01042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:03 ERROR 404: Not Found.
+2025-10-21 16:45:34 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2097,11 +2097,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:03--  https://www.npscra.proteantech.in/download/NAV_File_05042025.zip
+--2025-10-21 16:45:34--  https://www.npscra.proteantech.in/download/NAV_File_05042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:04 ERROR 404: Not Found.
+2025-10-21 16:45:34 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2124,11 +2124,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:04--  https://www.npscra.proteantech.in/download/NAV_File_06042025.zip
+--2025-10-21 16:45:34--  https://www.npscra.proteantech.in/download/NAV_File_06042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:04 ERROR 404: Not Found.
+2025-10-21 16:45:34 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2205,11 +2205,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:04--  https://www.npscra.proteantech.in/download/NAV_File_10042025.zip
+--2025-10-21 16:45:34--  https://www.npscra.proteantech.in/download/NAV_File_10042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:04 ERROR 404: Not Found.
+2025-10-21 16:45:34 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2250,11 +2250,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:04--  https://www.npscra.proteantech.in/download/NAV_File_12042025.zip
+--2025-10-21 16:45:34--  https://www.npscra.proteantech.in/download/NAV_File_12042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:04 ERROR 404: Not Found.
+2025-10-21 16:45:34 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2277,11 +2277,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:04--  https://www.npscra.proteantech.in/download/NAV_File_13042025.zip
+--2025-10-21 16:45:34--  https://www.npscra.proteantech.in/download/NAV_File_13042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:04 ERROR 404: Not Found.
+2025-10-21 16:45:34 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2304,11 +2304,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:04--  https://www.npscra.proteantech.in/download/NAV_File_14042025.zip
+--2025-10-21 16:45:34--  https://www.npscra.proteantech.in/download/NAV_File_14042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:04 ERROR 404: Not Found.
+2025-10-21 16:45:35 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2331,11 +2331,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:04--  https://www.npscra.proteantech.in/download/NAV_File_15042025.zip
+--2025-10-21 16:45:35--  https://www.npscra.proteantech.in/download/NAV_File_15042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:05 ERROR 404: Not Found.
+2025-10-21 16:45:35 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2394,11 +2394,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:05--  https://www.npscra.proteantech.in/download/NAV_File_18042025.zip
+--2025-10-21 16:45:35--  https://www.npscra.proteantech.in/download/NAV_File_18042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:05 ERROR 404: Not Found.
+2025-10-21 16:45:35 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2421,11 +2421,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:05--  https://www.npscra.proteantech.in/download/NAV_File_19042025.zip
+--2025-10-21 16:45:35--  https://www.npscra.proteantech.in/download/NAV_File_19042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:05 ERROR 404: Not Found.
+2025-10-21 16:45:35 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2448,11 +2448,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:05--  https://www.npscra.proteantech.in/download/NAV_File_20042025.zip
+--2025-10-21 16:45:35--  https://www.npscra.proteantech.in/download/NAV_File_20042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:05 ERROR 404: Not Found.
+2025-10-21 16:45:35 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2493,11 +2493,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:05--  https://www.npscra.proteantech.in/download/NAV_File_22042025.zip
+--2025-10-21 16:45:35--  https://www.npscra.proteantech.in/download/NAV_File_22042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:05 ERROR 404: Not Found.
+2025-10-21 16:45:35 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2520,11 +2520,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:05--  https://www.npscra.proteantech.in/download/NAV_File_23042025.zip
+--2025-10-21 16:45:35--  https://www.npscra.proteantech.in/download/NAV_File_23042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:06 ERROR 404: Not Found.
+2025-10-21 16:45:36 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2583,11 +2583,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:06--  https://www.npscra.proteantech.in/download/NAV_File_26042025.zip
+--2025-10-21 16:45:36--  https://www.npscra.proteantech.in/download/NAV_File_26042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:06 ERROR 404: Not Found.
+2025-10-21 16:45:36 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2610,11 +2610,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:06--  https://www.npscra.proteantech.in/download/NAV_File_27042025.zip
+--2025-10-21 16:45:36--  https://www.npscra.proteantech.in/download/NAV_File_27042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:06 ERROR 404: Not Found.
+2025-10-21 16:45:36 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2673,11 +2673,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:06--  https://www.npscra.proteantech.in/download/NAV_File_30042025.zip
+--2025-10-21 16:45:36--  https://www.npscra.proteantech.in/download/NAV_File_30042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:06 ERROR 404: Not Found.
+2025-10-21 16:45:36 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2700,11 +2700,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:06--  https://www.npscra.proteantech.in/download/NAV_File_31042025.zip
+--2025-10-21 16:45:36--  https://www.npscra.proteantech.in/download/NAV_File_31042025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:07 ERROR 404: Not Found.
+2025-10-21 16:45:36 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2727,11 +2727,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:07--  https://www.npscra.proteantech.in/download/NAV_File_01052025.zip
+--2025-10-21 16:45:36--  https://www.npscra.proteantech.in/download/NAV_File_01052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:07 ERROR 404: Not Found.
+2025-10-21 16:45:36 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2754,11 +2754,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:07--  https://www.npscra.proteantech.in/download/NAV_File_02052025.zip
+--2025-10-21 16:45:36--  https://www.npscra.proteantech.in/download/NAV_File_02052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:07 ERROR 404: Not Found.
+2025-10-21 16:45:37 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2781,11 +2781,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:07--  https://www.npscra.proteantech.in/download/NAV_File_03052025.zip
+--2025-10-21 16:45:37--  https://www.npscra.proteantech.in/download/NAV_File_03052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:07 ERROR 404: Not Found.
+2025-10-21 16:45:37 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2808,11 +2808,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:07--  https://www.npscra.proteantech.in/download/NAV_File_04052025.zip
+--2025-10-21 16:45:37--  https://www.npscra.proteantech.in/download/NAV_File_04052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:07 ERROR 404: Not Found.
+2025-10-21 16:45:37 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2925,11 +2925,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:07--  https://www.npscra.proteantech.in/download/NAV_File_10052025.zip
+--2025-10-21 16:45:37--  https://www.npscra.proteantech.in/download/NAV_File_10052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:07 ERROR 404: Not Found.
+2025-10-21 16:45:37 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2952,11 +2952,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:07--  https://www.npscra.proteantech.in/download/NAV_File_11052025.zip
+--2025-10-21 16:45:37--  https://www.npscra.proteantech.in/download/NAV_File_11052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:08 ERROR 404: Not Found.
+2025-10-21 16:45:37 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -2979,11 +2979,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:08--  https://www.npscra.proteantech.in/download/NAV_File_12052025.zip
+--2025-10-21 16:45:37--  https://www.npscra.proteantech.in/download/NAV_File_12052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:08 ERROR 404: Not Found.
+2025-10-21 16:45:37 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3006,11 +3006,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:08--  https://www.npscra.proteantech.in/download/NAV_File_13052025.zip
+--2025-10-21 16:45:37--  https://www.npscra.proteantech.in/download/NAV_File_13052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:08 ERROR 404: Not Found.
+2025-10-21 16:45:38 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3087,11 +3087,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:08--  https://www.npscra.proteantech.in/download/NAV_File_17052025.zip
+--2025-10-21 16:45:38--  https://www.npscra.proteantech.in/download/NAV_File_17052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:08 ERROR 404: Not Found.
+2025-10-21 16:45:38 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3114,11 +3114,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:08--  https://www.npscra.proteantech.in/download/NAV_File_18052025.zip
+--2025-10-21 16:45:38--  https://www.npscra.proteantech.in/download/NAV_File_18052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:08 ERROR 404: Not Found.
+2025-10-21 16:45:38 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3231,11 +3231,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:08--  https://www.npscra.proteantech.in/download/NAV_File_24052025.zip
+--2025-10-21 16:45:38--  https://www.npscra.proteantech.in/download/NAV_File_24052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:08 ERROR 404: Not Found.
+2025-10-21 16:45:38 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3258,11 +3258,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:08--  https://www.npscra.proteantech.in/download/NAV_File_25052025.zip
+--2025-10-21 16:45:38--  https://www.npscra.proteantech.in/download/NAV_File_25052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:09 ERROR 404: Not Found.
+2025-10-21 16:45:38 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3375,11 +3375,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:09--  https://www.npscra.proteantech.in/download/NAV_File_31052025.zip
+--2025-10-21 16:45:38--  https://www.npscra.proteantech.in/download/NAV_File_31052025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:09 ERROR 404: Not Found.
+2025-10-21 16:45:39 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3402,11 +3402,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:09--  https://www.npscra.proteantech.in/download/NAV_File_01062025.zip
+--2025-10-21 16:45:39--  https://www.npscra.proteantech.in/download/NAV_File_01062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:09 ERROR 404: Not Found.
+2025-10-21 16:45:39 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3465,11 +3465,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:09--  https://www.npscra.proteantech.in/download/NAV_File_04062025.zip
+--2025-10-21 16:45:39--  https://www.npscra.proteantech.in/download/NAV_File_04062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:09 ERROR 404: Not Found.
+2025-10-21 16:45:39 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3528,11 +3528,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:09--  https://www.npscra.proteantech.in/download/NAV_File_07062025.zip
+--2025-10-21 16:45:39--  https://www.npscra.proteantech.in/download/NAV_File_07062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:09 ERROR 404: Not Found.
+2025-10-21 16:45:39 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3555,11 +3555,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:09--  https://www.npscra.proteantech.in/download/NAV_File_08062025.zip
+--2025-10-21 16:45:39--  https://www.npscra.proteantech.in/download/NAV_File_08062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:09 ERROR 404: Not Found.
+2025-10-21 16:45:39 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3672,11 +3672,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:10--  https://www.npscra.proteantech.in/download/NAV_File_14062025.zip
+--2025-10-21 16:45:39--  https://www.npscra.proteantech.in/download/NAV_File_14062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:10 ERROR 404: Not Found.
+2025-10-21 16:45:39 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3699,11 +3699,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:10--  https://www.npscra.proteantech.in/download/NAV_File_15062025.zip
+--2025-10-21 16:45:39--  https://www.npscra.proteantech.in/download/NAV_File_15062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:10 ERROR 404: Not Found.
+2025-10-21 16:45:40 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3816,11 +3816,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:10--  https://www.npscra.proteantech.in/download/NAV_File_21062025.zip
+--2025-10-21 16:45:40--  https://www.npscra.proteantech.in/download/NAV_File_21062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:10 ERROR 404: Not Found.
+2025-10-21 16:45:40 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3843,11 +3843,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:10--  https://www.npscra.proteantech.in/download/NAV_File_22062025.zip
+--2025-10-21 16:45:40--  https://www.npscra.proteantech.in/download/NAV_File_22062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:10 ERROR 404: Not Found.
+2025-10-21 16:45:40 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3942,11 +3942,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:10--  https://www.npscra.proteantech.in/download/NAV_File_27062025.zip
+--2025-10-21 16:45:40--  https://www.npscra.proteantech.in/download/NAV_File_27062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:10 ERROR 404: Not Found.
+2025-10-21 16:45:40 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3969,11 +3969,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:10--  https://www.npscra.proteantech.in/download/NAV_File_28062025.zip
+--2025-10-21 16:45:40--  https://www.npscra.proteantech.in/download/NAV_File_28062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:11 ERROR 404: Not Found.
+2025-10-21 16:45:40 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -3996,11 +3996,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:11--  https://www.npscra.proteantech.in/download/NAV_File_29062025.zip
+--2025-10-21 16:45:40--  https://www.npscra.proteantech.in/download/NAV_File_29062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:11 ERROR 404: Not Found.
+2025-10-21 16:45:40 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4023,11 +4023,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:11--  https://www.npscra.proteantech.in/download/NAV_File_30062025.zip
+--2025-10-21 16:45:40--  https://www.npscra.proteantech.in/download/NAV_File_30062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:11 ERROR 404: Not Found.
+2025-10-21 16:45:41 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4050,11 +4050,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:11--  https://www.npscra.proteantech.in/download/NAV_File_31062025.zip
+--2025-10-21 16:45:41--  https://www.npscra.proteantech.in/download/NAV_File_31062025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:11 ERROR 404: Not Found.
+2025-10-21 16:45:41 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4077,11 +4077,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:11--  https://www.npscra.proteantech.in/download/NAV_File_01072025.zip
+--2025-10-21 16:45:41--  https://www.npscra.proteantech.in/download/NAV_File_01072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:12 ERROR 404: Not Found.
+2025-10-21 16:45:41 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4104,11 +4104,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:12--  https://www.npscra.proteantech.in/download/NAV_File_02072025.zip
+--2025-10-21 16:45:41--  https://www.npscra.proteantech.in/download/NAV_File_02072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:12 ERROR 404: Not Found.
+2025-10-21 16:45:41 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4131,11 +4131,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:12--  https://www.npscra.proteantech.in/download/NAV_File_03072025.zip
+--2025-10-21 16:45:41--  https://www.npscra.proteantech.in/download/NAV_File_03072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:12 ERROR 404: Not Found.
+2025-10-21 16:45:41 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4158,11 +4158,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:12--  https://www.npscra.proteantech.in/download/NAV_File_04072025.zip
+--2025-10-21 16:45:41--  https://www.npscra.proteantech.in/download/NAV_File_04072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:12 ERROR 404: Not Found.
+2025-10-21 16:45:41 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4185,11 +4185,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:12--  https://www.npscra.proteantech.in/download/NAV_File_05072025.zip
+--2025-10-21 16:45:41--  https://www.npscra.proteantech.in/download/NAV_File_05072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:12 ERROR 404: Not Found.
+2025-10-21 16:45:42 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4212,11 +4212,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:12--  https://www.npscra.proteantech.in/download/NAV_File_06072025.zip
+--2025-10-21 16:45:42--  https://www.npscra.proteantech.in/download/NAV_File_06072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:12 ERROR 404: Not Found.
+2025-10-21 16:45:47 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4239,11 +4239,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:12--  https://www.npscra.proteantech.in/download/NAV_File_07072025.zip
+--2025-10-21 16:45:47--  https://www.npscra.proteantech.in/download/NAV_File_07072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:13 ERROR 404: Not Found.
+2025-10-21 16:45:47 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4338,11 +4338,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:13--  https://www.npscra.proteantech.in/download/NAV_File_12072025.zip
+--2025-10-21 16:45:47--  https://www.npscra.proteantech.in/download/NAV_File_12072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:13 ERROR 404: Not Found.
+2025-10-21 16:45:47 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4365,11 +4365,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:13--  https://www.npscra.proteantech.in/download/NAV_File_13072025.zip
+--2025-10-21 16:45:47--  https://www.npscra.proteantech.in/download/NAV_File_13072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:13 ERROR 404: Not Found.
+2025-10-21 16:45:47 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4482,11 +4482,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:13--  https://www.npscra.proteantech.in/download/NAV_File_19072025.zip
+--2025-10-21 16:45:47--  https://www.npscra.proteantech.in/download/NAV_File_19072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:13 ERROR 404: Not Found.
+2025-10-21 16:45:48 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4509,11 +4509,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:13--  https://www.npscra.proteantech.in/download/NAV_File_20072025.zip
+--2025-10-21 16:45:48--  https://www.npscra.proteantech.in/download/NAV_File_20072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:13 ERROR 404: Not Found.
+2025-10-21 16:45:48 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4626,11 +4626,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:13--  https://www.npscra.proteantech.in/download/NAV_File_26072025.zip
+--2025-10-21 16:45:48--  https://www.npscra.proteantech.in/download/NAV_File_26072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:13 ERROR 404: Not Found.
+2025-10-21 16:45:48 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4653,11 +4653,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:13--  https://www.npscra.proteantech.in/download/NAV_File_27072025.zip
+--2025-10-21 16:45:48--  https://www.npscra.proteantech.in/download/NAV_File_27072025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:14 ERROR 404: Not Found.
+2025-10-21 16:45:48 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4770,11 +4770,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:14--  https://www.npscra.proteantech.in/download/NAV_File_02082025.zip
+--2025-10-21 16:45:48--  https://www.npscra.proteantech.in/download/NAV_File_02082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:14 ERROR 404: Not Found.
+2025-10-21 16:45:48 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4797,11 +4797,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:14--  https://www.npscra.proteantech.in/download/NAV_File_03082025.zip
+--2025-10-21 16:45:48--  https://www.npscra.proteantech.in/download/NAV_File_03082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:14 ERROR 404: Not Found.
+2025-10-21 16:45:49 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4914,11 +4914,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:14--  https://www.npscra.proteantech.in/download/NAV_File_09082025.zip
+--2025-10-21 16:45:49--  https://www.npscra.proteantech.in/download/NAV_File_09082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:15 ERROR 404: Not Found.
+2025-10-21 16:45:49 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -4941,11 +4941,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:15--  https://www.npscra.proteantech.in/download/NAV_File_10082025.zip
+--2025-10-21 16:45:49--  https://www.npscra.proteantech.in/download/NAV_File_10082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:15 ERROR 404: Not Found.
+2025-10-21 16:45:50 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5040,11 +5040,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:15--  https://www.npscra.proteantech.in/download/NAV_File_15082025.zip
+--2025-10-21 16:45:50--  https://www.npscra.proteantech.in/download/NAV_File_15082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:15 ERROR 404: Not Found.
+2025-10-21 16:45:50 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5067,11 +5067,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:15--  https://www.npscra.proteantech.in/download/NAV_File_16082025.zip
+--2025-10-21 16:45:50--  https://www.npscra.proteantech.in/download/NAV_File_16082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:15 ERROR 404: Not Found.
+2025-10-21 16:45:50 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5094,11 +5094,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:15--  https://www.npscra.proteantech.in/download/NAV_File_17082025.zip
+--2025-10-21 16:45:50--  https://www.npscra.proteantech.in/download/NAV_File_17082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:15 ERROR 404: Not Found.
+2025-10-21 16:45:50 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5211,11 +5211,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:15--  https://www.npscra.proteantech.in/download/NAV_File_23082025.zip
+--2025-10-21 16:45:50--  https://www.npscra.proteantech.in/download/NAV_File_23082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:15 ERROR 404: Not Found.
+2025-10-21 16:45:51 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5238,11 +5238,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:15--  https://www.npscra.proteantech.in/download/NAV_File_24082025.zip
+--2025-10-21 16:45:51--  https://www.npscra.proteantech.in/download/NAV_File_24082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:16 ERROR 404: Not Found.
+2025-10-21 16:45:51 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5301,11 +5301,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:16--  https://www.npscra.proteantech.in/download/NAV_File_27082025.zip
+--2025-10-21 16:45:51--  https://www.npscra.proteantech.in/download/NAV_File_27082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:16 ERROR 404: Not Found.
+2025-10-21 16:45:51 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5364,11 +5364,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:16--  https://www.npscra.proteantech.in/download/NAV_File_30082025.zip
+--2025-10-21 16:45:51--  https://www.npscra.proteantech.in/download/NAV_File_30082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:16 ERROR 404: Not Found.
+2025-10-21 16:45:51 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5391,11 +5391,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:16--  https://www.npscra.proteantech.in/download/NAV_File_31082025.zip
+--2025-10-21 16:45:51--  https://www.npscra.proteantech.in/download/NAV_File_31082025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:16 ERROR 404: Not Found.
+2025-10-21 16:45:51 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5508,11 +5508,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:16--  https://www.npscra.proteantech.in/download/NAV_File_06092025.zip
+--2025-10-21 16:45:51--  https://www.npscra.proteantech.in/download/NAV_File_06092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:16 ERROR 404: Not Found.
+2025-10-21 16:45:51 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5535,11 +5535,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:16--  https://www.npscra.proteantech.in/download/NAV_File_07092025.zip
+--2025-10-21 16:45:51--  https://www.npscra.proteantech.in/download/NAV_File_07092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:17 ERROR 404: Not Found.
+2025-10-21 16:45:52 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5562,11 +5562,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:17--  https://www.npscra.proteantech.in/download/NAV_File_08092025.zip
+--2025-10-21 16:45:52--  https://www.npscra.proteantech.in/download/NAV_File_08092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:17 ERROR 404: Not Found.
+2025-10-21 16:45:52 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5661,11 +5661,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:17--  https://www.npscra.proteantech.in/download/NAV_File_13092025.zip
+--2025-10-21 16:45:52--  https://www.npscra.proteantech.in/download/NAV_File_13092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:17 ERROR 404: Not Found.
+2025-10-21 16:45:52 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5688,11 +5688,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:17--  https://www.npscra.proteantech.in/download/NAV_File_14092025.zip
+--2025-10-21 16:45:52--  https://www.npscra.proteantech.in/download/NAV_File_14092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:17 ERROR 404: Not Found.
+2025-10-21 16:45:52 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5805,11 +5805,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:17--  https://www.npscra.proteantech.in/download/NAV_File_20092025.zip
+--2025-10-21 16:45:52--  https://www.npscra.proteantech.in/download/NAV_File_20092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:17 ERROR 404: Not Found.
+2025-10-21 16:45:52 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5832,11 +5832,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:17--  https://www.npscra.proteantech.in/download/NAV_File_21092025.zip
+--2025-10-21 16:45:52--  https://www.npscra.proteantech.in/download/NAV_File_21092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:18 ERROR 404: Not Found.
+2025-10-21 16:45:52 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5949,11 +5949,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:18--  https://www.npscra.proteantech.in/download/NAV_File_27092025.zip
+--2025-10-21 16:45:52--  https://www.npscra.proteantech.in/download/NAV_File_27092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:18 ERROR 404: Not Found.
+2025-10-21 16:45:53 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -5976,11 +5976,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:18--  https://www.npscra.proteantech.in/download/NAV_File_28092025.zip
+--2025-10-21 16:45:53--  https://www.npscra.proteantech.in/download/NAV_File_28092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:18 ERROR 404: Not Found.
+2025-10-21 16:45:53 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6039,11 +6039,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:18--  https://www.npscra.proteantech.in/download/NAV_File_31092025.zip
+--2025-10-21 16:45:53--  https://www.npscra.proteantech.in/download/NAV_File_31092025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:18 ERROR 404: Not Found.
+2025-10-21 16:45:53 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6084,11 +6084,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:18--  https://www.npscra.proteantech.in/download/NAV_File_02102025.zip
+--2025-10-21 16:45:53--  https://www.npscra.proteantech.in/download/NAV_File_02102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:19 ERROR 404: Not Found.
+2025-10-21 16:45:53 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6111,11 +6111,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:19--  https://www.npscra.proteantech.in/download/NAV_File_03102025.zip
+--2025-10-21 16:45:53--  https://www.npscra.proteantech.in/download/NAV_File_03102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:19 ERROR 404: Not Found.
+2025-10-21 16:45:53 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6138,11 +6138,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:19--  https://www.npscra.proteantech.in/download/NAV_File_04102025.zip
+--2025-10-21 16:45:53--  https://www.npscra.proteantech.in/download/NAV_File_04102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:19 ERROR 404: Not Found.
+2025-10-21 16:45:54 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6165,11 +6165,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:19--  https://www.npscra.proteantech.in/download/NAV_File_05102025.zip
+--2025-10-21 16:45:54--  https://www.npscra.proteantech.in/download/NAV_File_05102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:19 ERROR 404: Not Found.
+2025-10-21 16:45:54 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6189,35 +6189,7 @@ target file: 2025-10-06.csv
 
 current working directory: /space/projects-my/NationalPensionScheme/nav-data/daily
 
-target file exists: false
-
-downloading
---2025-10-11 22:14:19--  https://www.npscra.proteantech.in/download/NAV_File_06102025.zip
-Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
-Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 2645 (2.6K) [application/zip]
-Saving to: ‘NAV_File_06102025.zip’
-
-     0K ..                                                    100% 21.8M=0s
-
-2025-10-11 22:14:19 (21.8 MB/s) - ‘NAV_File_06102025.zip’ saved [2645/2645]
-
-downloaded: true
-
-extracting
-Archive:  NAV_File_06102025.zip
-  inflating: NAV_File_06102025.out   
-  inflating: __MACOSX/._NAV_File_06102025.out  
-checking extracted filename
-
-extracted file name: NAV_File_06102025.out
-
-renaming
-
-removing downloaded zip
-
-appended to file: nps-funds-performance-nav-data.csv
+target file exists: true
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6235,35 +6207,7 @@ target file: 2025-10-07.csv
 
 current working directory: /space/projects-my/NationalPensionScheme/nav-data/daily
 
-target file exists: false
-
-downloading
---2025-10-11 22:14:19--  https://www.npscra.proteantech.in/download/NAV_File_07102025.zip
-Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
-Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 2643 (2.6K) [application/zip]
-Saving to: ‘NAV_File_07102025.zip’
-
-     0K ..                                                    100% 23.0M=0s
-
-2025-10-11 22:14:20 (23.0 MB/s) - ‘NAV_File_07102025.zip’ saved [2643/2643]
-
-downloaded: true
-
-extracting
-Archive:  NAV_File_07102025.zip
-  inflating: NAV_File_07102025.out   
-  inflating: __MACOSX/._NAV_File_07102025.out  
-checking extracted filename
-
-extracted file name: NAV_File_07102025.out
-
-renaming
-
-removing downloaded zip
-
-appended to file: nps-funds-performance-nav-data.csv
+target file exists: true
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6281,35 +6225,7 @@ target file: 2025-10-08.csv
 
 current working directory: /space/projects-my/NationalPensionScheme/nav-data/daily
 
-target file exists: false
-
-downloading
---2025-10-11 22:14:20--  https://www.npscra.proteantech.in/download/NAV_File_08102025.zip
-Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
-Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 2646 (2.6K) [application/zip]
-Saving to: ‘NAV_File_08102025.zip’
-
-     0K ..                                                    100% 18.0M=0s
-
-2025-10-11 22:14:20 (18.0 MB/s) - ‘NAV_File_08102025.zip’ saved [2646/2646]
-
-downloaded: true
-
-extracting
-Archive:  NAV_File_08102025.zip
-  inflating: NAV_File_08102025.out   
-  inflating: __MACOSX/._NAV_File_08102025.out  
-checking extracted filename
-
-extracted file name: NAV_File_08102025.out
-
-renaming
-
-removing downloaded zip
-
-appended to file: nps-funds-performance-nav-data.csv
+target file exists: true
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6327,35 +6243,7 @@ target file: 2025-10-09.csv
 
 current working directory: /space/projects-my/NationalPensionScheme/nav-data/daily
 
-target file exists: false
-
-downloading
---2025-10-11 22:14:20--  https://www.npscra.proteantech.in/download/NAV_File_09102025.zip
-Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
-Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 2655 (2.6K) [application/zip]
-Saving to: ‘NAV_File_09102025.zip’
-
-     0K ..                                                    100% 11.0M=0s
-
-2025-10-11 22:14:20 (11.0 MB/s) - ‘NAV_File_09102025.zip’ saved [2655/2655]
-
-downloaded: true
-
-extracting
-Archive:  NAV_File_09102025.zip
-  inflating: NAV_File_09102025.out   
-  inflating: __MACOSX/._NAV_File_09102025.out  
-checking extracted filename
-
-extracted file name: NAV_File_09102025.out
-
-renaming
-
-removing downloaded zip
-
-appended to file: nps-funds-performance-nav-data.csv
+target file exists: true
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6376,13 +6264,32 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:20--  https://www.npscra.proteantech.in/download/NAV_File_10102025.zip
+--2025-10-21 16:45:54--  https://www.npscra.proteantech.in/download/NAV_File_10102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:20 ERROR 404: Not Found.
+HTTP request sent, awaiting response... 200 OK
+Length: 2638 (2.6K) [application/zip]
+Saving to: ‘NAV_File_10102025.zip’
 
-downloaded: false
+     0K ..                                                    100% 21.0M=0s
+
+2025-10-21 16:45:54 (21.0 MB/s) - ‘NAV_File_10102025.zip’ saved [2638/2638]
+
+downloaded: true
+
+extracting
+Archive:  NAV_File_10102025.zip
+  inflating: NAV_File_10102025.out   
+  inflating: __MACOSX/._NAV_File_10102025.out  
+checking extracted filename
+
+extracted file name: NAV_File_10102025.out
+
+renaming
+
+removing downloaded zip
+
+appended to file: nps-funds-performance-nav-data.csv
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6403,11 +6310,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:20--  https://www.npscra.proteantech.in/download/NAV_File_11102025.zip
+--2025-10-21 16:45:54--  https://www.npscra.proteantech.in/download/NAV_File_11102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:20 ERROR 404: Not Found.
+2025-10-21 16:45:54 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6430,11 +6337,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:20--  https://www.npscra.proteantech.in/download/NAV_File_12102025.zip
+--2025-10-21 16:45:54--  https://www.npscra.proteantech.in/download/NAV_File_12102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:20 ERROR 404: Not Found.
+2025-10-21 16:45:54 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6457,13 +6364,32 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:20--  https://www.npscra.proteantech.in/download/NAV_File_13102025.zip
+--2025-10-21 16:45:54--  https://www.npscra.proteantech.in/download/NAV_File_13102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:21 ERROR 404: Not Found.
+HTTP request sent, awaiting response... 200 OK
+Length: 2703 (2.6K) [application/zip]
+Saving to: ‘NAV_File_13102025.zip’
 
-downloaded: false
+     0K ..                                                    100% 25.2M=0s
+
+2025-10-21 16:45:54 (25.2 MB/s) - ‘NAV_File_13102025.zip’ saved [2703/2703]
+
+downloaded: true
+
+extracting
+Archive:  NAV_File_13102025.zip
+  inflating: NAV_File_13102025.out   
+  inflating: __MACOSX/._NAV_File_13102025.out  
+checking extracted filename
+
+extracted file name: NAV_File_13102025.out
+
+renaming
+
+removing downloaded zip
+
+appended to file: nps-funds-performance-nav-data.csv
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6484,13 +6410,32 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:21--  https://www.npscra.proteantech.in/download/NAV_File_14102025.zip
+--2025-10-21 16:45:55--  https://www.npscra.proteantech.in/download/NAV_File_14102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:21 ERROR 404: Not Found.
+HTTP request sent, awaiting response... 200 OK
+Length: 2692 (2.6K) [application/zip]
+Saving to: ‘NAV_File_14102025.zip’
 
-downloaded: false
+     0K ..                                                    100% 24.3M=0s
+
+2025-10-21 16:45:55 (24.3 MB/s) - ‘NAV_File_14102025.zip’ saved [2692/2692]
+
+downloaded: true
+
+extracting
+Archive:  NAV_File_14102025.zip
+  inflating: NAV_File_14102025.out   
+  inflating: __MACOSX/._NAV_File_14102025.out  
+checking extracted filename
+
+extracted file name: NAV_File_14102025.out
+
+renaming
+
+removing downloaded zip
+
+appended to file: nps-funds-performance-nav-data.csv
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6511,13 +6456,32 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:21--  https://www.npscra.proteantech.in/download/NAV_File_15102025.zip
+--2025-10-21 16:45:55--  https://www.npscra.proteantech.in/download/NAV_File_15102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:21 ERROR 404: Not Found.
+HTTP request sent, awaiting response... 200 OK
+Length: 2684 (2.6K) [application/zip]
+Saving to: ‘NAV_File_15102025.zip’
 
-downloaded: false
+     0K ..                                                    100% 23.7M=0s
+
+2025-10-21 16:45:55 (23.7 MB/s) - ‘NAV_File_15102025.zip’ saved [2684/2684]
+
+downloaded: true
+
+extracting
+Archive:  NAV_File_15102025.zip
+  inflating: NAV_File_15102025.out   
+  inflating: __MACOSX/._NAV_File_15102025.out  
+checking extracted filename
+
+extracted file name: NAV_File_15102025.out
+
+renaming
+
+removing downloaded zip
+
+appended to file: nps-funds-performance-nav-data.csv
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6538,13 +6502,32 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:21--  https://www.npscra.proteantech.in/download/NAV_File_16102025.zip
+--2025-10-21 16:45:55--  https://www.npscra.proteantech.in/download/NAV_File_16102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:21 ERROR 404: Not Found.
+HTTP request sent, awaiting response... 200 OK
+Length: 2687 (2.6K) [application/zip]
+Saving to: ‘NAV_File_16102025.zip’
 
-downloaded: false
+     0K ..                                                    100% 17.4M=0s
+
+2025-10-21 16:45:55 (17.4 MB/s) - ‘NAV_File_16102025.zip’ saved [2687/2687]
+
+downloaded: true
+
+extracting
+Archive:  NAV_File_16102025.zip
+  inflating: NAV_File_16102025.out   
+  inflating: __MACOSX/._NAV_File_16102025.out  
+checking extracted filename
+
+extracted file name: NAV_File_16102025.out
+
+renaming
+
+removing downloaded zip
+
+appended to file: nps-funds-performance-nav-data.csv
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6565,13 +6548,32 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:21--  https://www.npscra.proteantech.in/download/NAV_File_17102025.zip
+--2025-10-21 16:45:55--  https://www.npscra.proteantech.in/download/NAV_File_17102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:21 ERROR 404: Not Found.
+HTTP request sent, awaiting response... 200 OK
+Length: 2695 (2.6K) [application/zip]
+Saving to: ‘NAV_File_17102025.zip’
 
-downloaded: false
+     0K ..                                                    100% 20.1M=0s
+
+2025-10-21 16:45:55 (20.1 MB/s) - ‘NAV_File_17102025.zip’ saved [2695/2695]
+
+downloaded: true
+
+extracting
+Archive:  NAV_File_17102025.zip
+  inflating: NAV_File_17102025.out   
+  inflating: __MACOSX/._NAV_File_17102025.out  
+checking extracted filename
+
+extracted file name: NAV_File_17102025.out
+
+renaming
+
+removing downloaded zip
+
+appended to file: nps-funds-performance-nav-data.csv
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6592,11 +6594,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:21--  https://www.npscra.proteantech.in/download/NAV_File_18102025.zip
+--2025-10-21 16:45:55--  https://www.npscra.proteantech.in/download/NAV_File_18102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:22 ERROR 404: Not Found.
+2025-10-21 16:45:55 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6619,11 +6621,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:22--  https://www.npscra.proteantech.in/download/NAV_File_19102025.zip
+--2025-10-21 16:45:55--  https://www.npscra.proteantech.in/download/NAV_File_19102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:22 ERROR 404: Not Found.
+2025-10-21 16:45:56 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6646,13 +6648,34 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:22--  https://www.npscra.proteantech.in/download/NAV_File_20102025.zip
+--2025-10-21 16:45:56--  https://www.npscra.proteantech.in/download/NAV_File_20102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:22 ERROR 404: Not Found.
+HTTP request sent, awaiting response... 200 OK
+Length: 2700 (2.6K) [application/zip]
+Saving to: ‘NAV_File_20102025.zip’
 
-downloaded: false
+     0K ..                                                    100% 22.8M=0s
+
+2025-10-21 16:45:56 (22.8 MB/s) - ‘NAV_File_20102025.zip’ saved [2700/2700]
+
+downloaded: true
+
+extracting
+Archive:  NAV_File_20102025.zip
+  inflating: NAV_File_20102025.txt   
+  inflating: __MACOSX/._NAV_File_20102025.txt  
+checking extracted filename
+
+extracted file name: NAV_File_20102025.out
+
+renaming
+mv: cannot stat 'NAV_File_20102025.out': No such file or directory
+
+removing downloaded zip
+
+cat: 2025-10-20.csv: No such file or directory
+appended to file: nps-funds-performance-nav-data.csv
 __________________________________________________________________________________________________________________________
 
 current working directory: /space/projects-my/NationalPensionScheme/code
@@ -6673,11 +6696,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:22--  https://www.npscra.proteantech.in/download/NAV_File_21102025.zip
+--2025-10-21 16:45:56--  https://www.npscra.proteantech.in/download/NAV_File_21102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:22 ERROR 404: Not Found.
+2025-10-21 16:45:56 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6700,11 +6723,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:22--  https://www.npscra.proteantech.in/download/NAV_File_22102025.zip
+--2025-10-21 16:45:56--  https://www.npscra.proteantech.in/download/NAV_File_22102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:22 ERROR 404: Not Found.
+2025-10-21 16:45:56 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6727,11 +6750,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:22--  https://www.npscra.proteantech.in/download/NAV_File_23102025.zip
+--2025-10-21 16:45:56--  https://www.npscra.proteantech.in/download/NAV_File_23102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:22 ERROR 404: Not Found.
+2025-10-21 16:45:56 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6754,11 +6777,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:22--  https://www.npscra.proteantech.in/download/NAV_File_24102025.zip
+--2025-10-21 16:45:56--  https://www.npscra.proteantech.in/download/NAV_File_24102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:23 ERROR 404: Not Found.
+2025-10-21 16:45:56 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6781,11 +6804,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:23--  https://www.npscra.proteantech.in/download/NAV_File_25102025.zip
+--2025-10-21 16:45:56--  https://www.npscra.proteantech.in/download/NAV_File_25102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:23 ERROR 404: Not Found.
+2025-10-21 16:45:57 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6808,11 +6831,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:23--  https://www.npscra.proteantech.in/download/NAV_File_26102025.zip
+--2025-10-21 16:45:57--  https://www.npscra.proteantech.in/download/NAV_File_26102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:23 ERROR 404: Not Found.
+2025-10-21 16:45:57 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6835,11 +6858,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:23--  https://www.npscra.proteantech.in/download/NAV_File_27102025.zip
+--2025-10-21 16:45:57--  https://www.npscra.proteantech.in/download/NAV_File_27102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:23 ERROR 404: Not Found.
+2025-10-21 16:45:57 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6862,11 +6885,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:23--  https://www.npscra.proteantech.in/download/NAV_File_28102025.zip
+--2025-10-21 16:45:57--  https://www.npscra.proteantech.in/download/NAV_File_28102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:23 ERROR 404: Not Found.
+2025-10-21 16:45:57 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6889,11 +6912,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:23--  https://www.npscra.proteantech.in/download/NAV_File_29102025.zip
+--2025-10-21 16:45:57--  https://www.npscra.proteantech.in/download/NAV_File_29102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:24 ERROR 404: Not Found.
+2025-10-21 16:45:57 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6916,11 +6939,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:24--  https://www.npscra.proteantech.in/download/NAV_File_30102025.zip
+--2025-10-21 16:45:57--  https://www.npscra.proteantech.in/download/NAV_File_30102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:24 ERROR 404: Not Found.
+2025-10-21 16:45:58 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6943,11 +6966,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:24--  https://www.npscra.proteantech.in/download/NAV_File_31102025.zip
+--2025-10-21 16:45:58--  https://www.npscra.proteantech.in/download/NAV_File_31102025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:24 ERROR 404: Not Found.
+2025-10-21 16:45:58 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6970,11 +6993,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:24--  https://www.npscra.proteantech.in/download/NAV_File_01112025.zip
+--2025-10-21 16:45:58--  https://www.npscra.proteantech.in/download/NAV_File_01112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:24 ERROR 404: Not Found.
+2025-10-21 16:45:58 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -6997,11 +7020,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:24--  https://www.npscra.proteantech.in/download/NAV_File_02112025.zip
+--2025-10-21 16:45:58--  https://www.npscra.proteantech.in/download/NAV_File_02112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:25 ERROR 404: Not Found.
+2025-10-21 16:45:58 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7024,11 +7047,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:25--  https://www.npscra.proteantech.in/download/NAV_File_03112025.zip
+--2025-10-21 16:45:58--  https://www.npscra.proteantech.in/download/NAV_File_03112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:25 ERROR 404: Not Found.
+2025-10-21 16:45:58 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7051,11 +7074,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:25--  https://www.npscra.proteantech.in/download/NAV_File_04112025.zip
+--2025-10-21 16:45:58--  https://www.npscra.proteantech.in/download/NAV_File_04112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:25 ERROR 404: Not Found.
+2025-10-21 16:45:58 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7078,11 +7101,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:25--  https://www.npscra.proteantech.in/download/NAV_File_05112025.zip
+--2025-10-21 16:45:58--  https://www.npscra.proteantech.in/download/NAV_File_05112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:25 ERROR 404: Not Found.
+2025-10-21 16:45:59 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7105,11 +7128,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:25--  https://www.npscra.proteantech.in/download/NAV_File_06112025.zip
+--2025-10-21 16:45:59--  https://www.npscra.proteantech.in/download/NAV_File_06112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:25 ERROR 404: Not Found.
+2025-10-21 16:45:59 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7132,11 +7155,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:25--  https://www.npscra.proteantech.in/download/NAV_File_07112025.zip
+--2025-10-21 16:45:59--  https://www.npscra.proteantech.in/download/NAV_File_07112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:25 ERROR 404: Not Found.
+2025-10-21 16:45:59 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7159,11 +7182,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:25--  https://www.npscra.proteantech.in/download/NAV_File_08112025.zip
+--2025-10-21 16:45:59--  https://www.npscra.proteantech.in/download/NAV_File_08112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:26 ERROR 404: Not Found.
+2025-10-21 16:45:59 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7186,11 +7209,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:26--  https://www.npscra.proteantech.in/download/NAV_File_09112025.zip
+--2025-10-21 16:45:59--  https://www.npscra.proteantech.in/download/NAV_File_09112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:26 ERROR 404: Not Found.
+2025-10-21 16:45:59 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7213,11 +7236,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:26--  https://www.npscra.proteantech.in/download/NAV_File_10112025.zip
+--2025-10-21 16:45:59--  https://www.npscra.proteantech.in/download/NAV_File_10112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:26 ERROR 404: Not Found.
+2025-10-21 16:45:59 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7240,11 +7263,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:26--  https://www.npscra.proteantech.in/download/NAV_File_11112025.zip
+--2025-10-21 16:45:59--  https://www.npscra.proteantech.in/download/NAV_File_11112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:26 ERROR 404: Not Found.
+2025-10-21 16:46:00 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7267,11 +7290,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:26--  https://www.npscra.proteantech.in/download/NAV_File_12112025.zip
+--2025-10-21 16:46:00--  https://www.npscra.proteantech.in/download/NAV_File_12112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:26 ERROR 404: Not Found.
+2025-10-21 16:46:00 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7294,11 +7317,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:26--  https://www.npscra.proteantech.in/download/NAV_File_13112025.zip
+--2025-10-21 16:46:00--  https://www.npscra.proteantech.in/download/NAV_File_13112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:26 ERROR 404: Not Found.
+2025-10-21 16:46:00 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7321,11 +7344,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:26--  https://www.npscra.proteantech.in/download/NAV_File_14112025.zip
+--2025-10-21 16:46:00--  https://www.npscra.proteantech.in/download/NAV_File_14112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:27 ERROR 404: Not Found.
+2025-10-21 16:46:00 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7348,11 +7371,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:27--  https://www.npscra.proteantech.in/download/NAV_File_15112025.zip
+--2025-10-21 16:46:00--  https://www.npscra.proteantech.in/download/NAV_File_15112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:27 ERROR 404: Not Found.
+2025-10-21 16:46:00 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7375,11 +7398,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:27--  https://www.npscra.proteantech.in/download/NAV_File_16112025.zip
+--2025-10-21 16:46:00--  https://www.npscra.proteantech.in/download/NAV_File_16112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:27 ERROR 404: Not Found.
+2025-10-21 16:46:00 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7402,11 +7425,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:27--  https://www.npscra.proteantech.in/download/NAV_File_17112025.zip
+--2025-10-21 16:46:00--  https://www.npscra.proteantech.in/download/NAV_File_17112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:27 ERROR 404: Not Found.
+2025-10-21 16:46:01 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7429,11 +7452,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:27--  https://www.npscra.proteantech.in/download/NAV_File_18112025.zip
+--2025-10-21 16:46:01--  https://www.npscra.proteantech.in/download/NAV_File_18112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:27 ERROR 404: Not Found.
+2025-10-21 16:46:01 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7456,11 +7479,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:27--  https://www.npscra.proteantech.in/download/NAV_File_19112025.zip
+--2025-10-21 16:46:01--  https://www.npscra.proteantech.in/download/NAV_File_19112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:28 ERROR 404: Not Found.
+2025-10-21 16:46:01 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7483,11 +7506,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:28--  https://www.npscra.proteantech.in/download/NAV_File_20112025.zip
+--2025-10-21 16:46:01--  https://www.npscra.proteantech.in/download/NAV_File_20112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:28 ERROR 404: Not Found.
+2025-10-21 16:46:01 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7510,11 +7533,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:28--  https://www.npscra.proteantech.in/download/NAV_File_21112025.zip
+--2025-10-21 16:46:01--  https://www.npscra.proteantech.in/download/NAV_File_21112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:28 ERROR 404: Not Found.
+2025-10-21 16:46:01 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7537,11 +7560,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:28--  https://www.npscra.proteantech.in/download/NAV_File_22112025.zip
+--2025-10-21 16:46:01--  https://www.npscra.proteantech.in/download/NAV_File_22112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:28 ERROR 404: Not Found.
+2025-10-21 16:46:02 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7564,11 +7587,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:28--  https://www.npscra.proteantech.in/download/NAV_File_23112025.zip
+--2025-10-21 16:46:02--  https://www.npscra.proteantech.in/download/NAV_File_23112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:28 ERROR 404: Not Found.
+2025-10-21 16:46:02 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7591,11 +7614,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:28--  https://www.npscra.proteantech.in/download/NAV_File_24112025.zip
+--2025-10-21 16:46:02--  https://www.npscra.proteantech.in/download/NAV_File_24112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:28 ERROR 404: Not Found.
+2025-10-21 16:46:02 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7618,11 +7641,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:28--  https://www.npscra.proteantech.in/download/NAV_File_25112025.zip
+--2025-10-21 16:46:02--  https://www.npscra.proteantech.in/download/NAV_File_25112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:29 ERROR 404: Not Found.
+2025-10-21 16:46:02 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7645,11 +7668,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:29--  https://www.npscra.proteantech.in/download/NAV_File_26112025.zip
+--2025-10-21 16:46:02--  https://www.npscra.proteantech.in/download/NAV_File_26112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:29 ERROR 404: Not Found.
+2025-10-21 16:46:02 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7672,11 +7695,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:29--  https://www.npscra.proteantech.in/download/NAV_File_27112025.zip
+--2025-10-21 16:46:02--  https://www.npscra.proteantech.in/download/NAV_File_27112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:29 ERROR 404: Not Found.
+2025-10-21 16:46:02 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7699,11 +7722,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:29--  https://www.npscra.proteantech.in/download/NAV_File_28112025.zip
+--2025-10-21 16:46:02--  https://www.npscra.proteantech.in/download/NAV_File_28112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:29 ERROR 404: Not Found.
+2025-10-21 16:46:03 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7726,11 +7749,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:29--  https://www.npscra.proteantech.in/download/NAV_File_29112025.zip
+--2025-10-21 16:46:03--  https://www.npscra.proteantech.in/download/NAV_File_29112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:29 ERROR 404: Not Found.
+2025-10-21 16:46:03 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7753,11 +7776,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:29--  https://www.npscra.proteantech.in/download/NAV_File_30112025.zip
+--2025-10-21 16:46:03--  https://www.npscra.proteantech.in/download/NAV_File_30112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:29 ERROR 404: Not Found.
+2025-10-21 16:46:03 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7780,11 +7803,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:29--  https://www.npscra.proteantech.in/download/NAV_File_31112025.zip
+--2025-10-21 16:46:03--  https://www.npscra.proteantech.in/download/NAV_File_31112025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:30 ERROR 404: Not Found.
+2025-10-21 16:46:03 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7807,11 +7830,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:30--  https://www.npscra.proteantech.in/download/NAV_File_01122025.zip
+--2025-10-21 16:46:03--  https://www.npscra.proteantech.in/download/NAV_File_01122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:30 ERROR 404: Not Found.
+2025-10-21 16:46:03 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7834,11 +7857,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:30--  https://www.npscra.proteantech.in/download/NAV_File_02122025.zip
+--2025-10-21 16:46:03--  https://www.npscra.proteantech.in/download/NAV_File_02122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:30 ERROR 404: Not Found.
+2025-10-21 16:46:03 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7861,11 +7884,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:30--  https://www.npscra.proteantech.in/download/NAV_File_03122025.zip
+--2025-10-21 16:46:03--  https://www.npscra.proteantech.in/download/NAV_File_03122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:30 ERROR 404: Not Found.
+2025-10-21 16:46:04 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7888,11 +7911,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:30--  https://www.npscra.proteantech.in/download/NAV_File_04122025.zip
+--2025-10-21 16:46:04--  https://www.npscra.proteantech.in/download/NAV_File_04122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:30 ERROR 404: Not Found.
+2025-10-21 16:46:04 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7915,11 +7938,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:30--  https://www.npscra.proteantech.in/download/NAV_File_05122025.zip
+--2025-10-21 16:46:04--  https://www.npscra.proteantech.in/download/NAV_File_05122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:31 ERROR 404: Not Found.
+2025-10-21 16:46:04 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7942,11 +7965,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:31--  https://www.npscra.proteantech.in/download/NAV_File_06122025.zip
+--2025-10-21 16:46:04--  https://www.npscra.proteantech.in/download/NAV_File_06122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:31 ERROR 404: Not Found.
+2025-10-21 16:46:04 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7969,11 +7992,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:31--  https://www.npscra.proteantech.in/download/NAV_File_07122025.zip
+--2025-10-21 16:46:04--  https://www.npscra.proteantech.in/download/NAV_File_07122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:31 ERROR 404: Not Found.
+2025-10-21 16:46:04 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -7996,11 +8019,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:31--  https://www.npscra.proteantech.in/download/NAV_File_08122025.zip
+--2025-10-21 16:46:04--  https://www.npscra.proteantech.in/download/NAV_File_08122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:31 ERROR 404: Not Found.
+2025-10-21 16:46:05 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8023,11 +8046,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:31--  https://www.npscra.proteantech.in/download/NAV_File_09122025.zip
+--2025-10-21 16:46:05--  https://www.npscra.proteantech.in/download/NAV_File_09122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:31 ERROR 404: Not Found.
+2025-10-21 16:46:05 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8050,11 +8073,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:31--  https://www.npscra.proteantech.in/download/NAV_File_10122025.zip
+--2025-10-21 16:46:05--  https://www.npscra.proteantech.in/download/NAV_File_10122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:32 ERROR 404: Not Found.
+2025-10-21 16:46:05 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8077,11 +8100,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:32--  https://www.npscra.proteantech.in/download/NAV_File_11122025.zip
+--2025-10-21 16:46:05--  https://www.npscra.proteantech.in/download/NAV_File_11122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:32 ERROR 404: Not Found.
+2025-10-21 16:46:05 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8104,11 +8127,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:32--  https://www.npscra.proteantech.in/download/NAV_File_12122025.zip
+--2025-10-21 16:46:05--  https://www.npscra.proteantech.in/download/NAV_File_12122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:32 ERROR 404: Not Found.
+2025-10-21 16:46:05 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8131,11 +8154,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:32--  https://www.npscra.proteantech.in/download/NAV_File_13122025.zip
+--2025-10-21 16:46:05--  https://www.npscra.proteantech.in/download/NAV_File_13122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:32 ERROR 404: Not Found.
+2025-10-21 16:46:05 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8158,11 +8181,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:32--  https://www.npscra.proteantech.in/download/NAV_File_14122025.zip
+--2025-10-21 16:46:05--  https://www.npscra.proteantech.in/download/NAV_File_14122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:32 ERROR 404: Not Found.
+2025-10-21 16:46:06 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8185,11 +8208,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:32--  https://www.npscra.proteantech.in/download/NAV_File_15122025.zip
+--2025-10-21 16:46:06--  https://www.npscra.proteantech.in/download/NAV_File_15122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:32 ERROR 404: Not Found.
+2025-10-21 16:46:06 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8212,11 +8235,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:32--  https://www.npscra.proteantech.in/download/NAV_File_16122025.zip
+--2025-10-21 16:46:06--  https://www.npscra.proteantech.in/download/NAV_File_16122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:33 ERROR 404: Not Found.
+2025-10-21 16:46:06 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8239,11 +8262,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:33--  https://www.npscra.proteantech.in/download/NAV_File_17122025.zip
+--2025-10-21 16:46:06--  https://www.npscra.proteantech.in/download/NAV_File_17122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:33 ERROR 404: Not Found.
+2025-10-21 16:46:06 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8266,11 +8289,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:33--  https://www.npscra.proteantech.in/download/NAV_File_18122025.zip
+--2025-10-21 16:46:06--  https://www.npscra.proteantech.in/download/NAV_File_18122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:33 ERROR 404: Not Found.
+2025-10-21 16:46:06 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8293,11 +8316,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:33--  https://www.npscra.proteantech.in/download/NAV_File_19122025.zip
+--2025-10-21 16:46:06--  https://www.npscra.proteantech.in/download/NAV_File_19122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:33 ERROR 404: Not Found.
+2025-10-21 16:46:06 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8320,11 +8343,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:33--  https://www.npscra.proteantech.in/download/NAV_File_20122025.zip
+--2025-10-21 16:46:06--  https://www.npscra.proteantech.in/download/NAV_File_20122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:33 ERROR 404: Not Found.
+2025-10-21 16:46:07 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8347,11 +8370,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:33--  https://www.npscra.proteantech.in/download/NAV_File_21122025.zip
+--2025-10-21 16:46:07--  https://www.npscra.proteantech.in/download/NAV_File_21122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:33 ERROR 404: Not Found.
+2025-10-21 16:46:07 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8374,11 +8397,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:33--  https://www.npscra.proteantech.in/download/NAV_File_22122025.zip
+--2025-10-21 16:46:07--  https://www.npscra.proteantech.in/download/NAV_File_22122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:34 ERROR 404: Not Found.
+2025-10-21 16:46:07 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8401,11 +8424,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:34--  https://www.npscra.proteantech.in/download/NAV_File_23122025.zip
+--2025-10-21 16:46:07--  https://www.npscra.proteantech.in/download/NAV_File_23122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:34 ERROR 404: Not Found.
+2025-10-21 16:46:07 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8428,11 +8451,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:34--  https://www.npscra.proteantech.in/download/NAV_File_24122025.zip
+--2025-10-21 16:46:07--  https://www.npscra.proteantech.in/download/NAV_File_24122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:34 ERROR 404: Not Found.
+2025-10-21 16:46:07 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8455,11 +8478,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:34--  https://www.npscra.proteantech.in/download/NAV_File_25122025.zip
+--2025-10-21 16:46:07--  https://www.npscra.proteantech.in/download/NAV_File_25122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:34 ERROR 404: Not Found.
+2025-10-21 16:46:07 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8482,11 +8505,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:34--  https://www.npscra.proteantech.in/download/NAV_File_26122025.zip
+--2025-10-21 16:46:08--  https://www.npscra.proteantech.in/download/NAV_File_26122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:34 ERROR 404: Not Found.
+2025-10-21 16:46:08 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8509,11 +8532,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:34--  https://www.npscra.proteantech.in/download/NAV_File_27122025.zip
+--2025-10-21 16:46:08--  https://www.npscra.proteantech.in/download/NAV_File_27122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:35 ERROR 404: Not Found.
+2025-10-21 16:46:08 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8536,11 +8559,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:35--  https://www.npscra.proteantech.in/download/NAV_File_28122025.zip
+--2025-10-21 16:46:08--  https://www.npscra.proteantech.in/download/NAV_File_28122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:35 ERROR 404: Not Found.
+2025-10-21 16:46:08 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8563,11 +8586,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:35--  https://www.npscra.proteantech.in/download/NAV_File_29122025.zip
+--2025-10-21 16:46:08--  https://www.npscra.proteantech.in/download/NAV_File_29122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:35 ERROR 404: Not Found.
+2025-10-21 16:46:08 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8590,11 +8613,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:35--  https://www.npscra.proteantech.in/download/NAV_File_30122025.zip
+--2025-10-21 16:46:08--  https://www.npscra.proteantech.in/download/NAV_File_30122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:36 ERROR 404: Not Found.
+2025-10-21 16:46:08 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
@@ -8617,11 +8640,11 @@ current working directory: /space/projects-my/NationalPensionScheme/nav-data/dai
 target file exists: false
 
 downloading
---2025-10-11 22:14:36--  https://www.npscra.proteantech.in/download/NAV_File_31122025.zip
+--2025-10-21 16:46:08--  https://www.npscra.proteantech.in/download/NAV_File_31122025.zip
 Resolving www.npscra.proteantech.in (www.npscra.proteantech.in)... 34.160.46.8
 Connecting to www.npscra.proteantech.in (www.npscra.proteantech.in)|34.160.46.8|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2025-10-11 22:14:36 ERROR 404: Not Found.
+2025-10-21 16:46:08 ERROR 404: Not Found.
 
 downloaded: false
 __________________________________________________________________________________________________________________________
