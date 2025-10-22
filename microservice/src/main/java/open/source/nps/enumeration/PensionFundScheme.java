@@ -19,6 +19,10 @@ public enum PensionFundScheme {
 	TIER_I_SCHEME_C ("Tier I - Scheme C", "tier-i-scheme-c"),
 	TIER_I_SCHEME_E ("Tier I - Scheme E", "tier-i-scheme-e"),
 	TIER_I_SCHEME_G ("Tier I - Scheme G", "tier-i-scheme-g"),
+	// NPS 2.0 : Multiple Scheme Framework
+	// https://www.businesstoday.in/personal-finance/retirement-planning/story/nps-20-how-can-i-customise-my-pension-plan-personalise-risk-returns-flexibility-497825-2025-10-11
+	TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK ("TIER I - NPS 2.0 - Multiple Scheme Framework", "tier-i-nps-2-0-multiple-scheme-framework"),
+	/*
 	TIER_I_NPS_JEEVAN_SWARNA_RETIREMENT_YOJANA_LIFES_GOLDEN_PLAN ("Tier I - NPS Jeevan Swarna Retirement Yojana - Life's Golden Plan", "tier-i-nps-jeevan-swarna-retirement-yojana-lifes-golden-plan"),
 	TIER_I_NPS_WEALTH_BUILDER_EQUITY_SCHEME ("Tier I - NPS Wealth Builder Equity Scheme", "tier-i-nps-wealth-builder-equity-scheme"),
 	TIER_I_NPS_SMART_BALANCE ("Tier I - NPS Smart Balance", "tier-i-nps-smart-balance"),
@@ -32,6 +36,7 @@ public enum PensionFundScheme {
 	TIER_I_NPS_LONG_TERM_EQUITY_FUND ("Tier I - NPS Long Term Equity Fund", "tier-i-nps-long-term-equity-fund"),
 	TIER_I_NPS_AKSHAY_DHARA_RETIREMENT_YOJANA_HAPPY_RETIREMENT_PLAN ("Tier I - NPS Akshay Dhara Retirement Yojana - Happy Retirement Plan", "tier-i-nps-akshay-dhara-retirement-yojana-happy-retirement-plan"),
 	TIER_I_NPS_SECURE_FUTURE_FUND ("Tier I - NPS Secure Future Fund", "tier-i-nps-secure-future-fund"),
+	*/
 	TIER_II_SCHEME_A ("Tier II - Scheme A", "tier-ii-scheme-a"),
 	TIER_II_SCHEME_C ("Tier II - Scheme C", "tier-ii-scheme-c"),
 	TIER_II_SCHEME_E ("Tier II - Scheme E", "tier-ii-scheme-e"),
