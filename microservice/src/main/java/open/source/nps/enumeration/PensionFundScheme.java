@@ -44,8 +44,11 @@ public enum PensionFundScheme {
 	//TIER_II_TAX_SAVER_SCHEME_NPS_TRUST_ACCOUNT ("Tier II - Tax Saver Scheme - NPS Trust A/C", "tier-ii-tax-saver-scheme"),
 	TIER_II_TAX_SAVER_SCHEME ("Tier II - Tax Saver Scheme", "tier-ii-tax-saver-scheme"),
 	TIER_II_COMPOSITE_SCHEME ("Tier II - Composite Scheme", "tier-ii-composite-scheme"),
+	/*
 	TIER_II_NPS_WEALTH_BUILDER_EQUITY_SCHEME ("Tier II - NPS Wealth Builder Equity Scheme", "tier-ii-nps-wealth-builder-equity-scheme"),
 	TIER_II_NPS_SURAKSHIT_INCOME_FUND ("Tier II - NPS Surakshit Income Fund", "tier-ii-nps-surakshit-income-fund"),
+	*/
+	TIER_II_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK ("TIER II - NPS 2.0 - Multiple Scheme Framework", "tier-ii-nps-2-0-multiple-scheme-framework"),
 	;
 
 	private String value;
