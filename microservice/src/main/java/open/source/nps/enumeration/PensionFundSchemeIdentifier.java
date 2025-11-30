@@ -69,6 +69,7 @@ public enum PensionFundSchemeIdentifier {
 	SM003017 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.UPS_CG_SCHEME),
 	SM003018 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.UPS_POOL_CG_SCHEME),
 	SM003019 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM003020 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 
 	SM004001 (PensionFundManagerIdentifier.PFM004, PensionFundScheme.TIER_I_SCHEME_E),
 	SM004002 (PensionFundManagerIdentifier.PFM004, PensionFundScheme.TIER_I_SCHEME_C),
