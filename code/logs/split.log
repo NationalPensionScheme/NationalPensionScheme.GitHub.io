@@ -1013,7 +1013,9 @@ target file name: nav-data/scheme/SM002021.csv
 
 temp target file exists: false
 
-target file exists: false
+target file exists: true
+
+removing
 
 writing the header
 
@@ -1021,7 +1023,9 @@ extracting scheme data in individual file
 
 target min file name: nav-data/scheme/min/SM002021-min.csv
 
-target min file exists: false
+target min file exists: true
+
+removing
 
 extracting scheme data columns in individual min file
 
@@ -1034,7 +1038,9 @@ target file name: nav-data/scheme/SM002022.csv
 
 temp target file exists: false
 
-target file exists: false
+target file exists: true
+
+removing
 
 writing the header
 
@@ -1042,7 +1048,9 @@ extracting scheme data in individual file
 
 target min file name: nav-data/scheme/min/SM002022-min.csv
 
-target min file exists: false
+target min file exists: true
+
+removing
 
 extracting scheme data columns in individual min file
 
@@ -1518,6 +1526,27 @@ target min file name: nav-data/scheme/min/SM003019-min.csv
 target min file exists: true
 
 removing
+
+extracting scheme data columns in individual min file
+
+__________________________________________________________________________________________________________________________
+
+line from input file: SM003020
+
+temp target file name: nav-data/scheme/SM003020.csv.tmp
+target file name: nav-data/scheme/SM003020.csv
+
+temp target file exists: false
+
+target file exists: false
+
+writing the header
+
+extracting scheme data in individual file
+
+target min file name: nav-data/scheme/min/SM003020-min.csv
+
+target min file exists: false
 
 extracting scheme data columns in individual min file
 
@@ -2480,7 +2509,9 @@ target file name: nav-data/scheme/SM007012.csv
 
 temp target file exists: false
 
-target file exists: false
+target file exists: true
+
+removing
 
 writing the header
 
@@ -2488,7 +2519,9 @@ extracting scheme data in individual file
 
 target min file name: nav-data/scheme/min/SM007012-min.csv
 
-target min file exists: false
+target min file exists: true
+
+removing
 
 extracting scheme data columns in individual min file
 
