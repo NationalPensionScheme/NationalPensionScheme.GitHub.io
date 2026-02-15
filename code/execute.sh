@@ -5,8 +5,8 @@
 # date from which the download or update of data files should start from
 # update these start values by current / today's date, after sucessful execution of this script
 # calendar yealy changes required here
-start_year=2025
-end_year=2025
+start_year=2026
+end_year=2026
 
 #### dynamic date value generation ####
 
