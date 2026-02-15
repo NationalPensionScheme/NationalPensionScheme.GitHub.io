@@ -399,7 +399,7 @@ git add code/execute.sh
 
 git add website/js/
 
-git commit -m "[script] modifying the year to 2025 as per calendar yearly changes"
+git commit -m "[script] modifying the year to 2026 as per calendar yearly changes"
 ```
 
 - Data Downloader
@@ -428,7 +428,7 @@ prefer this (write)
 ```
 cd code
 
-sh execute.sh &> logs/output-2025.log
+sh execute.sh &> logs/output-2026.log
 
 cd ..
 
@@ -440,7 +440,7 @@ If executing again / re-executing for the same year (append)
 ```
 cd code
 
-sh execute.sh &>> logs/output-2025.log
+sh execute.sh &>> logs/output-2026.log
 
 cd ..
 
@@ -456,21 +456,21 @@ ps -eaf | grep execute
 
 git status
 
-tail -1f code/logs/output-2025.log
+tail -1f code/logs/output-2026.log
 ```
 
-Commit/s for year 2025 , calendar yearly change required here (if some filenames don't follow the order `nav-data/daily/<yyyy>-<mm>-<dd>.csv` )
+Commit/s for year 2026 , calendar yearly change required here (if some filenames don't follow the order `nav-data/daily/<yyyy>-<mm>-<dd>.csv` )
 
 ```
-git add code/logs/output-2025.log
+git add code/logs/output-2026.log
 
 git add nav-data/nps-funds-performance-nav-data.csv
 
-git add nav-data/daily/2025-[0-1][0-9]-[0-3][0-9].csv
+git add nav-data/daily/2026-[0-1][0-9]-[0-3][0-9].csv
 
 git status
 
-git commit -m "[data] adding latest NPS NAV data of year 2025"
+git commit -m "[data] adding latest NPS NAV data of year 2026"
 
 git status
 ```
@@ -520,7 +520,7 @@ git add nav-data/nps-funds-performance-nav-data.csv
 
 git status
 
-git commit -m "[data] adding latest missing NPS NAV data of year 2025"
+git commit -m "[data] adding latest missing NPS NAV data of year 2026"
 
 git status
 ```
@@ -530,7 +530,7 @@ Commit (if everything looks good)
 ```
 git add *
 
-git commit -m "[data] adding latest NPS NAV data of year 2025"
+git commit -m "[data] adding latest NPS NAV data of year 2026"
 
 git status
 
