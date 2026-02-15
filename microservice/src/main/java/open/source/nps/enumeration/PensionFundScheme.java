@@ -15,6 +15,7 @@ public enum PensionFundScheme {
 	UPS_POOL_CG_SCHEME ("UPS Pool CG Scheme", "ups-pool-cg-scheme"),
 	LITE_SCHEME_GOVERNMENT_PATTERN_NPS_TRUST_ACCOUNT ("Lite Scheme - Government Pattern - NPS Trust A/C", "lite-scheme"),
 	ATAL_PENSION_YOJANA_FUND_SCHEME ("APY - Fund Scheme", "apy-fund-scheme"),
+	VATSALYA_SCHEME_NPS_TRUST_ACCOUNT ("Vatsalya Scheme - NPS Trust A/C", "vatsalya-scheme"),
 	TIER_I_SCHEME_A ("Tier I - Scheme A", "tier-i-scheme-a"),
 	TIER_I_SCHEME_C ("Tier I - Scheme C", "tier-i-scheme-c"),
 	TIER_I_SCHEME_E ("Tier I - Scheme E", "tier-i-scheme-e"),

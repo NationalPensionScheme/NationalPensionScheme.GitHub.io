@@ -26,6 +26,7 @@ public enum PensionFundSchemeIdentifier {
 	SM001018 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.UPS_POOL_CG_SCHEME),
 	SM001019 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 	SM001020 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM001021 (PensionFundManagerIdentifier.PFM001, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	SM002001 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.GOVERNMENT_CENTRAL),
 	SM002002 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.GOVERNMENT_STATE),
@@ -49,6 +50,7 @@ public enum PensionFundSchemeIdentifier {
 	SM002020 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_II_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 	SM002021 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 	SM002022 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.TIER_II_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM002023 (PensionFundManagerIdentifier.PFM002, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	SM003001 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.GOVERNMENT_CENTRAL),
 	SM003002 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.GOVERNMENT_STATE),
@@ -70,6 +72,7 @@ public enum PensionFundSchemeIdentifier {
 	SM003018 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.UPS_POOL_CG_SCHEME),
 	SM003019 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 	SM003020 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM003021 (PensionFundManagerIdentifier.PFM003, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	SM004001 (PensionFundManagerIdentifier.PFM004, PensionFundScheme.TIER_I_SCHEME_E),
 	SM004002 (PensionFundManagerIdentifier.PFM004, PensionFundScheme.TIER_I_SCHEME_C),
@@ -90,6 +93,7 @@ public enum PensionFundSchemeIdentifier {
 	SM005009 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_II_SCHEME_A),
 	SM005010 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM005011 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM005012 (PensionFundManagerIdentifier.PFM005, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	SM006001 (PensionFundManagerIdentifier.PFM006, PensionFundScheme.TIER_I_SCHEME_E),
 	SM006002 (PensionFundManagerIdentifier.PFM006, PensionFundScheme.TIER_I_SCHEME_C),
@@ -113,6 +117,8 @@ public enum PensionFundSchemeIdentifier {
 	SM007010 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM007011 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 	SM007012 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM007013 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
+	SM007014 (PensionFundManagerIdentifier.PFM007, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 
 	SM008001 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_SCHEME_E),
 	SM008002 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_SCHEME_C),
@@ -127,6 +133,7 @@ public enum PensionFundSchemeIdentifier {
 	SM008011 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 	SM008012 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_II_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 	SM008013 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM008014 (PensionFundManagerIdentifier.PFM008, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	SM009001 (PensionFundManagerIdentifier.PFM009, PensionFundScheme.TIER_I_SCHEME_E),
 	SM009002 (PensionFundManagerIdentifier.PFM009, PensionFundScheme.TIER_I_SCHEME_C),
@@ -147,6 +154,7 @@ public enum PensionFundSchemeIdentifier {
 	SM010009 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM010010 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
 	SM010011 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM010012 (PensionFundManagerIdentifier.PFM010, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	SM011001 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_I_SCHEME_E),
 	SM011002 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_I_SCHEME_C),
@@ -157,6 +165,7 @@ public enum PensionFundSchemeIdentifier {
 	SM011007 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_II_SCHEME_G),
 	SM011008 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM011009 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM011010 (PensionFundManagerIdentifier.PFM011, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	SM012001 (PensionFundManagerIdentifier.PFM012, PensionFundScheme.TIER_I_SCHEME_E),
 	SM012002 (PensionFundManagerIdentifier.PFM012, PensionFundScheme.TIER_I_SCHEME_C),
@@ -176,6 +185,7 @@ public enum PensionFundSchemeIdentifier {
 	SM013007 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_II_SCHEME_G),
 	SM013008 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM013009 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM013010 (PensionFundManagerIdentifier.PFM013, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	SM014001 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_SCHEME_E),
 	SM014002 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_SCHEME_C),
@@ -186,6 +196,7 @@ public enum PensionFundSchemeIdentifier {
 	SM014007 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_SCHEME_G),
 	SM014008 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_II_TAX_SAVER_SCHEME),
 	SM014009 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.TIER_I_NPS_2_0_MULTIPLE_SCHEME_FRAMEWORK),
+	SM014010 (PensionFundManagerIdentifier.PFM014, PensionFundScheme.VATSALYA_SCHEME_NPS_TRUST_ACCOUNT),
 
 	;
 
