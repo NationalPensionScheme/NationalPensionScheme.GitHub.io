@@ -31,10 +31,10 @@ public class SchemeCsvServiceAsync {
 	@Value("${min.data.files.path}")
 	private String minDataFilesPath;
 
-	@Value("${year.start}")
+	@Value("${financial.year.start}")
 	private Integer yearStart;
 
-	@Value("${year.end}")
+	@Value("${financial.year.end}")
 	private Integer yearEnd;
 
 	// Scheme Id VS (Parsed Date VS Csv Record)

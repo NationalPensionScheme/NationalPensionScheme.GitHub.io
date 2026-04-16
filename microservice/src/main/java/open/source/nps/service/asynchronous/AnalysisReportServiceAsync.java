@@ -38,10 +38,10 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 public class AnalysisReportServiceAsync {
 
-	@Value("${year.start}")
+	@Value("${financial.year.start}")
 	private Integer yearStart;
 
-	@Value("${year.end}")
+	@Value("${financial.year.end}")
 	private Integer yearEnd;
 
 	@Value("${scheme.invest.data.files.path}")
